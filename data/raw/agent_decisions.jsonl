@@ -1,0 +1,63 @@
+{"key": "s01", "lang": "en", "message": "A movie where a man keeps waking up on the same day and tries to win a woman over", "action": "search_catalog", "filters": {}}
+{"key": "s02", "lang": "en", "message": "There's this film where scientists chase tornadoes and a cow flies past their truck", "action": "search_catalog", "filters": {}}
+{"key": "s03", "lang": "en", "message": "I remember a kid who gets left home alone at Christmas and sets traps for burglars", "action": "search_catalog", "filters": {}}
+{"key": "s04", "lang": "en", "message": "a guy with short-term memory loss tattoos clues on his body to find his wife's killer", "action": "search_catalog", "filters": {}}
+{"key": "s05", "lang": "en", "message": "I think it was Italian? A boy and an old projectionist in a village cinema, very nostalgic", "action": "search_catalog", "filters": {}}
+{"key": "s06", "lang": "en", "message": "Movie I saw at my cousin's place years ago: astronauts get stranded and one grows potatoes on Mars", "action": "search_catalog", "filters": {}}
+{"key": "s07", "lang": "en", "message": "the one where toys come alive when nobody is watching and a cowboy gets jealous of a space ranger", "action": "search_catalog", "filters": {}}
+{"key": "s08", "lang": "en", "message": "a show about a chemistry teacher who starts cooking meth after a cancer diagnosis", "action": "search_catalog", "filters": {}}
+{"key": "s09", "lang": "en", "message": "something with a hotel in the mountains in winter, a writer goes crazy and chases his family", "action": "search_catalog", "filters": {}}
+{"key": "s10", "lang": "en", "message": "I can't remember the name, there was a girl who could move things with her mind and she was bullied at prom", "action": "search_catalog", "filters": {}}
+{"key": "s11", "lang": "en", "message": "I want something about friendship and road trips, feel-good", "action": "search_catalog", "filters": {}}
+{"key": "s12", "lang": "en", "message": "a heist where they enter people's dreams to plant an idea", "action": "search_catalog", "filters": {}}
+{"key": "s13", "lang": "en", "message": "It's like Jaws but in the desert with giant worms underground", "action": "search_catalog", "filters": {}}
+{"key": "s14", "lang": "en", "message": "there was a robot left alone on earth cleaning up trash and it falls in love", "action": "search_catalog", "filters": {}}
+{"key": "s15", "lang": "uk", "message": "Фільм, де хлопець застряг в одному дні і прокидається знову і знову", "action": "search_catalog", "filters": {}}
+{"key": "s16", "lang": "uk", "message": "пам'ятаю серіал про вчителя хімії, який почав варити наркотики", "action": "search_catalog", "filters": {}}
+{"key": "s17", "lang": "uk", "message": "мультик, де іграшки оживають, коли люди не бачать, і ковбой ревнує до космонавта", "action": "search_catalog", "filters": {"genres": ["Animation"]}, "note": "relabelled 2026-11-14: 'мультик' (cartoon) states the Animation constraint"}
+{"key": "s18", "lang": "uk", "message": "Не пам'ятаю назву: дівчинка потрапляє в чарівний світ з духами і її батьки перетворюються на свиней", "action": "search_catalog", "filters": {}}
+{"key": "s19", "lang": "uk", "message": "щось про людей, які заходять у сни інших людей", "action": "search_catalog", "filters": {}}
+{"key": "c01", "lang": "en", "message": "A TV series about a group of plane crash survivors on a mysterious island", "action": "search_catalog", "filters": {"item_type": "tv"}}
+{"key": "c02", "lang": "en", "message": "an 80s movie where teenagers serve detention together on a Saturday", "action": "search_catalog", "filters": {"year_from": 1980, "year_to": 1989}}
+{"key": "c03", "lang": "en", "message": "I'm looking for a horror movie about a cursed videotape, released after 2010", "action": "search_catalog", "filters": {"year_from": 2011, "genres": ["Horror"]}}
+{"key": "c04", "lang": "en", "message": "Not animated please: a film about a lion cub whose father is killed by his uncle", "action": "search_catalog", "filters": {"exclude_genres": ["Animation"]}}
+{"key": "c05", "lang": "en", "message": "A documentary about a free solo climber on El Capitan", "action": "search_catalog", "filters": {"genres": ["Documentary"]}}
+{"key": "c06", "lang": "en", "message": "a series from the 90s about two FBI agents investigating paranormal cases", "action": "search_catalog", "filters": {"item_type": "tv", "year_from": 1990, "year_to": 1999}}
+{"key": "c07", "lang": "en", "message": "an old black and white movie, before 1960, about a man who wakes up as a bug... no wait, a man who shrinks", "action": "search_catalog", "filters": {"year_to": 1959}}
+{"key": "c08", "lang": "en", "message": "a romantic comedy from the 2000s where a woman can hear men's thoughts", "action": "search_catalog", "filters": {"year_from": 2000, "year_to": 2009, "genres": ["Romance", "Comedy"]}}
+{"key": "c09", "lang": "en", "message": "Show me animated movies about dragons", "action": "search_catalog", "filters": {"genres": ["Animation"]}}
+{"key": "c10", "lang": "en", "message": "anything sci-fi but no horror, about first contact with aliens", "action": "search_catalog", "filters": {"genres": ["Science Fiction"], "exclude_genres": ["Horror"]}}
+{"key": "c11", "lang": "uk", "message": "Серіал 90-х про двох агентів ФБР, які розслідують паранормальні справи", "action": "search_catalog", "filters": {"item_type": "tv", "year_from": 1990, "year_to": 1999}}
+{"key": "c12", "lang": "uk", "message": "фільм жахів після 2010 року про прокляту відеокасету", "action": "search_catalog", "filters": {"year_from": 2011, "genres": ["Horror"]}}
+{"key": "c13", "lang": "uk", "message": "тільки не мультфільм: про левеня, батька якого вбив дядько", "action": "search_catalog", "filters": {"exclude_genres": ["Animation"]}}
+{"key": "c14", "lang": "uk", "message": "документальний фільм про скелелаза без страховки", "action": "search_catalog", "filters": {"genres": ["Documentary"]}}
+{"key": "c15", "lang": "en", "message": "a TV show, I think from the 2010s, with dragons and a wall of ice", "action": "search_catalog", "filters": {"item_type": "tv"}}
+{"key": "t01", "lang": "en", "message": "Is Twister in your catalog?", "action": "find_title", "filters": {}}
+{"key": "t02", "lang": "en", "message": "Who directed Interstelar?", "action": "find_title", "filters": {}}
+{"key": "t03", "lang": "en", "message": "Recommend something like Amélie", "action": "find_title", "filters": {}}
+{"key": "t04", "lang": "en", "message": "How long is The Godfather?", "action": "find_title", "filters": {}}
+{"key": "t05", "lang": "en", "message": "add Back to the Future to my watchlist", "action": "find_title", "filters": {}}
+{"key": "t06", "lang": "en", "message": "something similar to Breaking Bad but funnier", "action": "find_title", "filters": {}}
+{"key": "t07", "lang": "uk", "message": "Хто знімається в Інтерстеллар?", "action": "find_title", "filters": {}}
+{"key": "t08", "lang": "uk", "message": "порадь щось схоже на Амелі", "action": "find_title", "filters": {}}
+{"key": "t09", "lang": "uk", "message": "Додай Назад у майбутнє до мого списку", "action": "find_title", "filters": {}}
+{"key": "t10", "lang": "uk", "message": "Скільки триває фільм Хрещений батько?", "action": "find_title", "filters": {}}
+{"key": "w01", "lang": "en", "message": "show me my watchlist", "action": "watchlist", "filters": {}}
+{"key": "w02", "lang": "en", "message": "what did I save so far?", "action": "watchlist", "filters": {}}
+{"key": "w03", "lang": "en", "message": "what's on my list?", "action": "watchlist", "filters": {}}
+{"key": "w04", "lang": "uk", "message": "покажи мій список перегляду", "action": "watchlist", "filters": {}}
+{"key": "w05", "lang": "uk", "message": "що я вже зберіг?", "action": "watchlist", "filters": {}}
+{"key": "a01", "lang": "en", "message": "I'm trying to remember a movie", "action": "ask_user", "filters": {}}
+{"key": "a02", "lang": "en", "message": "help me find a film", "action": "ask_user", "filters": {}}
+{"key": "a03", "lang": "en", "message": "there's a show I forgot the name of", "action": "ask_user", "filters": {}}
+{"key": "a04", "lang": "en", "message": "what was that movie?", "action": "ask_user", "filters": {}}
+{"key": "a05", "lang": "uk", "message": "допоможи знайти фільм", "action": "ask_user", "filters": {}}
+{"key": "a06", "lang": "uk", "message": "забув назву одного серіалу", "action": "ask_user", "filters": {}}
+{"key": "a07", "lang": "uk", "message": "що це був за фільм?", "action": "ask_user", "filters": {}}
+{"key": "r01", "lang": "en", "message": "hi!", "action": "respond", "filters": {}}
+{"key": "r02", "lang": "en", "message": "thanks, that's it", "action": "respond", "filters": {}}
+{"key": "r03", "lang": "en", "message": "what can you do?", "action": "respond", "filters": {}}
+{"key": "r04", "lang": "en", "message": "what's the weather in Lviv today?", "action": "respond", "filters": {}}
+{"key": "r05", "lang": "uk", "message": "привіт", "action": "respond", "filters": {}}
+{"key": "r06", "lang": "uk", "message": "дякую!", "action": "respond", "filters": {}}
+{"key": "r07", "lang": "uk", "message": "напиши мені вірш про осінь", "action": "respond", "filters": {}}

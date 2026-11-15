@@ -1,0 +1,2058 @@
+{
+ "config": {
+  "name": "default"
+ },
+ "cases": [
+  {
+   "id": "movie-1010600",
+   "source": "dataset:wikidata-emberfall",
+   "title": "The Strangers: Chapter 1",
+   "got": {
+    "directors": [
+     "Renny Harlin"
+    ],
+    "runtime": 91,
+    "year": 2024
+   },
+   "gold": {
+    "directors": [
+     "Renny Harlin"
+    ],
+    "runtime": 91,
+    "year": 2024
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-103",
+   "source": "dataset:wikidata-extension",
+   "title": "Taxi Driver",
+   "got": {
+    "directors": [
+     "Martin Scorsese"
+    ],
+    "runtime": 114,
+    "year": 1976
+   },
+   "gold": {
+    "directors": [
+     "Martin Scorsese"
+    ],
+    "runtime": 114,
+    "year": 1976
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-10503",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Happy-Go-Lucky",
+   "got": {
+    "directors": [
+     "Mike Leigh"
+    ],
+    "runtime": 118,
+    "year": 2008
+   },
+   "gold": {
+    "directors": [
+     "Mike Leigh"
+    ],
+    "runtime": 118,
+    "year": 2008
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-1051",
+   "source": "dataset:wikidata-extension",
+   "title": "The French Connection",
+   "got": {
+    "directors": [
+     "William Friedkin"
+    ],
+    "runtime": 104,
+    "year": 1971
+   },
+   "gold": {
+    "directors": [
+     "William Friedkin"
+    ],
+    "runtime": 104,
+    "year": 1971
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-10546",
+   "source": "dataset:wikidata-extension",
+   "title": "The Crow: City of Angels",
+   "got": {
+    "directors": [
+     "Tim Pope"
+    ],
+    "runtime": 84,
+    "year": 1996
+   },
+   "gold": {
+    "directors": [
+     "Tim Pope"
+    ],
+    "runtime": 82,
+    "year": 1996
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-1059811",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Flora and Son",
+   "got": {
+    "directors": [
+     "John Carney"
+    ],
+    "runtime": 97,
+    "year": 2023
+   },
+   "gold": {
+    "directors": [
+     "John Carney"
+    ],
+    "runtime": 97,
+    "year": 2023
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-10751",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Old Men in New Cars: In China They Eat Dogs II",
+   "got": {
+    "directors": [
+     "Lasse Spang Olsen"
+    ],
+    "runtime": 95,
+    "year": 2002
+   },
+   "gold": {
+    "directors": [
+     "Lasse Spang Olsen"
+    ],
+    "runtime": 97,
+    "year": 2002
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-1084863",
+   "source": "dataset:wikidata-emberfall",
+   "title": "The Soul Eater",
+   "got": {
+    "directors": [
+     "Alexandre Bustillo",
+     "Julien Maury"
+    ],
+    "runtime": 111,
+    "year": 2024
+   },
+   "gold": {
+    "directors": [
+     "Julien Maury",
+     "Alexandre Bustillo"
+    ],
+    "runtime": null,
+    "year": 2024
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": null,
+   "under_120_agrees": null,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-10861",
+   "source": "dataset:wikidata-extension",
+   "title": "Maximum Risk",
+   "got": {
+    "directors": [
+     "Ringo Lam Ling-tung"
+    ],
+    "runtime": 101,
+    "year": 1996
+   },
+   "gold": {
+    "directors": [
+     "Ringo Lam"
+    ],
+    "runtime": 100,
+    "year": 1996
+   },
+   "director_match": 0.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-109667",
+   "source": "dataset:wikidata-extension",
+   "title": "David and Lisa",
+   "got": {
+    "directors": [
+     "Frank Perry"
+    ],
+    "runtime": 95,
+    "year": 1962
+   },
+   "gold": {
+    "directors": [
+     "Frank Perry"
+    ],
+    "runtime": 92,
+    "year": 1962
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-1097311",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Echo Valley",
+   "got": {
+    "directors": [
+     "Michael Pearce"
+    ],
+    "runtime": 105,
+    "year": 2025
+   },
+   "gold": {
+    "directors": [
+     "Michael Pearce"
+    ],
+    "runtime": 103,
+    "year": 2025
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-11206",
+   "source": "dataset:wikidata-extension",
+   "title": "Wait Until Dark",
+   "got": {
+    "directors": [
+     "Terence Young"
+    ],
+    "runtime": 108,
+    "year": 1967
+   },
+   "gold": {
+    "directors": [
+     "Terence Young"
+    ],
+    "runtime": 107,
+    "year": 1967
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-11209",
+   "source": "dataset:wikidata-extension",
+   "title": "The Alamo",
+   "got": {
+    "directors": [
+     "John Wayne"
+    ],
+    "runtime": 202,
+    "year": 1960
+   },
+   "gold": {
+    "directors": [
+     "John Wayne"
+    ],
+    "runtime": 192,
+    "year": 1960
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-1126",
+   "source": "dataset:wikidata-emberfall",
+   "title": "In My Father's Den",
+   "got": {
+    "directors": [
+     "Brad McGann"
+    ],
+    "runtime": 126,
+    "year": 2004
+   },
+   "gold": {
+    "directors": [
+     "Brad McGann"
+    ],
+    "runtime": 122,
+    "year": 2004
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-11296",
+   "source": "dataset:wikidata-extension",
+   "title": "Birdy",
+   "got": {
+    "directors": [
+     "Alan Parker"
+    ],
+    "runtime": 120,
+    "year": 1984
+   },
+   "gold": {
+    "directors": [
+     "Alan Parker"
+    ],
+    "runtime": 120,
+    "year": 1984
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-11336",
+   "source": "dataset:wikidata-extension",
+   "title": "The Dead Zone",
+   "got": {
+    "directors": [
+     "David Cronenberg"
+    ],
+    "runtime": 103,
+    "year": 1983
+   },
+   "gold": {
+    "directors": [
+     "David Cronenberg"
+    ],
+    "runtime": 100,
+    "year": 1983
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-11416",
+   "source": "dataset:wikidata-extension",
+   "title": "The Mission",
+   "got": {
+    "directors": [
+     "Roland Joffé"
+    ],
+    "runtime": 125,
+    "year": 1986
+   },
+   "gold": {
+    "directors": [
+     "Roland Joffé"
+    ],
+    "runtime": 126,
+    "year": 1986
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-1147400",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Miraculous World: Paris, Tales of Shadybug and Claw Noir",
+   "got": {
+    "directors": [
+     "Thomas Astruc"
+    ],
+    "runtime": 48,
+    "year": 2024
+   },
+   "gold": {
+    "directors": [
+     "Thomas Astruc"
+    ],
+    "runtime": 50,
+    "year": 2023
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-1172674",
+   "source": "dataset:wikidata-emberfall",
+   "title": "The Rat Catcher",
+   "got": {
+    "directors": [
+     "Wes Anderson"
+    ],
+    "runtime": 17,
+    "year": 2023
+   },
+   "gold": {
+    "directors": [
+     "Wes Anderson"
+    ],
+    "runtime": 17,
+    "year": 2023
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-12237",
+   "source": "dataset:wikidata-extension",
+   "title": "Faces of Death",
+   "got": {
+    "directors": [
+     "John Alan Schwartz"
+    ],
+    "runtime": 109,
+    "year": 1978
+   },
+   "gold": {
+    "directors": [
+     "John Alan Schwartz"
+    ],
+    "runtime": 105,
+    "year": 1978
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-1307373",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Wasteman",
+   "got": {
+    "directors": [
+     "Cal McMau"
+    ],
+    "runtime": 90,
+    "year": 2026
+   },
+   "gold": {
+    "directors": [],
+    "runtime": null,
+    "year": 2025
+   },
+   "director_match": null,
+   "director_fuzzy": null,
+   "runtime_within_3": null,
+   "under_120_agrees": null,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-1352310",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Rodrigue in Love",
+   "got": {
+    "directors": [
+     "Johann Dionnet"
+    ],
+    "runtime": 102,
+    "year": 2025
+   },
+   "gold": {
+    "directors": [
+     "Johann Dionnet"
+    ],
+    "runtime": 102,
+    "year": 2025
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-137182",
+   "source": "dataset:wikidata-emberfall",
+   "title": "The Broken Circle Breakdown",
+   "got": {
+    "directors": [
+     "Felix van Groeningen"
+    ],
+    "runtime": 112,
+    "year": 2012
+   },
+   "gold": {
+    "directors": [
+     "Felix van Groeningen"
+    ],
+    "runtime": 110,
+    "year": 2012
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-14144",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Daddy Day Camp",
+   "got": {
+    "directors": [
+     "Fred Savage"
+    ],
+    "runtime": 89,
+    "year": 2007
+   },
+   "gold": {
+    "directors": [
+     "Fred Savage"
+    ],
+    "runtime": 89,
+    "year": 2007
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-16290",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Jackass 3D",
+   "got": {
+    "directors": [
+     "Jeff Tremaine"
+    ],
+    "runtime": 94,
+    "year": 2010
+   },
+   "gold": {
+    "directors": [
+     "Jeff Tremaine"
+    ],
+    "runtime": 94,
+    "year": 2010
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-1644",
+   "source": "dataset:wikidata-extension",
+   "title": "The Vanishing",
+   "got": {
+    "directors": [
+     "George Sluizer"
+    ],
+    "runtime": 109,
+    "year": 1993
+   },
+   "gold": {
+    "directors": [
+     "George Sluizer"
+    ],
+    "runtime": 109,
+    "year": 1993
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-168705",
+   "source": "dataset:wikidata-emberfall",
+   "title": "BloodRayne",
+   "got": {
+    "directors": [
+     "Uwe Boll"
+    ],
+    "runtime": 94,
+    "year": 2006
+   },
+   "gold": {
+    "directors": [
+     "Uwe Boll"
+    ],
+    "runtime": 94,
+    "year": 2005
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-18",
+   "source": "dataset:wikidata-extension",
+   "title": "The Fifth Element",
+   "got": {
+    "directors": [
+     "Luc Besson"
+    ],
+    "runtime": 126,
+    "year": 1997
+   },
+   "gold": {
+    "directors": [
+     "Luc Besson"
+    ],
+    "runtime": 126,
+    "year": 1997
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-18712",
+   "source": "dataset:wikidata-extension",
+   "title": "Sands of Iwo Jima",
+   "got": {
+    "directors": [
+     "Allan Dwan"
+    ],
+    "runtime": 100,
+    "year": 1950
+   },
+   "gold": {
+    "directors": [
+     "Allan Dwan"
+    ],
+    "runtime": 100,
+    "year": 1949
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-22586",
+   "source": "dataset:wikidata-extension",
+   "title": "The Swan Princess",
+   "got": {
+    "directors": [
+     "Richard Rich"
+    ],
+    "runtime": 89,
+    "year": 1994
+   },
+   "gold": {
+    "directors": [
+     "Richard Rich"
+    ],
+    "runtime": 90,
+    "year": 1994
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-25392",
+   "source": "dataset:wikidata-extension",
+   "title": "Destination Moon",
+   "got": {
+    "directors": [
+     "Irving Pichel"
+    ],
+    "runtime": 91,
+    "year": 1950
+   },
+   "gold": {
+    "directors": [
+     "Irving Pichel"
+    ],
+    "runtime": 91,
+    "year": 1950
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-26629",
+   "source": "dataset:wikidata-emberfall",
+   "title": "RTT",
+   "got": {
+    "directors": [
+     "Frédéric Berthe"
+    ],
+    "runtime": 88,
+    "year": 2009
+   },
+   "gold": {
+    "directors": [
+     "Frédéric Berthe"
+    ],
+    "runtime": 98,
+    "year": 2009
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-26690",
+   "source": "dataset:wikidata-extension",
+   "title": "The Boston Strangler",
+   "got": {
+    "directors": [
+     "Richard Fleischer"
+    ],
+    "runtime": 116,
+    "year": 1968
+   },
+   "gold": {
+    "directors": [
+     "Richard Fleischer"
+    ],
+    "runtime": 116,
+    "year": 1968
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-269173",
+   "source": "dataset:wikidata-emberfall",
+   "title": "The Anomaly",
+   "got": {
+    "directors": [
+     "Noel Clarke"
+    ],
+    "runtime": 97,
+    "year": 2014
+   },
+   "gold": {
+    "directors": [
+     "Noel Clarke"
+    ],
+    "runtime": 96,
+    "year": 2014
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-2786",
+   "source": "dataset:wikidata-extension",
+   "title": "Pierrot le Fou",
+   "got": {
+    "directors": [
+     "Jean-Luc Godard"
+    ],
+    "runtime": 110,
+    "year": 1965
+   },
+   "gold": {
+    "directors": [
+     "Jean-Luc Godard"
+    ],
+    "runtime": 110,
+    "year": 1965
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-280180",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Beverly Hills Cop: Axel F",
+   "got": {
+    "directors": [
+     "Mark Molloy"
+    ],
+    "runtime": 118,
+    "year": 2024
+   },
+   "gold": {
+    "directors": [
+     "Mark Molloy"
+    ],
+    "runtime": 157,
+    "year": 2024
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 0.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-28058",
+   "source": "dataset:wikidata-extension",
+   "title": "Hercules in the Haunted World",
+   "got": {
+    "directors": [
+     "Mario Bava"
+    ],
+    "runtime": 86,
+    "year": 1961
+   },
+   "gold": {
+    "directors": [
+     "Mario Bava",
+     "Franco Prosperi"
+    ],
+    "runtime": 84,
+    "year": 1961
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-29140",
+   "source": "dataset:wikidata-extension",
+   "title": "The 4th Man",
+   "got": {
+    "directors": [
+     "Paul Verhoeven"
+    ],
+    "runtime": 98,
+    "year": 1983
+   },
+   "gold": {
+    "directors": [
+     "Paul Verhoeven"
+    ],
+    "runtime": 102,
+    "year": 1983
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-29486",
+   "source": "dataset:wikidata-extension",
+   "title": "The Comedy of Terrors",
+   "got": {
+    "directors": [
+     "Jacques Tourneur"
+    ],
+    "runtime": 84,
+    "year": 1964
+   },
+   "gold": {
+    "directors": [
+     "Jacques Tourneur"
+    ],
+    "runtime": 83,
+    "year": 1963
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-29702",
+   "source": "dataset:wikidata-extension",
+   "title": "Tenebre",
+   "got": {
+    "directors": [
+     "Dario Argento"
+    ],
+    "runtime": 101,
+    "year": 1982
+   },
+   "gold": {
+    "directors": [
+     "Dario Argento"
+    ],
+    "runtime": 110,
+    "year": 1982
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-31150",
+   "source": "dataset:wikidata-extension",
+   "title": "Intruder",
+   "got": {
+    "directors": [
+     "Scott Spiegel"
+    ],
+    "runtime": 88,
+    "year": 1989
+   },
+   "gold": {
+    "directors": [
+     "Scott Spiegel"
+    ],
+    "runtime": 83,
+    "year": 1989
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-32110",
+   "source": "dataset:wikidata-extension",
+   "title": "Carry On Sergeant",
+   "got": {
+    "directors": [
+     "Gerald Thomas"
+    ],
+    "runtime": 84,
+    "year": 1958
+   },
+   "gold": {
+    "directors": [
+     "Gerald Thomas"
+    ],
+    "runtime": 84,
+    "year": 1958
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-33909",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Wall Street: Money Never Sleeps",
+   "got": {
+    "directors": [
+     "Oliver Stone"
+    ],
+    "runtime": 133,
+    "year": 2010
+   },
+   "gold": {
+    "directors": [
+     "Oliver Stone"
+    ],
+    "runtime": 127,
+    "year": 2010
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-346808",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Momentum",
+   "got": {
+    "directors": [
+     "Stephen S. Campanelli"
+    ],
+    "runtime": 96,
+    "year": 2015
+   },
+   "gold": {
+    "directors": [
+     "Stephen Campanelli"
+    ],
+    "runtime": 96,
+    "year": 2015
+   },
+   "director_match": 0.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-347969",
+   "source": "dataset:wikidata-emberfall",
+   "title": "The Ridiculous 6",
+   "got": {
+    "directors": [
+     "Frank Coraci"
+    ],
+    "runtime": 119,
+    "year": 2015
+   },
+   "gold": {
+    "directors": [
+     "Frank Coraci"
+    ],
+    "runtime": 119,
+    "year": 2015
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-363",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Head-On",
+   "got": {
+    "directors": [
+     "Fatih Akin"
+    ],
+    "runtime": 122,
+    "year": 2004
+   },
+   "gold": {
+    "directors": [
+     "Fatih Akin"
+    ],
+    "runtime": 116,
+    "year": 2004
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 0.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-36972",
+   "source": "dataset:wikidata-extension",
+   "title": "Scooby Goes Hollywood",
+   "got": {
+    "directors": [
+     "Ray Patterson"
+    ],
+    "runtime": 49,
+    "year": 1979
+   },
+   "gold": {
+    "directors": [
+     "Ray Patterson"
+    ],
+    "runtime": 49,
+    "year": 1979
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-37632",
+   "source": "dataset:wikidata-emberfall",
+   "title": "The Order",
+   "got": {
+    "directors": [
+     "Sheldon Lettich"
+    ],
+    "runtime": 89,
+    "year": 2001
+   },
+   "gold": {
+    "directors": [
+     "Sheldon Lettich"
+    ],
+    "runtime": 89,
+    "year": 2001
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-38317",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Zookeeper",
+   "got": {
+    "directors": [
+     "Frank Coraci"
+    ],
+    "runtime": 102,
+    "year": 2011
+   },
+   "gold": {
+    "directors": [
+     "Frank Coraci"
+    ],
+    "runtime": 102,
+    "year": 2011
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-39102",
+   "source": "dataset:wikidata-extension",
+   "title": "Dragon Ball Z: Lord Slug",
+   "got": {
+    "directors": [
+     "Mitsuo Hashimoto"
+    ],
+    "runtime": 52,
+    "year": 1991
+   },
+   "gold": {
+    "directors": [
+     "Mitsuo Hashimoto"
+    ],
+    "runtime": 50,
+    "year": 1991
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-40996",
+   "source": "dataset:wikidata-extension",
+   "title": "The Atomic Fireman",
+   "got": {
+    "directors": [
+     "Miguel M. Delgado"
+    ],
+    "runtime": 95,
+    "year": 1952
+   },
+   "gold": {
+    "directors": [
+     "Miguel M. Delgado"
+    ],
+    "runtime": null,
+    "year": 1952
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": null,
+   "under_120_agrees": null,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-410718",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Before the Flood",
+   "got": {
+    "directors": [
+     "Fisher Stevens"
+    ],
+    "runtime": 93,
+    "year": 2016
+   },
+   "gold": {
+    "directors": [
+     "Fisher Stevens"
+    ],
+    "runtime": 96,
+    "year": 2016
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-4235",
+   "source": "dataset:wikidata-extension",
+   "title": "The Sicilian Clan",
+   "got": {
+    "directors": [
+     "Henri Verneuil"
+    ],
+    "runtime": 121,
+    "year": 1969
+   },
+   "gold": {
+    "directors": [
+     "Henri Verneuil"
+    ],
+    "runtime": 122,
+    "year": 1969
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-43137",
+   "source": "dataset:wikidata-extension",
+   "title": "Teacher's Pet",
+   "got": {
+    "directors": [
+     "George Seaton"
+    ],
+    "runtime": 120,
+    "year": 1958
+   },
+   "gold": {
+    "directors": [
+     "George Seaton"
+    ],
+    "runtime": 119,
+    "year": 1958
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 0.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-43248",
+   "source": "dataset:wikidata-extension",
+   "title": "The Brain from Planet Arous",
+   "got": {
+    "directors": [
+     "Nathan Juran"
+    ],
+    "runtime": 71,
+    "year": 1957
+   },
+   "gold": {
+    "directors": [
+     "Nathan Juran"
+    ],
+    "runtime": 71,
+    "year": 1957
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-44065",
+   "source": "dataset:wikidata-extension",
+   "title": "The House Is Black",
+   "got": {
+    "directors": [
+     "Forugh Farrokhzad"
+    ],
+    "runtime": 21,
+    "year": 1963
+   },
+   "gold": {
+    "directors": [
+     "Forugh Farrokhzad"
+    ],
+    "runtime": 22,
+    "year": 1962
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-4539",
+   "source": "dataset:wikidata-extension",
+   "title": "Hearts of Darkness: A Filmmaker's Apocalypse",
+   "got": {
+    "directors": [
+     "George Hickenlooper",
+     "Fax Bahr",
+     "Eleanor Coppola"
+    ],
+    "runtime": 96,
+    "year": 1991
+   },
+   "gold": {
+    "directors": [
+     "George Hickenlooper",
+     "Eleanor Coppola"
+    ],
+    "runtime": 96,
+    "year": 1991
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-458305",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Vivarium",
+   "got": {
+    "directors": [
+     "Lorcan Finnegan"
+    ],
+    "runtime": 99,
+    "year": 2019
+   },
+   "gold": {
+    "directors": [
+     "Lorcan Finnegan"
+    ],
+    "runtime": 97,
+    "year": 2019
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-515042",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Free Solo",
+   "got": {
+    "directors": [
+     "Jimmy Chin",
+     "Elizabeth Chai Vasarhelyi"
+    ],
+    "runtime": 100,
+    "year": 2018
+   },
+   "gold": {
+    "directors": [
+     "Jimmy Chin",
+     "Elizabeth Chai Vasarhelyi"
+    ],
+    "runtime": 96,
+    "year": 2018
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-51532",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Prince Charming",
+   "got": {
+    "directors": [
+     "Allan Arkush"
+    ],
+    "runtime": 91,
+    "year": 2001
+   },
+   "gold": {
+    "directors": [
+     "Allan Arkush"
+    ],
+    "runtime": 87,
+    "year": 2001
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-53224",
+   "source": "dataset:wikidata-extension",
+   "title": "Duck! Rabbit, Duck!",
+   "got": {
+    "directors": [
+     "Chuck Jones"
+    ],
+    "runtime": 7,
+    "year": 1953
+   },
+   "gold": {
+    "directors": [
+     "Chuck Jones"
+    ],
+    "runtime": 7,
+    "year": 1953
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-559969",
+   "source": "dataset:wikidata-emberfall",
+   "title": "El Camino: A Breaking Bad Movie",
+   "got": {
+    "directors": [
+     "Vince Gilligan"
+    ],
+    "runtime": 123,
+    "year": 2019
+   },
+   "gold": {
+    "directors": [
+     "Vince Gilligan"
+    ],
+    "runtime": 122,
+    "year": 2019
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-574",
+   "source": "dataset:wikidata-extension",
+   "title": "The Man Who Knew Too Much",
+   "got": {
+    "directors": [
+     "Alfred Hitchcock"
+    ],
+    "runtime": 121,
+    "year": 1956
+   },
+   "gold": {
+    "directors": [
+     "Alfred Hitchcock"
+    ],
+    "runtime": 120,
+    "year": 1956
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-57539",
+   "source": "dataset:wikidata-extension",
+   "title": "The Pariah",
+   "got": {
+    "directors": [
+     "José Giovanni"
+    ],
+    "runtime": 102,
+    "year": 1972
+   },
+   "gold": {
+    "directors": [
+     "José Giovanni"
+    ],
+    "runtime": 101,
+    "year": 1972
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-61430",
+   "source": "dataset:wikidata-extension",
+   "title": "Affair in Trinidad",
+   "got": {
+    "directors": [
+     "Vincent Sherman"
+    ],
+    "runtime": 98,
+    "year": 1952
+   },
+   "gold": {
+    "directors": [
+     "Vincent Sherman"
+    ],
+    "runtime": 98,
+    "year": 1952
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-61852",
+   "source": "dataset:wikidata-extension",
+   "title": "The Big Store",
+   "got": {
+    "directors": [
+     "Claude Zidi"
+    ],
+    "runtime": 86,
+    "year": 1973
+   },
+   "gold": {
+    "directors": [
+     "Claude Zidi"
+    ],
+    "runtime": 83,
+    "year": 1973
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-63831",
+   "source": "dataset:wikidata-emberfall",
+   "title": "The Kid with a Bike",
+   "got": {
+    "directors": [
+     "Luc Dardenne",
+     "Jean-Pierre Dardenne"
+    ],
+    "runtime": 87,
+    "year": 2011
+   },
+   "gold": {
+    "directors": [
+     "Luc Dardenne",
+     "Jean-Pierre Dardenne"
+    ],
+    "runtime": 83,
+    "year": 2011
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-649394",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Worth",
+   "got": {
+    "directors": [
+     "Sara Colangelo"
+    ],
+    "runtime": 118,
+    "year": 2021
+   },
+   "gold": {
+    "directors": [
+     "Sara Colangelo"
+    ],
+    "runtime": 118,
+    "year": 2020
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-707",
+   "source": "dataset:wikidata-extension",
+   "title": "A View to a Kill",
+   "got": {
+    "directors": [
+     "John Glen"
+    ],
+    "runtime": 131,
+    "year": 1985
+   },
+   "gold": {
+    "directors": [
+     "John Glen"
+    ],
+    "runtime": 131,
+    "year": 1985
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-7353",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Fireflies in the Garden",
+   "got": {
+    "directors": [
+     "Dennis Lee"
+    ],
+    "runtime": 99,
+    "year": 2008
+   },
+   "gold": {
+    "directors": [
+     "Dennis Lee"
+    ],
+    "runtime": 120,
+    "year": 2008
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 0.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-7548",
+   "source": "dataset:wikidata-emberfall",
+   "title": "The Libertine",
+   "got": {
+    "directors": [
+     "Laurence Dunmore"
+    ],
+    "runtime": 114,
+    "year": 2004
+   },
+   "gold": {
+    "directors": [
+     "Laurence Dunmore"
+    ],
+    "runtime": 114,
+    "year": 2004
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-825808",
+   "source": "dataset:wikidata-emberfall",
+   "title": "See for Me",
+   "got": {
+    "directors": [
+     "Randall Okita"
+    ],
+    "runtime": 92,
+    "year": 2022
+   },
+   "gold": {
+    "directors": [
+     "Randall Okita"
+    ],
+    "runtime": 92,
+    "year": 2021
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-831",
+   "source": "dataset:wikidata-extension",
+   "title": "This Island Earth",
+   "got": {
+    "directors": [
+     "Joseph M. Newman",
+     "Jack Arnold"
+    ],
+    "runtime": 85,
+    "year": 1955
+   },
+   "gold": {
+    "directors": [
+     "Joseph M. Newman",
+     "Jack Arnold"
+    ],
+    "runtime": 87,
+    "year": 1955
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-869",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Planet of the Apes",
+   "got": {
+    "directors": [
+     "Tim Burton"
+    ],
+    "runtime": 120,
+    "year": 2001
+   },
+   "gold": {
+    "directors": [
+     "Tim Burton"
+    ],
+    "runtime": 120,
+    "year": 2001
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-91487",
+   "source": "dataset:wikidata-extension",
+   "title": "State of Siege",
+   "got": {
+    "directors": [
+     "Costa-Gavras"
+    ],
+    "runtime": 122,
+    "year": 1972
+   },
+   "gold": {
+    "directors": [
+     "Costa-Gavras"
+    ],
+    "runtime": 115,
+    "year": 1972
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 0.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-929204",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Wallace & Gromit: Vengeance Most Fowl",
+   "got": {
+    "directors": [
+     "Merlin Crossingham",
+     "Nick Park"
+    ],
+    "runtime": 79,
+    "year": 2024
+   },
+   "gold": {
+    "directors": [
+     "Nick Park",
+     "Merlin Crossingham"
+    ],
+    "runtime": 79,
+    "year": 2024
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-940139",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Here",
+   "got": {
+    "directors": [
+     "Robert Zemeckis"
+    ],
+    "runtime": 104,
+    "year": 2024
+   },
+   "gold": {
+    "directors": [
+     "Robert Zemeckis"
+    ],
+    "runtime": 104,
+    "year": 2024
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-9426",
+   "source": "dataset:wikidata-extension",
+   "title": "The Fly",
+   "got": {
+    "directors": [
+     "David Cronenberg"
+    ],
+    "runtime": 96,
+    "year": 1986
+   },
+   "gold": {
+    "directors": [
+     "David Cronenberg"
+    ],
+    "runtime": 92,
+    "year": 1986
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 0.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-9494",
+   "source": "dataset:wikidata-extension",
+   "title": "Look Who's Talking",
+   "got": {
+    "directors": [
+     "Amy Heckerling"
+    ],
+    "runtime": 96,
+    "year": 1989
+   },
+   "gold": {
+    "directors": [
+     "Amy Heckerling"
+    ],
+    "runtime": 94,
+    "year": 1989
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-9986",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Charlotte's Web",
+   "got": {
+    "directors": [
+     "Gary Winick"
+    ],
+    "runtime": 97,
+    "year": 2006
+   },
+   "gold": {
+    "directors": [
+     "Gary Winick"
+    ],
+    "runtime": 97,
+    "year": 2006
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  },
+  {
+   "id": "movie-9991",
+   "source": "dataset:wikidata-emberfall",
+   "title": "Mean Machine",
+   "got": {
+    "directors": [
+     "Barry Skolnick"
+    ],
+    "runtime": 99,
+    "year": 2001
+   },
+   "gold": {
+    "directors": [
+     "Barry Skolnick"
+    ],
+    "runtime": 99,
+    "year": 2001
+   },
+   "director_match": 1.0,
+   "director_fuzzy": 1.0,
+   "runtime_within_3": 1.0,
+   "under_120_agrees": 1.0,
+   "year_within_1": 1.0
+  }
+ ],
+ "metrics": [
+  "director_match",
+  "director_fuzzy",
+  "runtime_within_3",
+  "under_120_agrees",
+  "year_within_1"
+ ],
+ "groups": [
+  "source"
+ ],
+ "failed": [
+  "movie-10861",
+  "movie-11209",
+  "movie-1126",
+  "movie-12237",
+  "movie-26629",
+  "movie-280180",
+  "movie-29140",
+  "movie-29702",
+  "movie-31150",
+  "movie-33909",
+  "movie-346808",
+  "movie-363",
+  "movie-43137",
+  "movie-515042",
+  "movie-51532",
+  "movie-63831",
+  "movie-7353",
+  "movie-91487",
+  "movie-9426"
+ ],
+ "split": "test",
+ "summary": {
+  "n": 81,
+  "overall": {
+   "director_match": {
+    "mean": 0.975,
+    "ci95": [
+     0.9375,
+     1.0
+    ],
+    "n": 80
+   },
+   "director_fuzzy": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 80
+   },
+   "runtime_within_3": {
+    "mean": 0.7949,
+    "ci95": [
+     0.7051,
+     0.8846
+    ],
+    "n": 78
+   },
+   "under_120_agrees": {
+    "mean": 0.9359,
+    "ci95": [
+     0.8718,
+     0.9872
+    ],
+    "n": 78
+   },
+   "year_within_1": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 81
+   }
+  },
+  "by_group": {
+   "source=dataset:wikidata-emberfall": {
+    "n": 39,
+    "director_match": 0.9737,
+    "director_fuzzy": 1.0,
+    "runtime_within_3": 0.7568,
+    "under_120_agrees": 0.9189,
+    "year_within_1": 1.0
+   },
+   "source=dataset:wikidata-extension": {
+    "n": 42,
+    "director_match": 0.9762,
+    "director_fuzzy": 1.0,
+    "runtime_within_3": 0.8293,
+    "under_120_agrees": 0.9512,
+    "year_within_1": 1.0
+   }
+  }
+ }
+}

@@ -1,0 +1,960 @@
+{
+ "config": {
+  "name": "e3_docwiki",
+  "vectors": "e3",
+  "parent": null
+ },
+ "cases": [
+  {
+   "id": "movie-103327",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Ducoboo 2: Crazy Vacation",
+   "found": true,
+   "top3": [
+    "movie/38277",
+    "movie/19100",
+    "movie/962309"
+   ],
+   "ndcg@10": 0.23365080824310533,
+   "recall@10": 0.18181818181818182
+  },
+  {
+   "id": "movie-11066",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Boomerang",
+   "found": true,
+   "top3": [
+    "movie/1901",
+    "movie/9576",
+    "movie/419700"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-1232546",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Until Dawn",
+   "found": true,
+   "top3": [
+    "movie/298250",
+    "movie/12142",
+    "movie/55779"
+   ],
+   "ndcg@10": 0.22009176629808017,
+   "recall@10": 0.06666666666666667
+  },
+  {
+   "id": "movie-15239",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "The Toxic Avenger",
+   "found": true,
+   "top3": [
+    "movie/338969",
+    "movie/27601",
+    "movie/11918"
+   ],
+   "ndcg@10": 0.43735247915031,
+   "recall@10": 0.21428571428571427
+  },
+  {
+   "id": "movie-1601082",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Cheetahs Up Close with Bertie Gregory",
+   "found": true,
+   "top3": [
+    "movie/57586",
+    "tv/34381",
+    "tv/82953"
+   ],
+   "ndcg@10": 0.5991048066476569,
+   "recall@10": 0.625
+  },
+  {
+   "id": "movie-203",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Mean Streets",
+   "found": true,
+   "top3": [
+    "movie/311",
+    "movie/769",
+    "movie/1662"
+   ],
+   "ndcg@10": 0.3398414932237254,
+   "recall@10": 0.3076923076923077
+  },
+  {
+   "id": "movie-21355",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "All the Pretty Horses",
+   "found": true,
+   "top3": [
+    "movie/43253",
+    "movie/12146",
+    "movie/6643"
+   ],
+   "ndcg@10": 0.17993148201117176,
+   "recall@10": 0.15384615384615385
+  },
+  {
+   "id": "movie-2362",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Westworld",
+   "found": true,
+   "top3": [
+    "tv/63247",
+    "movie/10640",
+    "movie/18162"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-24984",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "The Cat",
+   "found": true,
+   "top3": [
+    "movie/989672",
+    "movie/53023",
+    "movie/3426"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-25716",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Crows Zero II",
+   "found": true,
+   "top3": [
+    "movie/14943",
+    "tv/42410",
+    "tv/31670"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-26840",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Shrek in the Swamp Karaoke Dance Party",
+   "found": true,
+   "top3": [
+    "movie/315162",
+    "movie/417859",
+    "movie/58508"
+   ],
+   "ndcg@10": 0.11004588314904008,
+   "recall@10": 0.1
+  },
+  {
+   "id": "movie-269795",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "2:22",
+   "found": true,
+   "top3": [
+    "movie/242095",
+    "movie/220289",
+    "movie/347945"
+   ],
+   "ndcg@10": 0.06362078819895171,
+   "recall@10": 0.05555555555555555
+  },
+  {
+   "id": "movie-28089",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Messenger",
+   "found": true,
+   "top3": [
+    "movie/12162",
+    "movie/22971",
+    "movie/347629"
+   ],
+   "ndcg@10": 0.5834330535576521,
+   "recall@10": 0.4166666666666667
+  },
+  {
+   "id": "movie-32068",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "The Scalphunters",
+   "found": true,
+   "top3": [
+    "movie/41294",
+    "movie/32634",
+    "movie/15263"
+   ],
+   "ndcg@10": 0.20248323207250624,
+   "recall@10": 0.14285714285714285
+  },
+  {
+   "id": "movie-332567",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Shallows",
+   "found": true,
+   "top3": [
+    "movie/803114",
+    "movie/1285965",
+    "movie/534072"
+   ],
+   "ndcg@10": 0.4368897419958061,
+   "recall@10": 0.2777777777777778
+  },
+  {
+   "id": "movie-33518",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Alligator",
+   "found": true,
+   "top3": [
+    "movie/23730",
+    "movie/17918",
+    "movie/9825"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-35138",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Little Big Soldier",
+   "found": true,
+   "top3": [
+    "movie/6038",
+    "movie/604822",
+    "movie/8584"
+   ],
+   "ndcg@10": 0.2051166673279436,
+   "recall@10": 0.125
+  },
+  {
+   "id": "movie-37501",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Vieni avanti cretino",
+   "found": true,
+   "top3": [
+    "movie/37765",
+    "movie/152100",
+    "movie/77941"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-38580",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Little Matchgirl",
+   "found": true,
+   "top3": [
+    "movie/486589",
+    "movie/16174",
+    "movie/741074"
+   ],
+   "ndcg@10": 0.29320160657630423,
+   "recall@10": 0.3333333333333333
+  },
+  {
+   "id": "movie-388399",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Patriots Day",
+   "found": true,
+   "top3": [
+    "movie/50374",
+    "movie/292011",
+    "movie/9882"
+   ],
+   "ndcg@10": 0.21222636597291458,
+   "recall@10": 0.18181818181818182
+  },
+  {
+   "id": "movie-398818",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Call Me by Your Name",
+   "found": true,
+   "top3": [
+    "movie/119360",
+    "movie/722778",
+    "movie/891636"
+   ],
+   "ndcg@10": 0.08514311764162098,
+   "recall@10": 0.06666666666666667
+  },
+  {
+   "id": "movie-402",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Basic Instinct",
+   "found": true,
+   "top3": [
+    "movie/11507",
+    "movie/14412",
+    "movie/2124"
+   ],
+   "ndcg@10": 0.06625422345438903,
+   "recall@10": 0.0625
+  },
+  {
+   "id": "movie-42647",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "The Twelve Months",
+   "found": true,
+   "top3": [
+    "movie/576784",
+    "movie/72214",
+    "movie/71103"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-42787",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Lady in a Cage",
+   "found": true,
+   "top3": [
+    "movie/60437",
+    "movie/38421",
+    "movie/24005"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-43200",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Basilicata Coast To Coast",
+   "found": true,
+   "top3": [
+    "movie/35554",
+    "movie/23509",
+    "movie/84056"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-4464",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Seabiscuit",
+   "found": true,
+   "top3": [
+    "movie/12920",
+    "movie/39486",
+    "movie/2023"
+   ],
+   "ndcg@10": 0.3589542101716347,
+   "recall@10": 0.11764705882352941
+  },
+  {
+   "id": "movie-4786",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Rudo & Cursi",
+   "found": true,
+   "top3": [
+    "movie/456929",
+    "movie/9991",
+    "movie/48805"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-482981",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Wild Rose",
+   "found": true,
+   "top3": [
+    "movie/440918",
+    "movie/1059811",
+    "movie/536869"
+   ],
+   "ndcg@10": 0.22009176629808017,
+   "recall@10": 0.08333333333333333
+  },
+  {
+   "id": "movie-489412",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "It's Such a Beautiful Day",
+   "found": true,
+   "top3": [
+    "movie/9081",
+    "movie/21131",
+    "movie/291270"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-50544",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Friends with Benefits",
+   "found": true,
+   "top3": [
+    "movie/41630",
+    "movie/288036",
+    "movie/13596"
+   ],
+   "ndcg@10": 0.15176219107803537,
+   "recall@10": 0.125
+  },
+  {
+   "id": "movie-55101",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Guilty",
+   "found": true,
+   "top3": [
+    "movie/14198",
+    "movie/50380",
+    "movie/45094"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-60304",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Hansel & Gretel: Witch Hunters",
+   "found": true,
+   "top3": [
+    "movie/542224",
+    "movie/6435",
+    "movie/52520"
+   ],
+   "ndcg@10": 0.33013764944712026,
+   "recall@10": 0.11764705882352941
+  },
+  {
+   "id": "movie-61791",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Rise of the Planet of the Apes",
+   "found": true,
+   "top3": [
+    "movie/119450",
+    "movie/281338",
+    "movie/653346"
+   ],
+   "ndcg@10": 0.6207622843987103,
+   "recall@10": 0.29411764705882354
+  },
+  {
+   "id": "movie-62395",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "The Miracle of Marcelino",
+   "found": true,
+   "top3": [
+    "movie/2587",
+    "movie/18978",
+    "movie/2525"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-629542",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Bad Guys",
+   "found": true,
+   "top3": [
+    "movie/1175942",
+    "tv/302540",
+    "movie/614930"
+   ],
+   "ndcg@10": 0.3746661058764784,
+   "recall@10": 0.16666666666666666
+  },
+  {
+   "id": "movie-66177",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Totò Double or Nothing?",
+   "found": true,
+   "top3": [
+    "movie/57998",
+    "movie/48252",
+    "movie/135530"
+   ],
+   "ndcg@10": 0.28952298823485745,
+   "recall@10": 0.18181818181818182
+  },
+  {
+   "id": "movie-679",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Aliens",
+   "found": true,
+   "top3": [
+    "movie/8077",
+    "movie/8078",
+    "movie/15785"
+   ],
+   "ndcg@10": 0.3589542101716347,
+   "recall@10": 0.125
+  },
+  {
+   "id": "movie-71552",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "American Reunion",
+   "found": true,
+   "top3": [
+    "movie/12795",
+    "movie/2105",
+    "movie/16875"
+   ],
+   "ndcg@10": 0.06362078819895171,
+   "recall@10": 0.06666666666666667
+  },
+  {
+   "id": "movie-72083",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Death of a Cyclist",
+   "found": true,
+   "top3": [
+    "movie/1364",
+    "movie/267",
+    "movie/1397832"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-72478",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Suicide Room",
+   "found": true,
+   "top3": [
+    "movie/590854",
+    "movie/127517",
+    "movie/471707"
+   ],
+   "ndcg@10": 0.21726071285222986,
+   "recall@10": 0.2
+  },
+  {
+   "id": "movie-7300",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "One Fine Day",
+   "found": true,
+   "top3": [
+    "movie/9716",
+    "movie/1377",
+    "movie/13499"
+   ],
+   "ndcg@10": 0.2489083270225946,
+   "recall@10": 0.15384615384615385
+  },
+  {
+   "id": "movie-74465",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "We Bought a Zoo",
+   "found": true,
+   "top3": [
+    "movie/14306",
+    "movie/38317",
+    "movie/66125"
+   ],
+   "ndcg@10": 0.11004588314904008,
+   "recall@10": 0.09090909090909091
+  },
+  {
+   "id": "movie-84226",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Day",
+   "found": true,
+   "top3": [
+    "movie/178809",
+    "movie/456048",
+    "movie/787723"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-886396",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Batman and Superman: Battle of the Super Sons",
+   "found": true,
+   "top3": [
+    "movie/408648",
+    "movie/618354",
+    "movie/487670"
+   ],
+   "ndcg@10": 0.6969383549984332,
+   "recall@10": 0.46153846153846156
+  },
+  {
+   "id": "tv-100260",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Lieutenant",
+   "found": true,
+   "top3": [
+    "tv/81733",
+    "tv/113558",
+    "tv/78314"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-122623",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Enfermeras",
+   "found": true,
+   "top3": [
+    "tv/32702",
+    "tv/314006",
+    "tv/121253"
+   ],
+   "ndcg@10": 0.22009176629808017,
+   "recall@10": 0.05555555555555555
+  },
+  {
+   "id": "tv-1560",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Floris",
+   "found": true,
+   "top3": [
+    "tv/26324",
+    "tv/232018",
+    "tv/212588"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-19654",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Rose Red",
+   "found": true,
+   "top3": [
+    "tv/200875",
+    "tv/3830",
+    "movie/243688"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-210235",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Bastard Son & the Devil Himself",
+   "found": true,
+   "top3": [
+    "tv/62717",
+    "tv/63349",
+    "tv/77236"
+   ],
+   "ndcg@10": 0.06943122193677727,
+   "recall@10": 0.05263157894736842
+  },
+  {
+   "id": "tv-21731",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Mobile Suit Gundam",
+   "found": true,
+   "top3": [
+    "tv/13674",
+    "tv/45500",
+    "tv/72677"
+   ],
+   "ndcg@10": 0.5174612499126158,
+   "recall@10": 0.2857142857142857
+  },
+  {
+   "id": "tv-222233",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Doctor Slump",
+   "found": true,
+   "top3": [
+    "tv/202318",
+    "tv/135897",
+    "tv/66329"
+   ],
+   "ndcg@10": 0.41528076708874123,
+   "recall@10": 0.2
+  },
+  {
+   "id": "tv-24211",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Josie and the Pussycats in Outer Space",
+   "found": true,
+   "top3": [
+    "movie/14749",
+    "tv/28629",
+    "movie/53985"
+   ],
+   "ndcg@10": 0.06943122193677727,
+   "recall@10": 0.058823529411764705
+  },
+  {
+   "id": "tv-2468",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "The Streets of San Francisco",
+   "found": true,
+   "top3": [
+    "tv/10944",
+    "tv/45194",
+    "tv/474"
+   ],
+   "ndcg@10": 0.28165758790969186,
+   "recall@10": 0.15
+  },
+  {
+   "id": "tv-292557",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Se tiene que morir mucha gente",
+   "found": true,
+   "top3": [
+    "tv/123997",
+    "movie/588001",
+    "movie/1370123"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-34539",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Daniel Deronda",
+   "found": true,
+   "top3": [
+    "tv/13894",
+    "tv/13561",
+    "tv/39804"
+   ],
+   "ndcg@10": 0.4440973278132557,
+   "recall@10": 0.2
+  },
+  {
+   "id": "tv-39657",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Penguindrum",
+   "found": true,
+   "top3": [
+    "tv/103254",
+    "tv/85937",
+    "tv/37863"
+   ],
+   "ndcg@10": 0.11004588314904008,
+   "recall@10": 0.058823529411764705
+  },
+  {
+   "id": "tv-4232",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Top Cat",
+   "found": true,
+   "top3": [
+    "tv/967",
+    "tv/12451",
+    "tv/1567"
+   ],
+   "ndcg@10": 0.33480714634441017,
+   "recall@10": 0.21052631578947367
+  },
+  {
+   "id": "tv-44314",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Dog Days",
+   "found": true,
+   "top3": [
+    "tv/8779",
+    "tv/52270",
+    "tv/92592"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-45",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Top Gear",
+   "found": true,
+   "top3": [
+    "tv/4498",
+    "tv/1592",
+    "tv/67557"
+   ],
+   "ndcg@10": 0.07336392209936005,
+   "recall@10": 0.07692307692307693
+  },
+  {
+   "id": "tv-45658",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Metal Hurlant Chronicles",
+   "found": true,
+   "top3": [
+    "tv/86374",
+    "tv/21766",
+    "tv/71969"
+   ],
+   "ndcg@10": 0.06625422345438903,
+   "recall@10": 0.05555555555555555
+  },
+  {
+   "id": "tv-50069",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "The Freckled Boy",
+   "found": true,
+   "top3": [
+    "tv/86745",
+    "tv/66404",
+    "tv/70371"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-55270",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Sandhamn Murders",
+   "found": true,
+   "top3": [
+    "tv/235571",
+    "tv/74802",
+    "tv/272586"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-57022",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Cutthroat Kitchen",
+   "found": true,
+   "top3": [
+    "tv/17404",
+    "tv/62595",
+    "tv/62481"
+   ],
+   "ndcg@10": 0.33013764944712026,
+   "recall@10": 0.18181818181818182
+  },
+  {
+   "id": "tv-5829",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Flashpoint",
+   "found": true,
+   "top3": [
+    "tv/61546",
+    "tv/31585",
+    "tv/47600"
+   ],
+   "ndcg@10": 0.2934556883974402,
+   "recall@10": 0.1111111111111111
+  },
+  {
+   "id": "tv-62195",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Whispers",
+   "found": true,
+   "top3": [
+    "tv/112388",
+    "tv/21494",
+    "tv/90670"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-64437",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Outsiders",
+   "found": true,
+   "top3": [
+    "tv/1436",
+    "tv/64150",
+    "tv/73586"
+   ],
+   "ndcg@10": 0.467122359745432,
+   "recall@10": 0.21052631578947367
+  },
+  {
+   "id": "tv-79468",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Balabol",
+   "found": true,
+   "top3": [
+    "tv/70597",
+    "tv/301387",
+    "tv/72068"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-80443",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Loudest Voice",
+   "found": true,
+   "top3": [
+    "tv/113984",
+    "tv/85950",
+    "tv/70721"
+   ],
+   "ndcg@10": 0.07839826897867533,
+   "recall@10": 0.058823529411764705
+  }
+ ],
+ "metrics": [
+  "ndcg@10",
+  "recall@10"
+ ],
+ "groups": [
+  "source"
+ ],
+ "failed": [
+  "movie-11066",
+  "movie-2362",
+  "movie-24984",
+  "movie-25716",
+  "movie-33518",
+  "movie-37501",
+  "movie-42647",
+  "movie-42787",
+  "movie-43200",
+  "movie-4786",
+  "movie-489412",
+  "movie-55101",
+  "movie-62395",
+  "movie-72083",
+  "movie-84226",
+  "tv-100260",
+  "tv-1560",
+  "tv-19654",
+  "tv-292557",
+  "tv-44314",
+  "tv-50069",
+  "tv-55270",
+  "tv-62195",
+  "tv-79468"
+ ],
+ "split": "dev",
+ "summary": {
+  "n": 68,
+  "overall": {
+   "ndcg@10": {
+    "mean": 0.1777,
+    "ci95": [
+     0.1337,
+     0.2236
+    ],
+    "n": 68
+   },
+   "recall@10": {
+    "mean": 0.1097,
+    "ci95": [
+     0.0817,
+     0.1413
+    ],
+    "n": 68
+   }
+  },
+  "by_group": {
+   "source=dataset:tmdb-recommendations-emberfall": {
+    "n": 46,
+    "ndcg@10": 0.1942,
+    "recall@10": 0.1211
+   },
+   "source=dataset:tmdb-recommendations-extension": {
+    "n": 22,
+    "ndcg@10": 0.143,
+    "recall@10": 0.086
+   }
+  }
+ }
+}

@@ -1,0 +1,537 @@
+{
+ "config": {
+  "name": "examples",
+  "prompt": "agent-v4",
+  "examples": true,
+  "parent": "default"
+ },
+ "cases": [
+  {
+   "id": "c1-a03",
+   "lang": "en",
+   "expected": "ask_user",
+   "predicted": "respond",
+   "message": "there's a show I forgot the name of",
+   "args": {
+    "message": "Sure, I can help you find it. What do you remember about the show? Any plot points, characters, the setting, or a scene you can picture all help. A rough guess at the era, country, or genre is useful too. Describe it in your own words, even if the details are fuzzy."
+   },
+   "action_correct": 0.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-a06",
+   "lang": "uk",
+   "expected": "ask_user",
+   "predicted": "respond",
+   "message": "забув назву одного серіалу",
+   "args": {
+    "message": "Допоможу знайти! Розкажіть, що пам'ятаєте про серіал, навіть якщо деталі невиразні: про що сюжет, де відбувається, які персонажі, у якому році приблизно виходив, чи були там якісь характерні сцени. Чим більше деталей, тим точніше підберу варіанти."
+   },
+   "action_correct": 0.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-c02",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "an 80s movie where teenagers serve detention together on a Saturday",
+   "args": {
+    "query": "an 80s movie where teenagers serve detention together on a Saturday",
+    "year_from": 1980,
+    "year_to": 1989
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-c04",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "Not animated please: a film about a lion cub whose father is killed by his uncle",
+   "args": {
+    "query": "a film about a lion cub whose father is killed by his uncle",
+    "exclude_genres": [
+     "Animation"
+    ]
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 0.75
+  },
+  {
+   "id": "c1-c05",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "A documentary about a free solo climber on El Capitan",
+   "args": {
+    "query": "A documentary about a free solo climber on El Capitan"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 0.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-c06",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "a series from the 90s about two FBI agents investigating paranormal cases",
+   "args": {
+    "query": "a series from the 90s about two FBI agents investigating paranormal cases",
+    "item_type": "tv",
+    "year_from": 1990,
+    "year_to": 1999
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-c07",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "an old black and white movie, before 1960, about a man who wakes up as a bug... no wait, a man who shrinks",
+   "args": {
+    "query": "an old black and white movie, before 1960, about a man who wakes up as a bug... no wait, a man who shrinks",
+    "year_to": 1959
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-c09",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "Show me animated movies about dragons",
+   "args": {
+    "query": "animated movies about dragons",
+    "item_type": "movie",
+    "genres": [
+     "Animation"
+    ]
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 0.75
+  },
+  {
+   "id": "c1-c11",
+   "lang": "uk",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "Серіал 90-х про двох агентів ФБР, які розслідують паранормальні справи",
+   "args": {
+    "query": "Серіал 90-х про двох агентів ФБР, які розслідують паранормальні справи",
+    "item_type": "tv",
+    "year_from": 1990,
+    "year_to": 1999
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-c12",
+   "lang": "uk",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "фільм жахів після 2010 року про прокляту відеокасету",
+   "args": {
+    "query": "фільм жахів після 2010 року про прокляту відеокасету",
+    "year_from": 2010,
+    "genres": [
+     "Horror"
+    ]
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-c13",
+   "lang": "uk",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "тільки не мультфільм: про левеня, батька якого вбив дядько",
+   "args": {
+    "query": "тільки не мультфільм: про левеня, батька якого вбив дядько",
+    "exclude_genres": [
+     "Animation"
+    ]
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-c14",
+   "lang": "uk",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "документальний фільм про скелелаза без страховки",
+   "args": {
+    "query": "документальний фільм про скелелаза без страховки",
+    "genres": [
+     "Documentary"
+    ]
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-r01",
+   "lang": "en",
+   "expected": "respond",
+   "predicted": "respond",
+   "message": "hi!",
+   "args": {
+    "message": "Hi! I'm Emberfall's Movie Detective. Tell me about a film or TV show you half remember: the plot, a scene, the characters, the setting or the mood. Even vague details help. I can also find titles similar to one you already know. Hi there! / Привіт! Опиши фільм чи серіал, який пам'ятаєш частково, і я постараюся знайти його."
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-r06",
+   "lang": "uk",
+   "expected": "respond",
+   "predicted": "respond",
+   "message": "дякую!",
+   "args": {
+    "message": "Будь ласка! Якщо згадаєте ще деталі про фільм чи серіал (сюжет, сцени, персонажів, рік або країну), я з радістю допоможу знайти назву."
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-s01",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "A movie where a man keeps waking up on the same day and tries to win a woman over",
+   "args": {
+    "query": "A movie where a man keeps waking up on the same day and tries to win a woman over",
+    "item_type": "movie"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s04",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "a guy with short-term memory loss tattoos clues on his body to find his wife's killer",
+   "args": {
+    "query": "a guy with short-term memory loss tattoos clues on his body to find his wife's killer"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s05",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "I think it was Italian? A boy and an old projectionist in a village cinema, very nostalgic",
+   "args": {
+    "query": "I think it was Italian? A boy and an old projectionist in a village cinema, very nostalgic"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s07",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "the one where toys come alive when nobody is watching and a cowboy gets jealous of a space ranger",
+   "args": {
+    "query": "the one where toys come alive when nobody is watching and a cowboy gets jealous of a space ranger"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s11",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "I want something about friendship and road trips, feel-good",
+   "args": {
+    "query": "something about friendship and road trips, feel-good"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 0.8571428571428571
+  },
+  {
+   "id": "c1-s13",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "It's like Jaws but in the desert with giant worms underground",
+   "args": {
+    "query": "It's like Jaws but in the desert with giant worms underground"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s15",
+   "lang": "uk",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "Фільм, де хлопець застряг в одному дні і прокидається знову і знову",
+   "args": {
+    "query": "Фільм, де хлопець застряг в одному дні і прокидається знову і знову"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s17",
+   "lang": "uk",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "мультик, де іграшки оживають, коли люди не бачать, і ковбой ревнує до космонавта",
+   "args": {
+    "query": "мультик, де іграшки оживають, коли люди не бачать, і ковбой ревнує до космонавта",
+    "item_type": "movie"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 0.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-t03",
+   "lang": "en",
+   "expected": "find_title",
+   "predicted": "find_title",
+   "message": "Recommend something like Amélie",
+   "args": {
+    "title": "Amélie"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-t05",
+   "lang": "en",
+   "expected": "find_title",
+   "predicted": "find_title",
+   "message": "add Back to the Future to my watchlist",
+   "args": {
+    "title": "Back to the Future"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-t06",
+   "lang": "en",
+   "expected": "find_title",
+   "predicted": "find_title",
+   "message": "something similar to Breaking Bad but funnier",
+   "args": {
+    "title": "Breaking Bad",
+    "item_type": "tv"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-t09",
+   "lang": "uk",
+   "expected": "find_title",
+   "predicted": "find_title",
+   "message": "Додай Назад у майбутнє до мого списку",
+   "args": {
+    "title": "Назад у майбутнє"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-t10",
+   "lang": "uk",
+   "expected": "find_title",
+   "predicted": "find_title",
+   "message": "Скільки триває фільм Хрещений батько?",
+   "args": {
+    "title": "Хрещений батько"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  }
+ ],
+ "metrics": [
+  "action_correct",
+  "filters_exact",
+  "hallucinated_filter",
+  "query_recall"
+ ],
+ "groups": [
+  "expected",
+  "lang"
+ ],
+ "failed": [
+  "c1-a03",
+  "c1-a06",
+  "c1-c05",
+  "c1-s17"
+ ],
+ "llm": {
+  "api_calls": 27,
+  "cached_calls": 0,
+  "web_searches": 0,
+  "cost_usd": 0.003569355
+ },
+ "split": "dev",
+ "summary": {
+  "n": 27,
+  "overall": {
+   "action_correct": {
+    "mean": 0.9259,
+    "ci95": [
+     0.8148,
+     1.0
+    ],
+    "n": 27
+   },
+   "filters_exact": {
+    "mean": 0.8889,
+    "ci95": [
+     0.7222,
+     1.0
+    ],
+    "n": 18
+   },
+   "hallucinated_filter": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 18
+   },
+   "query_recall": {
+    "mean": 0.9643,
+    "ci95": [
+     0.9226,
+     1.0
+    ],
+    "n": 18
+   }
+  },
+  "by_group": {
+   "expected=ask_user": {
+    "n": 2,
+    "action_correct": 0.0,
+    "filters_exact": null,
+    "hallucinated_filter": null,
+    "query_recall": null
+   },
+   "expected=find_title": {
+    "n": 5,
+    "action_correct": 1.0,
+    "filters_exact": null,
+    "hallucinated_filter": null,
+    "query_recall": null
+   },
+   "expected=respond": {
+    "n": 2,
+    "action_correct": 1.0,
+    "filters_exact": null,
+    "hallucinated_filter": null,
+    "query_recall": null
+   },
+   "expected=search_catalog": {
+    "n": 18,
+    "action_correct": 1.0,
+    "filters_exact": 0.8889,
+    "hallucinated_filter": 0.0,
+    "query_recall": 0.9643
+   },
+   "lang=en": {
+    "n": 17,
+    "action_correct": 0.9412,
+    "filters_exact": 0.9167,
+    "hallucinated_filter": 0.0,
+    "query_recall": 0.9464
+   },
+   "lang=uk": {
+    "n": 10,
+    "action_correct": 0.9,
+    "filters_exact": 0.8333,
+    "hallucinated_filter": 0.0,
+    "query_recall": 1.0
+   }
+  },
+  "extra": {
+   "macro_f1": 0.6667,
+   "f1_per_action": {
+    "ask_user": 0.0,
+    "find_title": 1.0,
+    "respond": 0.667,
+    "search_catalog": 1.0
+   },
+   "confusion": {
+    "ask_user -> respond": 2,
+    "find_title -> find_title": 5,
+    "respond -> respond": 2,
+    "search_catalog -> search_catalog": 18
+   },
+   "clarify_mcc": 0.0
+  }
+ }
+}

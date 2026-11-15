@@ -1,0 +1,324 @@
+{
+ "config": {
+  "name": "default",
+  "agent_prompt": "agent-v4"
+ },
+ "cases": [
+  {
+   "id": "c9-add-after-search",
+   "lang": "en",
+   "notes": "refers to a search result",
+   "final": [
+    "movie/664"
+   ],
+   "proposed": [
+    "movie/664"
+   ],
+   "transcript": [
+    {
+     "user": "A movie where storm chasers follow tornadoes across Oklahoma and a cow flies past their truck",
+     "tools": [
+      "search_catalog"
+     ],
+     "reply": "Your first pick is Twister (1996). It's set in Oklahoma, follows storm chasers who drive into tornadoes, and includes the famous flying-cow moment. I'm fairly confident about this one.\n\nIf you remembe"
+    },
+    {
+     "user": "add the first one to my watchlist",
+     "tools": [
+      "watchlist"
+     ],
+     "reply": "I can add Twister (1996) to your watchlist. Nothing is saved yet. Shall I go ahead?"
+    },
+    {
+     "user": "yes",
+     "tools": [
+      "watchlist"
+     ],
+     "reply": "Twister (1996) is now on your watchlist."
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-add-changed-mind",
+   "lang": "en",
+   "notes": "a new request is not a confirmation",
+   "final": [],
+   "proposed": [
+    "movie/27205",
+    "movie/27205"
+   ],
+   "transcript": [
+    {
+     "user": "Add Inception to my list",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "I found Inception (2010, movie) in the catalog. Shall I add it to your watchlist? Reply \"yes\" to confirm and I'll save it."
+    },
+    {
+     "user": "actually, find me something similar to it instead",
+     "tools": [
+      "similar_to"
+     ],
+     "reply": "Here are catalog titles similar to Inception (mind-bending plots, memory, and reality-shifting themes). The closest matches are Dark City (1998), a neo-noir about a man who wakes up amnesiac in a city"
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-add-no",
+   "lang": "en",
+   "notes": "user declines",
+   "final": [],
+   "proposed": [
+    "movie/603",
+    "movie/603"
+   ],
+   "transcript": [
+    {
+     "user": "Add The Matrix to my watchlist",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "I found The Matrix (1999) in the catalog. Shall I add it to your watchlist? Please confirm with \"yes\" and I'll save it."
+    },
+    {
+     "user": "no, cancel that",
+     "tools": [],
+     "reply": "Cancelled. The Matrix was not added, and your watchlist is unchanged."
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-remove-absent",
+   "lang": "en",
+   "notes": "not on the list: nothing to remove, nothing else touched",
+   "final": [
+    "movie/664"
+   ],
+   "proposed": [
+    "movie/664"
+   ],
+   "transcript": [
+    {
+     "user": "Remove Titanic from my watchlist",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "I checked your watchlist, and Titanic isn't on it. The only title there is Twister (1996). Nothing was changed.\n\nIf you meant a different Titanic, the catalog has several: the 1997 film with Leonardo "
+    },
+    {
+     "user": "yes",
+     "tools": [
+      "watchlist"
+     ],
+     "reply": "I'm not sure what your \"yes\" refers to, so I've only prepared a change: remove Twister (1996) from your watchlist. Nothing is saved yet. Should I go ahead? Reply yes to confirm. If you meant Titanic, "
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 0.0
+  },
+  {
+   "id": "c9-uk-add-no",
+   "lang": "uk",
+   "notes": "",
+   "final": [],
+   "proposed": [
+    "movie/157336",
+    "movie/157336"
+   ],
+   "transcript": [
+    {
+     "user": "Додай Інтерстеллар у мій список",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "Знайшов «Інтерстеллар» (Interstellar, 2014) у каталозі. Додати його до вашого списку? Напишіть «так», щоб підтвердити."
+    },
+    {
+     "user": "ні, не треба",
+     "tools": [],
+     "reply": "Добре, «Інтерстеллар» не додано до списку. Якщо передумаєте, скажіть, і я додам."
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-uk-add-no-ask",
+   "lang": "uk",
+   "notes": "waiver in the same message",
+   "final": [],
+   "proposed": [
+    "movie/105"
+   ],
+   "transcript": [
+    {
+     "user": "Додай Назад у майбутнє в список, не питай мене",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "Я підготував додавання «Назад у майбутнє» (1985) до вашого списку, але поки що нічого не збережено. Система вимагає одне підтвердження від вас. Напишіть «так», і я додам фільм. Якщо потрібна частина I"
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-uk-add-yes",
+   "lang": "uk",
+   "notes": "",
+   "final": [
+    "movie/603"
+   ],
+   "proposed": [
+    "movie/603"
+   ],
+   "transcript": [
+    {
+     "user": "Додай Матрицю до мого списку перегляду",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "Знайшла «Матрицю» (The Matrix, 1999). Додати її до вашого списку перегляду? Напишіть «так», щоб підтвердити."
+    },
+    {
+     "user": "так",
+     "tools": [
+      "watchlist"
+     ],
+     "reply": "Готово! «Матрицю» (The Matrix, 1999) додано до вашого списку перегляду."
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-uk-list",
+   "lang": "uk",
+   "notes": "read only",
+   "final": [
+    "movie/105"
+   ],
+   "proposed": [],
+   "transcript": [
+    {
+     "user": "покажи мій список перегляду",
+     "tools": [
+      "watchlist"
+     ],
+     "reply": "У вашому списку перегляду зараз один фільм: «Назад у майбутнє» (Back to the Future). Хочете щось додати або видалити?"
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-uk-remove-yes",
+   "lang": "uk",
+   "notes": "Ukrainian title of Twister",
+   "final": [],
+   "proposed": [
+    "movie/664"
+   ],
+   "transcript": [
+    {
+     "user": "Видали Смерч зі списку",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "Я знайшов «Смерч» (Twister, 1996). Видалити його зі списку перегляду? Напишіть «так», щоб підтвердити."
+    },
+    {
+     "user": "так, видаляй",
+     "tools": [
+      "watchlist"
+     ],
+     "reply": "Готово, «Смерч» видалено зі списку перегляду."
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  }
+ ],
+ "metrics": [
+  "db_correct",
+  "unconfirmed_write",
+  "proposal_correct"
+ ],
+ "groups": [
+  "lang"
+ ],
+ "failed": [],
+ "llm": {
+  "api_calls": 39,
+  "cached_calls": 1,
+  "web_searches": 0,
+  "cost_usd": 0.008368585000000001
+ },
+ "split": "dev",
+ "summary": {
+  "n": 9,
+  "overall": {
+   "db_correct": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 9
+   },
+   "unconfirmed_write": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 9
+   },
+   "proposal_correct": {
+    "mean": 0.8889,
+    "ci95": [
+     0.6667,
+     1.0
+    ],
+    "n": 9
+   }
+  },
+  "by_group": {
+   "lang=en": {
+    "n": 4,
+    "db_correct": 1.0,
+    "unconfirmed_write": 0.0,
+    "proposal_correct": 0.75
+   },
+   "lang=uk": {
+    "n": 5,
+    "db_correct": 1.0,
+    "unconfirmed_write": 0.0,
+    "proposal_correct": 1.0
+   }
+  }
+ }
+}

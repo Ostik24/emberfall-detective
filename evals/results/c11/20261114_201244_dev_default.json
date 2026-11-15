@@ -1,0 +1,902 @@
+{
+ "config": {
+  "name": "default",
+  "prompt": "verify-v2"
+ },
+ "cases": [
+  {
+   "id": "fm-trec-tot-2023-test-105",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Nicole Kidman.",
+   "contradicted_altered": [
+    "The person thinks the film starred Nicole Kidman."
+   ],
+   "false_memory_note": "The person remembered Nicole Kidman starring in the film, but the evidence says Isla Fisher and Hugh Dancy star, and Kidman is not in the cast list.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-211",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1992.",
+   "contradicted_altered": [
+    "The movie came out around 1992"
+   ],
+   "false_memory_note": "The person remembered a 1992 psychopath movie about a young man living with his aunt and beating a lie detector, but the evidence describes Hannibal Rising, a 2007 prequel about Hannibal Lecter's revenge in Lithuania and WWII.",
+   "contradicted_original": [
+    "A movie from somewhere in the 2010s"
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-328",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2025.",
+   "contradicted_altered": [
+    "The country was in Europe",
+    "The country may have been Italy",
+    "The film was released in the 1990s or early 2000s",
+    "The film may have come out around 2025"
+   ],
+   "false_memory_note": "The film is a 1990s or 2025 European story about a boy given up for adoption in Italy who is forced to rape captive women, unlike the evidence: a 2010 film about twins searching for their mother's past in the Levant/Lebanon.",
+   "contradicted_original": [
+    "The foreign country is in Europe",
+    "The foreign country might be Italy",
+    "The film was released in the 1990s or early 2000s"
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-457",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Tom Hanks.",
+   "contradicted_altered": [
+    "The movie is in black and white.",
+    "The person thinks the film starred Tom Hanks."
+   ],
+   "false_memory_note": "The person remembered Tom Hanks starring in the film, but the evidence lists Jean-Paul Belmondo, Anna Karina and Jean-Claude Brialy as the leads and does not include Tom Hanks.",
+   "contradicted_original": [
+    "The film is in black and white."
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-464",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2005.",
+   "contradicted_altered": [
+    "Release year is possibly around 2005"
+   ],
+   "false_memory_note": "The person remembered the film as possibly being from around 2005, but the evidence says it was released in 1990.",
+   "contradicted_original": [
+    "The film is possibly from the 1980s or 1990s."
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-545",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1989.",
+   "contradicted_altered": [
+    "The movie came out around 1989."
+   ],
+   "false_memory_note": "The person remembered a film from around 1989, but the evidence says Decoys was released in 2004.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-558",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1973.",
+   "contradicted_altered": [
+    "Came out around 1973"
+   ],
+   "false_memory_note": "The person remembered the film coming out around 1973, but the evidence says it was released in 1988.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-587",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1996.",
+   "contradicted_altered": [
+    "The movie was probably released around 1996."
+   ],
+   "false_memory_note": "The person remembered the movie coming out around 1996, but the evidence says it was released in 2011 (premiered February 14, 2011; theatrical release March 4, 2011).",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-618",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Tom Hanks.",
+   "contradicted_altered": [
+    "The film starred Tom Hanks"
+   ],
+   "false_memory_note": "The film was Chinese and starred Tom Hanks; the evidence says it is a South Korean film starring Zo In-sung, Joo Jin-mo and Song Ji-hyo.",
+   "contradicted_original": [
+    "Chinese film"
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-740",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1994.",
+   "contradicted_altered": [
+    "Came out around 1994"
+   ],
+   "false_memory_note": "The user remembered the show as coming out around 1994, but the evidence says it premiered on April 9, 2009.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-755",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1996.",
+   "contradicted_altered": [
+    "The person thinks it is not very old",
+    "The person is pretty sure it came out around 1996"
+   ],
+   "false_memory_note": "The person remembered it coming out around 1996, but the film was released in 2011.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-822",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1972.",
+   "contradicted_altered": [
+    "It came out around 1972."
+   ],
+   "false_memory_note": "The person remembered the film coming out around 1972, but the evidence says it was released in 1957.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-877",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1961.",
+   "contradicted_altered": [
+    "The person believes the movie is from the 1980s.",
+    "The person is pretty sure the movie came out around 1961."
+   ],
+   "false_memory_note": "The person remembered the film as being from the 1980s or around 1961, but the evidence says it is a 1976 television film.",
+   "contradicted_original": [
+    "The movie is from the 1980s."
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-900",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Jackie Chan.",
+   "contradicted_altered": [
+    "The person thinks it starred Jackie Chan"
+   ],
+   "false_memory_note": "The person remembered Jackie Chan starring in the film, but the evidence says it starred Peter Sellers, Victor Mature and Britt Ekland.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2023-test-970",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Jackie Chan.",
+   "contradicted_altered": [
+    "The movie starred Jackie Chan"
+   ],
+   "false_memory_note": "The person remembered Jackie Chan starring in this horror film, but the evidence says it stars Gretchen Lodge, with Johnny Lewis and Alexandra Holden, and does not list Jackie Chan.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2003",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2011.",
+   "contradicted_altered": [
+    "The film came out around 2011"
+   ],
+   "false_memory_note": "The film came out around 2011, but the evidence says it was released in 1996.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2030",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2007.",
+   "contradicted_altered": [
+    "The movie came out around 2007."
+   ],
+   "false_memory_note": "The movie came out around 2007, but the evidence says it is a 2022 film (released April 13, 2022).",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2040",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Denzel Washington.",
+   "contradicted_altered": [
+    "The person thinks it starred Denzel Washington"
+   ],
+   "false_memory_note": "The person remembered Denzel Washington starring in it, but the cast list shows voice actors such as Patton Oswalt and Lou Romano, with no Denzel Washington.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2049",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2025.",
+   "contradicted_altered": [
+    "The person believes it was a foreign film.",
+    "The trailer was probably released within the last 10 years.",
+    "The trailer probably came out around 2025."
+   ],
+   "false_memory_note": "The person remembered a recent (around 2025) foreign trailer with a one-word title; the evidence shows a 2010 Canadian film titled 'Beyond the Black Rainbow'.",
+   "contradicted_original": [
+    "The person believes it was a foreign film",
+    "The person thinks it was within the last 10 years but could be wrong",
+    "The title is possibly just one word"
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2058",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2009.",
+   "contradicted_altered": [
+    "It came out around 2009"
+   ],
+   "false_memory_note": "The film came out around 2009, but the evidence says it was released in 1994.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2061",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2002.",
+   "contradicted_altered": [
+    "The film came out around 2002."
+   ],
+   "false_memory_note": "The person remembered the film coming out around 2002, but the evidence says it was released in 2017.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2066",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Julia Roberts.",
+   "contradicted_altered": [
+    "The person thinks the movie starred Julia Roberts"
+   ],
+   "false_memory_note": "The person remembered Julia Roberts starring in the film, but the cast list names Woody Harrelson, Jesse Eisenberg, Emma Stone, Abigail Breslin and others, not Julia Roberts.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2108",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Meryl Streep.",
+   "contradicted_altered": [
+    "A girl moves to a very rainy, small town to live with her dad.",
+    "A group of dangerous drifters comes into town, causing trouble and putting the girl in serious danger.",
+    "The person thinks the movie starred Meryl Streep."
+   ],
+   "false_memory_note": "The person remembered a rainy-town story with a drifter gang and a Meryl Streep cast, but the evidence shows the film stars Kristen Stewart and Robert Pattinson, with the threat being a rival vampire coven rather than drifters.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2133",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1982.",
+   "contradicted_altered": [
+    "The person thinks it came out around 1982."
+   ],
+   "false_memory_note": "The film was released around 1982, but the evidence says it came out in 1997.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2142",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2002.",
+   "contradicted_altered": [
+    "The ape leader goes on a mission after his family is tragically killed by a military group",
+    "The film came out around 2002"
+   ],
+   "false_memory_note": "The person remembered the film coming out around 2002, but the evidence says it was released in 2017 (premiered July 2017).",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2146",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Julia Roberts.",
+   "contradicted_altered": [
+    "The person thinks the movie starred Julia Roberts."
+   ],
+   "false_memory_note": "The person remembered Julia Roberts starring in the film, but the evidence lists Bradley Cooper as the star and does not name Julia Roberts.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2181",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Tom Hanks.",
+   "contradicted_altered": [
+    "Set in a bleak, dystopian future",
+    "The film was thrilling and emotional",
+    "I think it starred Tom Hanks"
+   ],
+   "false_memory_note": "The person remembered a dystopian caste-based film with a young woman rebel starring Tom Hanks, but the evidence describes a 2000 fantasy-adventure about an empress and two thieves, and Tom Hanks is not in the cast list.",
+   "contradicted_original": [
+    "The setting is a bleak, dystopian future"
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2183",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Morgan Freeman.",
+   "contradicted_altered": [
+    "The film starred Morgan Freeman."
+   ],
+   "false_memory_note": "The film starred Morgan Freeman, but the evidence lists Ryan Reynolds, Hope Davis, Melissa McCarthy, and Elle Fanning as the stars, with no Morgan Freeman.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2190",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Julia Roberts.",
+   "contradicted_altered": [
+    "The film may have starred Julia Roberts"
+   ],
+   "false_memory_note": "The person remembered Julia Roberts possibly starring in the film, but the cast list shows Burgess Meredith, Jack Palance, Peter Cushing and others instead, with no Julia Roberts.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2193",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2007.",
+   "contradicted_altered": [
+    "The movie came out around 2007"
+   ],
+   "false_memory_note": "The person remembered the film coming out around 2007, but the evidence says it is a 2022 film released on Netflix on August 12, 2022.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2203",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Jackie Chan.",
+   "contradicted_altered": [
+    "The movie possibly starred Jackie Chan"
+   ],
+   "false_memory_note": "The person remembered Jackie Chan starring in the film, but the cast list shows Julia Roberts as the star and no Jackie Chan.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2225",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2016.",
+   "contradicted_altered": [
+    "The person feels the movie could possibly be older than the early 2000s",
+    "The person thinks it came out around 2016"
+   ],
+   "false_memory_note": "The person remembered the film as coming out around 2016, but the evidence says it was released in 2001.",
+   "contradicted_original": [
+    "The person feels the movie could possibly be older than the early 2000s",
+    "The person is positive the movie is not a fantasy or upbeat type of movie"
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2227",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Julia Roberts.",
+   "contradicted_altered": [
+    "The film starred Julia Roberts"
+   ],
+   "false_memory_note": "The person remembered Julia Roberts starring, but the evidence says the film stars Adam Sandler and Jennifer Aniston (with Luke Evans).",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2246",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1985.",
+   "contradicted_altered": [
+    "It came out around 1985."
+   ],
+   "false_memory_note": "The film came out around 1985, but the evidence says it was released in 2000 (March 10, 2000).",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2248",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1982.",
+   "contradicted_altered": [
+    "I'm pretty sure it came out around 1982"
+   ],
+   "false_memory_note": "The film came out around 1982, but the evidence says it was released in 1997 (premiered November 1997).",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2249",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Cate Blanchett.",
+   "contradicted_altered": [
+    "The film starred Cate Blanchett."
+   ],
+   "false_memory_note": "The film starred Cate Blanchett; the evidence says the lead was Brendan Fraser, with Josh Hutcherson and Anita Briem, and Blanchett is not in the cast list.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2252",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Eddie Murphy.",
+   "contradicted_altered": [
+    "I think the movie starred Eddie Murphy"
+   ],
+   "false_memory_note": "The person remembered the movie starring Eddie Murphy, but the evidence lists Tom Guiry, Mike Vitar, Karen Allen, Denis Leary, and James Earl Jones as the cast.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2270",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2006.",
+   "contradicted_altered": [
+    "The movie came out around 2006"
+   ],
+   "false_memory_note": "The remembered release date was around 2006, but the evidence says Queenpins came out in 2021.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2285",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Denzel Washington.",
+   "contradicted_altered": [
+    "The movie starred Denzel Washington"
+   ],
+   "false_memory_note": "The remembered star was Denzel Washington, but the film stars Ine Marie Wilmann, Kim Falck, Mads Sjøgård Pettersen and Gard B. Eidsvold, not Denzel Washington.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2300",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2000.",
+   "contradicted_altered": [
+    "The film came out around 2000."
+   ],
+   "false_memory_note": "The person remembered the film coming out around 2000, but the evidence says it was released in 2015.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2311",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Eddie Murphy.",
+   "contradicted_altered": [
+    "The film was made no later than the late 1980s",
+    "The film starred Eddie Murphy"
+   ],
+   "false_memory_note": "The film was made in the late 1980s or earlier and starred Eddie Murphy; the evidence says it is a 1996 film whose cast does not include Eddie Murphy.",
+   "contradicted_original": [
+    "Could have been an older film than when first viewed",
+    "The film was made no later than the late 1980s"
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2331",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Meryl Streep.",
+   "contradicted_altered": [
+    "The person thinks the film starred Meryl Streep"
+   ],
+   "false_memory_note": "The person remembered Meryl Streep starring in the film, but the evidence lists Jeremy Irons, Dominique Swain, Melanie Griffith and Frank Langella as the cast.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2397",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Meryl Streep.",
+   "contradicted_altered": [
+    "The film starred Meryl Streep"
+   ],
+   "false_memory_note": "The film starred Meryl Streep, but the evidence's cast list (Morgan Freeman, Greg Kinnear, Radha Mitchell, etc.) does not include her.",
+   "contradicted_original": [
+    "In the beginning there is a coffee shop scene"
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2402",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Denzel Washington.",
+   "contradicted_altered": [
+    "The film starred Denzel Washington."
+   ],
+   "false_memory_note": "The film starred Denzel Washington; the evidence's cast list is Taylor Russell, Logan Miller, Deborah Ann Woll, Tyler Labine, Nik Dodani, Jay Ellis, and Yorick van Wageningen, with no Denzel Washington.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2404",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2016.",
+   "contradicted_altered": [
+    "I think it came out around 2016"
+   ],
+   "false_memory_note": "The remembered release year was around 2016, but the evidence says the film came out in 2001.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2409",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Eddie Murphy.",
+   "contradicted_altered": [
+    "The film starred Eddie Murphy"
+   ],
+   "false_memory_note": "The person remembered Eddie Murphy starring in the film, but the evidence says the lead was Audrey Hepburn opposite Rex Harrison, with no Eddie Murphy in the cast.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2438",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Meryl Streep.",
+   "contradicted_altered": [
+    "I think it starred Meryl Streep"
+   ],
+   "false_memory_note": "The person remembered Meryl Streep starring in the film, but the evidence says Matt Damon stars as Tom Ripley and Meryl Streep is not in the cast list.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2453",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2001.",
+   "contradicted_altered": [
+    "The film came out around 2001"
+   ],
+   "false_memory_note": "The person remembered the film coming out around 2001, but the evidence says it is a 2016 film.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2461",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Tom Hanks.",
+   "contradicted_altered": [
+    "The person thinks the film starred Tom Hanks."
+   ],
+   "false_memory_note": "The film starred Tom Hanks; the evidence lists the cast as Ajay Devgn, Tabu, Shriya Saran and others, with no Tom Hanks.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2475",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Meryl Streep.",
+   "contradicted_altered": [
+    "I think it starred Meryl Streep."
+   ],
+   "false_memory_note": "The person remembered Meryl Streep being in the film, but the cast list names Chow Yun-Fat, Gong Li, Jay Chou and others, not Meryl Streep.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2476",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Eddie Murphy.",
+   "contradicted_altered": [
+    "The person thinks the movie starred Eddie Murphy."
+   ],
+   "false_memory_note": "The person remembered Eddie Murphy as a star of the film, but the evidence lists Amandla Stenberg, Harris Dickinson, Mandy Moore and Gwendoline Christie as the cast.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2483",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2000.",
+   "contradicted_altered": [
+    "The film came out around 2000."
+   ],
+   "false_memory_note": "The film came out around 2000, but the evidence says it was released in 2015.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2493",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Eddie Murphy.",
+   "contradicted_altered": [
+    "The film seems to be set in the 90s or 00s.",
+    "The person thinks the film starred Eddie Murphy."
+   ],
+   "false_memory_note": "The person remembered Eddie Murphy starring in the film, but the cast list names Ashleigh Cummings, Emma Booth, Stephen Curry and others, with no Eddie Murphy.",
+   "contradicted_original": [
+    "It seems to be set in the 90s or 00s."
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2496",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2000.",
+   "contradicted_altered": [
+    "The person thinks it came out around 2000."
+   ],
+   "false_memory_note": "The person remembered the film coming out around 2000, but the evidence says it was released in 1985.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2512",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2007.",
+   "contradicted_altered": [
+    "The film came out around 2007"
+   ],
+   "false_memory_note": "The person remembered a film around 2007, but the evidence says it was released in 2022.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2529",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 2023.",
+   "contradicted_altered": [
+    "The movie may have come out in the late 2000s, but the watcher is not sure",
+    "The watcher is pretty sure it came out around 2023"
+   ],
+   "false_memory_note": "The watcher remembered the film as coming out around 2023, but the evidence says it was released in 2008 (France release February 27, 2008).",
+   "contradicted_original": [
+    "The movie came out sometime in the late 2000s"
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2551",
+   "source": "synthetic:year",
+   "injected": "I'm pretty sure it came out around 1997.",
+   "contradicted_altered": [
+    "The movie came out around 1997"
+   ],
+   "false_memory_note": "The film was remembered as coming out around 1997, but the evidence says it is a 2012 film released in late 2012.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2576",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Cate Blanchett.",
+   "contradicted_altered": [
+    "The big city may be Los Angeles",
+    "The person thinks Cate Blanchett starred in it"
+   ],
+   "false_memory_note": "The person remembered Cate Blanchett starring in it; the evidence's cast list names Tyler Posey, Crystal Reed, Holland Roden and others, not Cate Blanchett.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2579",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Tom Hanks.",
+   "contradicted_altered": [
+    "The person thinks it starred Tom Hanks."
+   ],
+   "false_memory_note": "The person remembered Tom Hanks being in the film, but the cast list shows Hera Hilmar, Robert Sheehan, Hugo Weaving and others instead, with no Tom Hanks.",
+   "contradicted_original": [],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 0.0
+  },
+  {
+   "id": "fm-trec-tot-2024-test-2596",
+   "source": "synthetic:actor",
+   "injected": "I think it starred Robin Williams.",
+   "contradicted_altered": [
+    "The person thinks it starred Robin Williams."
+   ],
+   "false_memory_note": "The person remembered Robin Williams being in the film, but the evidence's cast list is led by Kirsten Dunst and does not include him.",
+   "contradicted_original": [
+    "The movie ends on a dark note with the palace stormed by angry crowds"
+   ],
+   "caught": 1.0,
+   "named": 1.0,
+   "flags_original": 1.0
+  }
+ ],
+ "metrics": [
+  "caught",
+  "named",
+  "flags_original"
+ ],
+ "groups": [
+  "source"
+ ],
+ "failed": [],
+ "llm": {
+  "api_calls": 120,
+  "cached_calls": 120,
+  "web_searches": 0,
+  "cost_usd": 0.070441535
+ },
+ "split": "dev",
+ "summary": {
+  "n": 60,
+  "overall": {
+   "caught": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 60
+   },
+   "named": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 60
+   },
+   "flags_original": {
+    "mean": 0.2333,
+    "ci95": [
+     0.1333,
+     0.35
+    ],
+    "n": 60
+   }
+  },
+  "by_group": {
+   "source=synthetic:actor": {
+    "n": 30,
+    "caught": 1.0,
+    "named": 1.0,
+    "flags_original": 0.2333
+   },
+   "source=synthetic:year": {
+    "n": 30,
+    "caught": 1.0,
+    "named": 1.0,
+    "flags_original": 0.2333
+   }
+  },
+  "extra": {
+   "precision_proxy": 0.8108
+  }
+ }
+}

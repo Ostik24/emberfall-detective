@@ -1,0 +1,1136 @@
+{
+ "config": {
+  "name": "e3_docwiki",
+  "vectors": "e3",
+  "parent": null
+ },
+ "cases": [
+  {
+   "id": "movie-10198",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Princess and the Frog",
+   "found": true,
+   "top3": [
+    "movie/739547",
+    "movie/22586",
+    "movie/927254"
+   ],
+   "ndcg@10": 0.07336392209936005,
+   "recall@10": 0.07142857142857142
+  },
+  {
+   "id": "movie-10589",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "After the Sunset",
+   "found": true,
+   "top3": [
+    "movie/298",
+    "movie/1106289",
+    "movie/163"
+   ],
+   "ndcg@10": 0.07839826897867533,
+   "recall@10": 0.0625
+  },
+  {
+   "id": "movie-10688",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Hamlet",
+   "found": true,
+   "top3": [
+    "movie/10264",
+    "movie/18019",
+    "movie/44129"
+   ],
+   "ndcg@10": 0.23504554941448536,
+   "recall@10": 0.1111111111111111
+  },
+  {
+   "id": "movie-1075175",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "How to Have Sex",
+   "found": true,
+   "top3": [
+    "movie/200727",
+    "movie/901563",
+    "movie/24684"
+   ],
+   "ndcg@10": 0.09478836436955078,
+   "recall@10": 0.09090909090909091
+  },
+  {
+   "id": "movie-10955",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Ripley's Game",
+   "found": true,
+   "top3": [
+    "movie/14979",
+    "movie/11222",
+    "movie/19128"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-1100988",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "28 Years Later",
+   "found": true,
+   "top3": [
+    "movie/1272837",
+    "movie/1443894",
+    "movie/375366"
+   ],
+   "ndcg@10": 0.424926013816671,
+   "recall@10": 0.1875
+  },
+  {
+   "id": "movie-11576",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "It's a Mad, Mad, Mad, Mad World",
+   "found": true,
+   "top3": [
+    "movie/955916",
+    "movie/9896",
+    "movie/9359"
+   ],
+   "ndcg@10": 0.43735247915031,
+   "recall@10": 0.23076923076923078
+  },
+  {
+   "id": "movie-1175174",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Fackham Hall",
+   "found": true,
+   "top3": [
+    "movie/375262",
+    "movie/520900",
+    "movie/986"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-1321491",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Banished",
+   "found": true,
+   "top3": [
+    "movie/173672",
+    "movie/1173559",
+    "movie/203834"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-13243",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Meet Bill",
+   "found": true,
+   "top3": [
+    "movie/143049",
+    "movie/123587",
+    "movie/399131"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-1368830",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Chers parents",
+   "found": true,
+   "top3": [
+    "movie/66129",
+    "movie/614427",
+    "tv/10466"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-14223",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Wind Chill",
+   "found": true,
+   "top3": [
+    "movie/463602",
+    "movie/740925",
+    "movie/7006"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-1422562",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Moment",
+   "found": true,
+   "top3": [
+    "movie/515195",
+    "movie/567965",
+    "movie/458344"
+   ],
+   "ndcg@10": 0.06794340091829075,
+   "recall@10": 0.1111111111111111
+  },
+  {
+   "id": "movie-1426306",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Titan: The OceanGate Submersible Disaster",
+   "found": true,
+   "top3": [
+    "movie/24982",
+    "movie/1715492",
+    "movie/246080"
+   ],
+   "ndcg@10": 0.24630238874073,
+   "recall@10": 0.25
+  },
+  {
+   "id": "movie-14506",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "The Adventures of Baron Munchausen",
+   "found": true,
+   "top3": [
+    "movie/41213",
+    "movie/4442",
+    "movie/559907"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-15213",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Everyone's Hero",
+   "found": true,
+   "top3": [
+    "movie/1297842",
+    "movie/11287",
+    "movie/287"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-198663",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Maze Runner",
+   "found": true,
+   "top3": [
+    "movie/294254",
+    "movie/141",
+    "movie/13600"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-20115",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Opera",
+   "found": true,
+   "top3": [
+    "movie/20126",
+    "movie/20465",
+    "movie/14029"
+   ],
+   "ndcg@10": 0.22009176629808017,
+   "recall@10": 0.08333333333333333
+  },
+  {
+   "id": "movie-227156",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Giver",
+   "found": true,
+   "top3": [
+    "movie/765245",
+    "movie/434203",
+    "movie/301875"
+   ],
+   "ndcg@10": 0.13961814555374907,
+   "recall@10": 0.125
+  },
+  {
+   "id": "movie-23102",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "The Pride and the Passion",
+   "found": true,
+   "top3": [
+    "movie/33454",
+    "movie/10911",
+    "movie/33157"
+   ],
+   "ndcg@10": 0.09478836436955078,
+   "recall@10": 0.09090909090909091
+  },
+  {
+   "id": "movie-26758",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Man with the Gun",
+   "found": true,
+   "top3": [
+    "movie/17409",
+    "movie/11697",
+    "movie/114975"
+   ],
+   "ndcg@10": 0.28952298823485745,
+   "recall@10": 0.125
+  },
+  {
+   "id": "movie-28940",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Eating Raoul",
+   "found": true,
+   "top3": [
+    "movie/175291",
+    "movie/12151",
+    "movie/26685"
+   ],
+   "ndcg@10": 0.42838543210841196,
+   "recall@10": 0.2
+  },
+  {
+   "id": "movie-33302",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Girl from Paris",
+   "found": true,
+   "top3": [
+    "movie/135281",
+    "movie/64357",
+    "movie/273169"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-33457",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Nayak: The Real Hero",
+   "found": true,
+   "top3": [
+    "movie/60579",
+    "movie/19703",
+    "movie/872906"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-33613",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Girl Who Kicked the Hornet's Nest",
+   "found": true,
+   "top3": [
+    "movie/24253",
+    "movie/15472",
+    "tv/80855"
+   ],
+   "ndcg@10": 0.5388856921828065,
+   "recall@10": 0.25
+  },
+  {
+   "id": "movie-33909",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Wall Street: Money Never Sleeps",
+   "found": true,
+   "top3": [
+    "movie/50839",
+    "movie/65034",
+    "tv/62852"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-340022",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Gringo",
+   "found": true,
+   "top3": [
+    "movie/337170",
+    "movie/52629",
+    "movie/8961"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-34584",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "The NeverEnding Story",
+   "found": true,
+   "top3": [
+    "movie/10957",
+    "movie/27793",
+    "movie/2486"
+   ],
+   "ndcg@10": 0.2934556883974402,
+   "recall@10": 0.125
+  },
+  {
+   "id": "movie-355020",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Winter on Fire: Ukraine's Fight for Freedom",
+   "found": true,
+   "top3": [
+    "movie/1058616",
+    "movie/1393151",
+    "movie/54293"
+   ],
+   "ndcg@10": 0.11751610475642714,
+   "recall@10": 0.25
+  },
+  {
+   "id": "movie-4011",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Beetlejuice",
+   "found": true,
+   "top3": [
+    "movie/184345",
+    "movie/139038",
+    "movie/917496"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-401847",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Can You Ever Forgive Me?",
+   "found": true,
+   "top3": [
+    "movie/837881",
+    "movie/601470",
+    "movie/301502"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-43258",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Friendly Persuasion",
+   "found": true,
+   "top3": [
+    "movie/339408",
+    "movie/316152",
+    "movie/16072"
+   ],
+   "ndcg@10": 0.11004588314904008,
+   "recall@10": 0.08333333333333333
+  },
+  {
+   "id": "movie-445629",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Fighting with My Family",
+   "found": true,
+   "top3": [
+    "movie/637157",
+    "movie/12163",
+    "tv/100963"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-466282",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "To All the Boys I've Loved Before",
+   "found": true,
+   "top3": [
+    "movie/614409",
+    "movie/565426",
+    "movie/454983"
+   ],
+   "ndcg@10": 0.3125291152215463,
+   "recall@10": 0.17647058823529413
+  },
+  {
+   "id": "movie-47184",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Repast",
+   "found": true,
+   "top3": [
+    "movie/77285",
+    "movie/111398",
+    "movie/50247"
+   ],
+   "ndcg@10": 0.18340980524840012,
+   "recall@10": 0.2
+  },
+  {
+   "id": "movie-48955",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Everybody Go Home!",
+   "found": true,
+   "top3": [
+    "movie/55823",
+    "movie/65628",
+    "movie/38251"
+   ],
+   "ndcg@10": 0.43231813227099475,
+   "recall@10": 0.3
+  },
+  {
+   "id": "movie-5126",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Martian Child",
+   "found": true,
+   "top3": [
+    "movie/50321",
+    "movie/21765",
+    "movie/11077"
+   ],
+   "ndcg@10": 0.06625422345438903,
+   "recall@10": 0.1
+  },
+  {
+   "id": "movie-5145",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Business",
+   "found": true,
+   "top3": [
+    "movie/4836",
+    "movie/19621",
+    "movie/13809"
+   ],
+   "ndcg@10": 0.3589542101716347,
+   "recall@10": 0.18181818181818182
+  },
+  {
+   "id": "movie-58013",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Santa Claus Gang",
+   "found": true,
+   "top3": [
+    "movie/43557",
+    "movie/85056",
+    "movie/42442"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-6474",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Navajo Joe",
+   "found": true,
+   "top3": [
+    "movie/41608",
+    "movie/43329",
+    "movie/47914"
+   ],
+   "ndcg@10": 0.09785159463516042,
+   "recall@10": 0.125
+  },
+  {
+   "id": "movie-73604",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Greetings",
+   "found": true,
+   "top3": [
+    "tv/9895",
+    "movie/10890",
+    "movie/45522"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-758879",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "A Castle for Christmas",
+   "found": true,
+   "top3": [
+    "movie/611207",
+    "movie/483104",
+    "movie/525041"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-762079",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Advent Calendar",
+   "found": true,
+   "top3": [
+    "movie/83900",
+    "movie/46025",
+    "movie/661930"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-772",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Home Alone 2: Lost in New York",
+   "found": true,
+   "top3": [
+    "movie/771",
+    "movie/12536",
+    "movie/654974"
+   ],
+   "ndcg@10": 0.22009176629808017,
+   "recall@10": 0.09090909090909091
+  },
+  {
+   "id": "movie-804413",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Munsters",
+   "found": true,
+   "top3": [
+    "tv/62264",
+    "tv/1712",
+    "movie/159824"
+   ],
+   "ndcg@10": 0.11004588314904008,
+   "recall@10": 0.0625
+  },
+  {
+   "id": "movie-8072",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Alphaville",
+   "found": true,
+   "top3": [
+    "movie/1266798",
+    "movie/9389",
+    "movie/10640"
+   ],
+   "ndcg@10": 0.07336392209936005,
+   "recall@10": 0.06666666666666667
+  },
+  {
+   "id": "movie-810",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Shrek the Third",
+   "found": true,
+   "top3": [
+    "movie/809",
+    "movie/808",
+    "movie/10192"
+   ],
+   "ndcg@10": 0.3222722491219547,
+   "recall@10": 0.15789473684210525
+  },
+  {
+   "id": "movie-851303",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Waiting for Bojangles",
+   "found": true,
+   "top3": [
+    "movie/51991",
+    "movie/85735",
+    "movie/366514"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-87436",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The ABCs of Death",
+   "found": true,
+   "top3": [
+    "movie/193726",
+    "movie/16304",
+    "movie/323262"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-87826",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Here Comes the Boom",
+   "found": true,
+   "top3": [
+    "movie/345922",
+    "movie/13938",
+    "movie/23834"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "movie-8843",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Cell",
+   "found": true,
+   "top3": [
+    "movie/400710",
+    "movie/1551",
+    "movie/11850"
+   ],
+   "ndcg@10": 0.09478836436955078,
+   "recall@10": 0.06666666666666667
+  },
+  {
+   "id": "movie-9291",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Longest Yard",
+   "found": true,
+   "top3": [
+    "movie/4985",
+    "movie/9991",
+    "movie/10393"
+   ],
+   "ndcg@10": 0.13886244387355454,
+   "recall@10": 0.06666666666666667
+  },
+  {
+   "id": "movie-9663",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Starman",
+   "found": true,
+   "top3": [
+    "movie/2900",
+    "movie/1032892",
+    "movie/274870"
+   ],
+   "ndcg@10": 0.14465249243306436,
+   "recall@10": 0.15384615384615385
+  },
+  {
+   "id": "movie-9973",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Air Buddies",
+   "found": true,
+   "top3": [
+    "movie/21518",
+    "movie/20755",
+    "movie/24794"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-101918",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Valeria",
+   "found": true,
+   "top3": [
+    "tv/261615",
+    "tv/215092",
+    "tv/111499"
+   ],
+   "ndcg@10": 0.22009176629808017,
+   "recall@10": 0.07142857142857142
+  },
+  {
+   "id": "tv-104716",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Ride the Wind",
+   "found": true,
+   "top3": [
+    "tv/154770",
+    "tv/121876",
+    "tv/19123"
+   ],
+   "ndcg@10": 0.06362078819895171,
+   "recall@10": 0.058823529411764705
+  },
+  {
+   "id": "tv-10687",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Peyton Place",
+   "found": true,
+   "top3": [
+    "tv/4547",
+    "tv/910",
+    "tv/881"
+   ],
+   "ndcg@10": 0.18340980524840012,
+   "recall@10": 0.11764705882352941
+  },
+  {
+   "id": "tv-126691",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Prisionera De Amor",
+   "found": true,
+   "top3": [
+    "tv/7695",
+    "tv/42029",
+    "tv/13086"
+   ],
+   "ndcg@10": 0.13886244387355454,
+   "recall@10": 0.058823529411764705
+  },
+  {
+   "id": "tv-13162",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "LA Ink",
+   "found": true,
+   "top3": [
+    "tv/10982",
+    "tv/46286",
+    "tv/1699"
+   ],
+   "ndcg@10": 0.3589542101716347,
+   "recall@10": 0.1111111111111111
+  },
+  {
+   "id": "tv-13508",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "The Adventures of Jim Bowie",
+   "found": true,
+   "top3": [
+    "tv/11388",
+    "tv/13844",
+    "tv/980"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-139287",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "More than a Married Couple, but Not Lovers",
+   "found": true,
+   "top3": [
+    "tv/113137",
+    "tv/274622",
+    "tv/36005"
+   ],
+   "ndcg@10": 0.06943122193677727,
+   "recall@10": 0.07142857142857142
+  },
+  {
+   "id": "tv-1421",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Modern Family",
+   "found": true,
+   "top3": [
+    "tv/36473",
+    "tv/4599",
+    "tv/67117"
+   ],
+   "ndcg@10": 0.3963918729015093,
+   "recall@10": 0.16666666666666666
+  },
+  {
+   "id": "tv-1450",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Closer",
+   "found": true,
+   "top3": [
+    "tv/39483",
+    "tv/256317",
+    "tv/2734"
+   ],
+   "ndcg@10": 0.2934367834519528,
+   "recall@10": 0.15789473684210525
+  },
+  {
+   "id": "tv-16120",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Soul Mate",
+   "found": true,
+   "top3": [
+    "tv/20875",
+    "tv/42886",
+    "tv/45816"
+   ],
+   "ndcg@10": 0.1681522864689108,
+   "recall@10": 0.125
+  },
+  {
+   "id": "tv-2379",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Z-Cars",
+   "found": true,
+   "top3": [
+    "tv/43982",
+    "tv/6204",
+    "tv/13266"
+   ],
+   "ndcg@10": 0.09478836436955078,
+   "recall@10": 0.058823529411764705
+  },
+  {
+   "id": "tv-24411",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "He Is My Master",
+   "found": true,
+   "top3": [
+    "tv/219959",
+    "tv/80662",
+    "tv/34188"
+   ],
+   "ndcg@10": 0.2973694836145356,
+   "recall@10": 0.1875
+  },
+  {
+   "id": "tv-304",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Believe Nothing",
+   "found": true,
+   "top3": [
+    "tv/4507",
+    "tv/4549",
+    "tv/12597"
+   ],
+   "ndcg@10": 0.21222636597291458,
+   "recall@10": 0.10526315789473684
+  },
+  {
+   "id": "tv-332",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Los simuladores",
+   "found": true,
+   "top3": [
+    "tv/62302",
+    "tv/60549",
+    "tv/219066"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-36157",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Strawberry Panic",
+   "found": true,
+   "top3": [
+    "tv/42468",
+    "tv/76063",
+    "tv/23375"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-424",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Torchwood",
+   "found": true,
+   "top3": [
+    "tv/64073",
+    "tv/10268",
+    "movie/313106"
+   ],
+   "ndcg@10": 0.30523488393970116,
+   "recall@10": 0.10526315789473684
+  },
+  {
+   "id": "tv-53007",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Burger Quiz",
+   "found": true,
+   "top3": [
+    "tv/63404",
+    "tv/71761",
+    "tv/6629"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-5835",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "Goosebumps",
+   "found": true,
+   "top3": [
+    "tv/10861",
+    "tv/93693",
+    "tv/157004"
+   ],
+   "ndcg@10": 0.3222722491219547,
+   "recall@10": 0.15789473684210525
+  },
+  {
+   "id": "tv-6",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Strange Days at Blake Holsey High",
+   "found": true,
+   "top3": [
+    "tv/4624",
+    "tv/2027",
+    "tv/3962"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-60901",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Welcome to Sweden",
+   "found": true,
+   "top3": [
+    "tv/29950",
+    "tv/71209",
+    "tv/32694"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-62428",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Saint Seiya: Soul of Gold",
+   "found": true,
+   "top3": [
+    "tv/67199",
+    "tv/78122",
+    "tv/90855"
+   ],
+   "ndcg@10": 0.4690000933206748,
+   "recall@10": 0.1875
+  },
+  {
+   "id": "tv-62822",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Humans",
+   "found": true,
+   "top3": [
+    "tv/43058",
+    "tv/84380",
+    "tv/48860"
+   ],
+   "ndcg@10": 0.08514311764162098,
+   "recall@10": 0.05263157894736842
+  },
+  {
+   "id": "tv-676",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Tom and Jerry Tales",
+   "found": true,
+   "top3": [
+    "tv/47480",
+    "tv/7842",
+    "tv/4274"
+   ],
+   "ndcg@10": 0.5637884576902256,
+   "recall@10": 0.21052631578947367
+  },
+  {
+   "id": "tv-707",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "Boomtown",
+   "found": true,
+   "top3": [
+    "tv/47318",
+    "tv/2142",
+    "tv/51046"
+   ],
+   "ndcg@10": 0.06362078819895171,
+   "recall@10": 0.05263157894736842
+  },
+  {
+   "id": "tv-7096",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The Last Enemy",
+   "found": true,
+   "top3": [
+    "tv/128066",
+    "tv/46511",
+    "tv/157080"
+   ],
+   "ndcg@10": 0.0,
+   "recall@10": 0.0
+  },
+  {
+   "id": "tv-88",
+   "source": "dataset:tmdb-recommendations-extension",
+   "anchor": "As Time Goes By",
+   "found": true,
+   "top3": [
+    "tv/8977",
+    "tv/47801",
+    "tv/99610"
+   ],
+   "ndcg@10": 0.07839826897867533,
+   "recall@10": 0.05555555555555555
+  },
+  {
+   "id": "tv-91371",
+   "source": "dataset:tmdb-recommendations-emberfall",
+   "anchor": "The UnXplained",
+   "found": true,
+   "top3": [
+    "tv/113085",
+    "tv/38122",
+    "tv/32608"
+   ],
+   "ndcg@10": 0.3589542101716347,
+   "recall@10": 0.13333333333333333
+  }
+ ],
+ "metrics": [
+  "ndcg@10",
+  "recall@10"
+ ],
+ "groups": [
+  "source"
+ ],
+ "failed": [
+  "movie-10955",
+  "movie-1175174",
+  "movie-1321491",
+  "movie-13243",
+  "movie-1368830",
+  "movie-14223",
+  "movie-14506",
+  "movie-15213",
+  "movie-198663",
+  "movie-33302",
+  "movie-33457",
+  "movie-33909",
+  "movie-340022",
+  "movie-4011",
+  "movie-401847",
+  "movie-445629",
+  "movie-58013",
+  "movie-73604",
+  "movie-758879",
+  "movie-762079",
+  "movie-851303",
+  "movie-87436",
+  "movie-87826",
+  "movie-9973",
+  "tv-13508",
+  "tv-332",
+  "tv-36157",
+  "tv-53007",
+  "tv-6",
+  "tv-60901",
+  "tv-7096"
+ ],
+ "split": "test",
+ "summary": {
+  "n": 81,
+  "overall": {
+   "ndcg@10": {
+    "mean": 0.1381,
+    "ci95": [
+     0.1056,
+     0.1721
+    ],
+    "n": 81
+   },
+   "recall@10": {
+    "mean": 0.0795,
+    "ci95": [
+     0.0626,
+     0.0971
+    ],
+    "n": 81
+   }
+  },
+  "by_group": {
+   "source=dataset:tmdb-recommendations-emberfall": {
+    "n": 59,
+    "ndcg@10": 0.1245,
+    "recall@10": 0.0698
+   },
+   "source=dataset:tmdb-recommendations-extension": {
+    "n": 22,
+    "ndcg@10": 0.1747,
+    "recall@10": 0.1056
+   }
+  }
+ }
+}

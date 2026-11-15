@@ -1,0 +1,675 @@
+{
+ "config": {
+  "name": "default",
+  "prompt": "agent-v4"
+ },
+ "cases": [
+  {
+   "id": "c1-a01",
+   "lang": "en",
+   "expected": "ask_user",
+   "predicted": "respond",
+   "message": "I'm trying to remember a movie",
+   "args": {
+    "message": "Happy to help you track it down! Could you describe what you remember? Even small details help: the plot or a scene, the characters, the setting, roughly when it came out, or the mood (funny, scary, sad, etc.). Write as much or as little as you recall, and tell me if you're unsure about any part."
+   },
+   "action_correct": 0.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-a02",
+   "lang": "en",
+   "expected": "ask_user",
+   "predicted": "ask_user",
+   "message": "help me find a film",
+   "args": {
+    "message": "Happy to help! Tell me whatever you remember about the film, even if it's vague: the plot or a scene, who was in it, roughly when it came out, the setting, or the mood. Partial details are fine, and I'll search the catalog from there.",
+    "options": [
+     "I remember the plot or a scene",
+     "I remember an actor or director",
+     "I remember roughly the year or decade",
+     "I only know the genre or mood"
+    ],
+    "picks": []
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-a04",
+   "lang": "en",
+   "expected": "ask_user",
+   "predicted": "respond",
+   "message": "what was that movie?",
+   "args": {
+    "message": "I'd be glad to help, but I don't see an earlier conversation, so I don't know which movie you mean. Could you describe what you remember? Useful details include the plot or a scene, the characters, the setting, roughly when it came out, or the mood. Even fragments help, and I can search the catalog from them. If you have a title in mind, you can also give it to me directly.",
+    "picks": []
+   },
+   "action_correct": 0.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-a05",
+   "lang": "uk",
+   "expected": "ask_user",
+   "predicted": "respond",
+   "message": "допоможи знайти фільм",
+   "args": {
+    "message": "Звісно, допоможу! Розкажіть, що пам'ятаєте про фільм чи серіал: сюжет, окремі сцени, персонажів, місце дії, епоху, настрій або рік випуску. Навіть уривчасті деталі допоможуть. Якщо пам'ятаєте щось неточно (актора, рік, колір), теж напишіть, я врахую."
+   },
+   "action_correct": 0.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-a07",
+   "lang": "uk",
+   "expected": "ask_user",
+   "predicted": "respond",
+   "message": "що це був за фільм?",
+   "args": {
+    "message": "Я ще не бачу, про який фільм ідеться: у нашій розмові ще не було жодного опису. Розкажіть, що пам'ятаєте: сюжет, сцени, персонажів, місце дії, настрій, приблизний рік або країну. Навіть уривок (\"там був кіт, який говорив\", \"героїня шукала ключ у басейні\") вже допоможе. Якщо пам'ятаєте якусь назву чи актора, теж напишіть, навіть якщо не певні."
+   },
+   "action_correct": 0.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-c01",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "A TV series about a group of plane crash survivors on a mysterious island",
+   "args": {
+    "query": "A TV series about a group of plane crash survivors on a mysterious island",
+    "item_type": "tv"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-c03",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "I'm looking for a horror movie about a cursed videotape, released after 2010",
+   "args": {
+    "query": "horror movie about a cursed videotape, released after 2010",
+    "item_type": "movie",
+    "year_from": 2011,
+    "genres": [
+     "Horror"
+    ]
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 0.7777777777777778
+  },
+  {
+   "id": "c1-c08",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "a romantic comedy from the 2000s where a woman can hear men's thoughts",
+   "args": {
+    "query": "a romantic comedy from the 2000s where a woman can hear men's thoughts",
+    "year_from": 2000,
+    "year_to": 2009
+   },
+   "action_correct": 1.0,
+   "filters_exact": 0.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-c10",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "anything sci-fi but no horror, about first contact with aliens",
+   "args": {
+    "query": "anything sci-fi but no horror, about first contact with aliens",
+    "exclude_genres": [
+     "Horror"
+    ]
+   },
+   "action_correct": 1.0,
+   "filters_exact": 0.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-c15",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "a TV show, I think from the 2010s, with dragons and a wall of ice",
+   "args": {
+    "query": "a TV show, I think from the 2010s, with dragons and a wall of ice",
+    "item_type": "tv",
+    "year_from": 2010,
+    "year_to": 2019
+   },
+   "action_correct": 1.0,
+   "filters_exact": 0.0,
+   "hallucinated_filter": 1.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-r02",
+   "lang": "en",
+   "expected": "respond",
+   "predicted": "respond",
+   "message": "thanks, that's it",
+   "args": {
+    "message": "You're welcome! Enjoy your movie or show, and come back any time you remember something about a title you're looking for."
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-r03",
+   "lang": "en",
+   "expected": "respond",
+   "predicted": "respond",
+   "message": "what can you do?",
+   "args": {
+    "message": "I'm Emberfall's Movie Detective. I help you find films and TV shows in our catalog in three ways:\n\n- **Tip of the tongue:** Describe a movie or show you half remember (plot, scenes, characters, setting, mood), even if details are fuzzy. I'll suggest the best matches and tell you how confident I am.\n- **Similar titles:** Name a film or show you like, and I'll find others with a similar plot, setting, or tone.\n- **Facts and watchlist:** I can look up runtime, cast, director, or seasons for a title, and add or remove titles from your watchlist (I'll always ask you to confirm first).\n\nI can answer in English or Ukrainian. What are you looking for?",
+    "picks": []
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-r04",
+   "lang": "en",
+   "expected": "respond",
+   "predicted": "respond",
+   "message": "what's the weather in Lviv today?",
+   "args": {
+    "message": "I'm sorry, I can't check the weather. I'm Emberfall's Movie Detective, so I can only help you find films and TV shows. If you remember a plot, a scene, or a character, describe it and I'll look for it.",
+    "picks": []
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-r05",
+   "lang": "uk",
+   "expected": "respond",
+   "predicted": "respond",
+   "message": "привіт",
+   "args": {
+    "message": "Привіт! Я Movie Detective від Emberfall. Допоможу знайти фільм або серіал, який ви пам'ятаєте лише частково, або підібрати щось схоже на ваш улюблений тайтл. Опишіть сюжет, сцени, персонажів чи атмосферу, як пам'ятаєте, навіть якщо деталі неточні.",
+    "picks": []
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-r07",
+   "lang": "uk",
+   "expected": "respond",
+   "predicted": "respond",
+   "message": "напиши мені вірш про осінь",
+   "args": {
+    "message": "Я Movie Detective, тож допомагаю з пошуком фільмів і серіалів, а не з віршами. Але можу підібрати стрічки з осінньою атмосферою: за настроєм, місцем дії чи сюжетом. Опишіть, що пам'ятаєте або чого хочете, і я пошукаю в каталозі.",
+    "picks": []
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-s02",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "There's this film where scientists chase tornadoes and a cow flies past their truck",
+   "args": {
+    "query": "There's this film where scientists chase tornadoes and a cow flies past their truck"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s03",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "I remember a kid who gets left home alone at Christmas and sets traps for burglars",
+   "args": {
+    "query": "I remember a kid who gets left home alone at Christmas and sets traps for burglars"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s06",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "Movie I saw at my cousin's place years ago: astronauts get stranded and one grows potatoes on Mars",
+   "args": {
+    "query": "astronauts get stranded and one grows potatoes on Mars",
+    "limit": 5
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 0.4666666666666667
+  },
+  {
+   "id": "c1-s08",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "a show about a chemistry teacher who starts cooking meth after a cancer diagnosis",
+   "args": {
+    "query": "a show about a chemistry teacher who starts cooking meth after a cancer diagnosis"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s09",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "something with a hotel in the mountains in winter, a writer goes crazy and chases his family",
+   "args": {
+    "query": "something with a hotel in the mountains in winter, a writer goes crazy and chases his family"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s10",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "I can't remember the name, there was a girl who could move things with her mind and she was bullied at prom",
+   "args": {
+    "query": "there was a girl who could move things with her mind and she was bullied at prom"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 0.7333333333333333
+  },
+  {
+   "id": "c1-s12",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "a heist where they enter people's dreams to plant an idea",
+   "args": {
+    "query": "a heist where they enter people's dreams to plant an idea",
+    "limit": 5
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s14",
+   "lang": "en",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "there was a robot left alone on earth cleaning up trash and it falls in love",
+   "args": {
+    "query": "there was a robot left alone on earth cleaning up trash and it falls in love",
+    "limit": 10
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s16",
+   "lang": "uk",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "пам'ятаю серіал про вчителя хімії, який почав варити наркотики",
+   "args": {
+    "query": "пам'ятаю серіал про вчителя хімії, який почав варити наркотики"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-s18",
+   "lang": "uk",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "Не пам'ятаю назву: дівчинка потрапляє в чарівний світ з духами і її батьки перетворюються на свиней",
+   "args": {
+    "query": "дівчинка потрапляє в чарівний світ з духами і її батьки перетворюються на свиней"
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 0.7647058823529411
+  },
+  {
+   "id": "c1-s19",
+   "lang": "uk",
+   "expected": "search_catalog",
+   "predicted": "search_catalog",
+   "message": "щось про людей, які заходять у сни інших людей",
+   "args": {
+    "query": "щось про людей, які заходять у сни інших людей",
+    "limit": 8
+   },
+   "action_correct": 1.0,
+   "filters_exact": 1.0,
+   "hallucinated_filter": 0.0,
+   "query_recall": 1.0
+  },
+  {
+   "id": "c1-t01",
+   "lang": "en",
+   "expected": "find_title",
+   "predicted": "find_title",
+   "message": "Is Twister in your catalog?",
+   "args": {
+    "title": "Twister"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-t02",
+   "lang": "en",
+   "expected": "find_title",
+   "predicted": "find_title",
+   "message": "Who directed Interstelar?",
+   "args": {
+    "title": "Interstelar"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-t04",
+   "lang": "en",
+   "expected": "find_title",
+   "predicted": "find_title",
+   "message": "How long is The Godfather?",
+   "args": {
+    "title": "The Godfather"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-t07",
+   "lang": "uk",
+   "expected": "find_title",
+   "predicted": "find_title",
+   "message": "Хто знімається в Інтерстеллар?",
+   "args": {
+    "title": "Інтерстеллар"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-t08",
+   "lang": "uk",
+   "expected": "find_title",
+   "predicted": "find_title",
+   "message": "порадь щось схоже на Амелі",
+   "args": {
+    "title": "Амелі"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-w01",
+   "lang": "en",
+   "expected": "watchlist",
+   "predicted": "watchlist",
+   "message": "show me my watchlist",
+   "args": {
+    "action": "list"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-w02",
+   "lang": "en",
+   "expected": "watchlist",
+   "predicted": "watchlist",
+   "message": "what did I save so far?",
+   "args": {
+    "action": "list"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-w03",
+   "lang": "en",
+   "expected": "watchlist",
+   "predicted": "watchlist",
+   "message": "what's on my list?",
+   "args": {
+    "action": "list"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-w04",
+   "lang": "uk",
+   "expected": "watchlist",
+   "predicted": "watchlist",
+   "message": "покажи мій список перегляду",
+   "args": {
+    "action": "list"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  },
+  {
+   "id": "c1-w05",
+   "lang": "uk",
+   "expected": "watchlist",
+   "predicted": "watchlist",
+   "message": "що я вже зберіг?",
+   "args": {
+    "action": "list"
+   },
+   "action_correct": 1.0,
+   "filters_exact": null,
+   "hallucinated_filter": null,
+   "query_recall": null
+  }
+ ],
+ "metrics": [
+  "action_correct",
+  "filters_exact",
+  "hallucinated_filter",
+  "query_recall"
+ ],
+ "groups": [
+  "expected",
+  "lang"
+ ],
+ "failed": [
+  "c1-a01",
+  "c1-a04",
+  "c1-a05",
+  "c1-a07",
+  "c1-c08",
+  "c1-c10",
+  "c1-c15"
+ ],
+ "llm": {
+  "api_calls": 36,
+  "cached_calls": 0,
+  "web_searches": 0,
+  "cost_usd": 0.00416418
+ },
+ "split": "test",
+ "summary": {
+  "n": 36,
+  "overall": {
+   "action_correct": {
+    "mean": 0.8889,
+    "ci95": [
+     0.7778,
+     0.9722
+    ],
+    "n": 36
+   },
+   "filters_exact": {
+    "mean": 0.8125,
+    "ci95": [
+     0.625,
+     1.0
+    ],
+    "n": 16
+   },
+   "hallucinated_filter": {
+    "mean": 0.0625,
+    "ci95": [
+     0.0,
+     0.1875
+    ],
+    "n": 16
+   },
+   "query_recall": {
+    "mean": 0.9214,
+    "ci95": [
+     0.84,
+     0.9853
+    ],
+    "n": 16
+   }
+  },
+  "by_group": {
+   "expected=ask_user": {
+    "n": 5,
+    "action_correct": 0.2,
+    "filters_exact": null,
+    "hallucinated_filter": null,
+    "query_recall": null
+   },
+   "expected=find_title": {
+    "n": 5,
+    "action_correct": 1.0,
+    "filters_exact": null,
+    "hallucinated_filter": null,
+    "query_recall": null
+   },
+   "expected=respond": {
+    "n": 5,
+    "action_correct": 1.0,
+    "filters_exact": null,
+    "hallucinated_filter": null,
+    "query_recall": null
+   },
+   "expected=search_catalog": {
+    "n": 16,
+    "action_correct": 1.0,
+    "filters_exact": 0.8125,
+    "hallucinated_filter": 0.0625,
+    "query_recall": 0.9214
+   },
+   "expected=watchlist": {
+    "n": 5,
+    "action_correct": 1.0,
+    "filters_exact": null,
+    "hallucinated_filter": null,
+    "query_recall": null
+   },
+   "lang=en": {
+    "n": 25,
+    "action_correct": 0.92,
+    "filters_exact": 0.7692,
+    "hallucinated_filter": 0.0769,
+    "query_recall": 0.9214
+   },
+   "lang=uk": {
+    "n": 11,
+    "action_correct": 0.8182,
+    "filters_exact": 1.0,
+    "hallucinated_filter": 0.0,
+    "query_recall": 0.9216
+   }
+  },
+  "extra": {
+   "macro_f1": 0.8095,
+   "f1_per_action": {
+    "ask_user": 0.333,
+    "find_title": 1.0,
+    "respond": 0.714,
+    "search_catalog": 1.0,
+    "watchlist": 1.0
+   },
+   "confusion": {
+    "ask_user -> ask_user": 1,
+    "ask_user -> respond": 4,
+    "find_title -> find_title": 5,
+    "respond -> respond": 5,
+    "search_catalog -> search_catalog": 16,
+    "watchlist -> watchlist": 5
+   },
+   "clarify_mcc": 0.4209
+  }
+ }
+}

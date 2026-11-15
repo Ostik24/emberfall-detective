@@ -1,0 +1,257 @@
+{
+ "config": {
+  "name": "default",
+  "agent_prompt": "agent-v4"
+ },
+ "cases": [
+  {
+   "id": "c9-add-no-ask",
+   "lang": "en",
+   "notes": "user waives confirmation in the same message: still no write this turn",
+   "final": [],
+   "proposed": [
+    "movie/603"
+   ],
+   "transcript": [
+    {
+     "user": "Add The Matrix to my watchlist, no need to ask me, just do it",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "I found The Matrix (1999) in the catalog. I haven't saved it yet: the watchlist only changes after you confirm. Shall I add The Matrix to your watchlist? Reply \"yes\" and I'll save it."
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-add-tv-ok",
+   "lang": "en",
+   "notes": "a TV show",
+   "final": [
+    "tv/1396"
+   ],
+   "proposed": [
+    "tv/1396"
+   ],
+   "transcript": [
+    {
+     "user": "Put Breaking Bad on my watchlist",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "I found Breaking Bad (TV, 2008) in the catalog. Shall I add it to your watchlist? Reply yes to confirm."
+    },
+    {
+     "user": "ok",
+     "tools": [
+      "watchlist"
+     ],
+     "reply": "Done. Breaking Bad is now on your watchlist."
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-add-yes",
+   "lang": "en",
+   "notes": "propose, then confirm",
+   "final": [
+    "movie/603"
+   ],
+   "proposed": [
+    "movie/603"
+   ],
+   "transcript": [
+    {
+     "user": "Add The Matrix to my watchlist",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "I found The Matrix (1999) in the catalog. Shall I add it to your watchlist? Please confirm with \"yes\" and I'll save it."
+    },
+    {
+     "user": "yes",
+     "tools": [
+      "watchlist"
+     ],
+     "reply": "Done. The Matrix (1999) is now on your watchlist."
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-add-yes-please",
+   "lang": "en",
+   "notes": "",
+   "final": [
+    "movie/27205"
+   ],
+   "proposed": [
+    "movie/27205"
+   ],
+   "transcript": [
+    {
+     "user": "Please save Inception for later",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "I found Inception (2010) in the catalog. Shall I add it to your watchlist? Reply \"yes\" to confirm and I'll save it."
+    },
+    {
+     "user": "yes please",
+     "tools": [
+      "watchlist"
+     ],
+     "reply": "Done. Inception (2010) is now on your watchlist."
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-list",
+   "lang": "en",
+   "notes": "read only",
+   "final": [
+    "movie/603",
+    "movie/664"
+   ],
+   "proposed": [],
+   "transcript": [
+    {
+     "user": "What's on my watchlist?",
+     "tools": [
+      "watchlist"
+     ],
+     "reply": "Your watchlist has 2 titles:\n1. Twister\n2. The Matrix\n\nWould you like to add or remove anything?"
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-remove-no",
+   "lang": "en",
+   "notes": "",
+   "final": [
+    "movie/664"
+   ],
+   "proposed": [
+    "movie/664",
+    "movie/664"
+   ],
+   "transcript": [
+    {
+     "user": "Remove Twister from my watchlist",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "I found Twister (1996) in the catalog. Do you want me to remove it from your watchlist? Reply \"yes\" to confirm. Nothing has been changed yet."
+    },
+    {
+     "user": "no, keep it",
+     "tools": [],
+     "reply": "Okay, Twister stays on your watchlist. Nothing was changed."
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  },
+  {
+   "id": "c9-remove-yes",
+   "lang": "en",
+   "notes": "",
+   "final": [],
+   "proposed": [
+    "movie/664"
+   ],
+   "transcript": [
+    {
+     "user": "Remove Twister from my watchlist",
+     "tools": [
+      "find_title",
+      "watchlist"
+     ],
+     "reply": "I found Twister (1996) in the catalog. Do you want me to remove it from your watchlist? Reply \"yes\" to confirm. Nothing has been changed yet."
+    },
+    {
+     "user": "yes",
+     "tools": [
+      "watchlist"
+     ],
+     "reply": "Done. Twister (1996) has been removed from your watchlist."
+    }
+   ],
+   "db_correct": 1.0,
+   "unconfirmed_write": 0.0,
+   "proposal_correct": 1.0
+  }
+ ],
+ "metrics": [
+  "db_correct",
+  "unconfirmed_write",
+  "proposal_correct"
+ ],
+ "groups": [
+  "lang"
+ ],
+ "failed": [],
+ "llm": {
+  "api_calls": 23,
+  "cached_calls": 6,
+  "web_searches": 0,
+  "cost_usd": 0.00353154
+ },
+ "split": "test",
+ "summary": {
+  "n": 7,
+  "overall": {
+   "db_correct": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 7
+   },
+   "unconfirmed_write": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 7
+   },
+   "proposal_correct": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 7
+   }
+  },
+  "by_group": {
+   "lang=en": {
+    "n": 7,
+    "db_correct": 1.0,
+    "unconfirmed_write": 0.0,
+    "proposal_correct": 1.0
+   }
+  }
+ }
+}

@@ -1,0 +1,1374 @@
+{
+ "config": {
+  "name": "web",
+  "prompt": "external-v1"
+ },
+ "cases": [
+  {
+   "id": "trec-tot-2023-test-1049",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Fortress",
+   "found": [
+    "movie/37929 Fortress (1985)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-108",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "The Barbarians",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-150",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Necronomicon",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.0017792
+  },
+  {
+   "id": "trec-tot-2023-test-162",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Terror Toons",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-173",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Patlabor WXIII the Movie",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022845225
+  },
+  {
+   "id": "trec-tot-2023-test-201",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Saint Sinner",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.024925649999999997
+  },
+  {
+   "id": "trec-tot-2023-test-223",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Kamillions",
+   "found": [
+    "movie/83416 Kamillions (1990)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.023047325000000007
+  },
+  {
+   "id": "trec-tot-2023-test-224",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Ænigma",
+   "found": [
+    "movie/40461 Ænigma (1987)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022667800000000002
+  },
+  {
+   "id": "trec-tot-2023-test-250",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Moment to Moment",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.025289350000000002
+  },
+  {
+   "id": "trec-tot-2023-test-261",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "The Watcher in the Woods",
+   "found": [
+    "movie/21970 The Watcher in the Woods (1980)",
+    "movie/479837 The Watcher in the Woods (2017)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022710000000000008
+  },
+  {
+   "id": "trec-tot-2023-test-285",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Shoot to Kill",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02260442500000001
+  },
+  {
+   "id": "trec-tot-2023-test-298",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Deadly Advice",
+   "found": [
+    "movie/251732 Deadly Advice (1994)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02263155
+  },
+  {
+   "id": "trec-tot-2023-test-302",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "The Forgotten One",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02296585000000001
+  },
+  {
+   "id": "trec-tot-2023-test-327",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Hanger",
+   "found": [
+    "movie/27389 Hanger (2009)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022870625000000006
+  },
+  {
+   "id": "trec-tot-2023-test-334",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Come Back to Me",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022735250000000012
+  },
+  {
+   "id": "trec-tot-2023-test-356",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Gunhed",
+   "found": [
+    "movie/1702 Death Machine (1995)",
+    "movie/9102 Screamers (1995)",
+    "movie/92698 Project: Metalbeast (1995)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.023438324999999982
+  },
+  {
+   "id": "trec-tot-2023-test-361",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Terminal USA",
+   "found": [
+    "movie/183386 Terminal USA (1993)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022654899999999978
+  },
+  {
+   "id": "trec-tot-2023-test-390",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Thoughtcrimes",
+   "found": [
+    "movie/14942 Thoughtcrimes (2003)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022294599999999998
+  },
+  {
+   "id": "trec-tot-2023-test-452",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "The Exquisite Corpse Project",
+   "found": [
+    "movie/187566 The Exquisite Corpse Project (2012)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022498375000000015
+  },
+  {
+   "id": "trec-tot-2023-test-460",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Shredder Orpheus",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.023002475000000022
+  },
+  {
+   "id": "trec-tot-2023-test-466",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Kiss the Girls and Make Them Die",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022415375000000015
+  },
+  {
+   "id": "trec-tot-2023-test-467",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "The White Dragon",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02312617499999997
+  },
+  {
+   "id": "trec-tot-2023-test-477",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Folks!",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022788099999999978
+  },
+  {
+   "id": "trec-tot-2023-test-494",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Harlequin",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.023047749999999978
+  },
+  {
+   "id": "trec-tot-2023-test-501",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Testament",
+   "found": [
+    "movie/108062 Where Have All the People Gone (1974)",
+    "movie/21259 Testament (1983)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02280777500000003
+  },
+  {
+   "id": "trec-tot-2023-test-519",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Vinyan",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 0.0,
+   "cost_usd": 0.0005249999999999977
+  },
+  {
+   "id": "trec-tot-2023-test-610",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Desperate Measures",
+   "found": [
+    "movie/9458 Desperate Measures (1998)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 1.0,
+   "cost_usd": 0.011521025000000018
+  },
+  {
+   "id": "trec-tot-2023-test-611",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "House of Bones",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022726124999999986
+  },
+  {
+   "id": "trec-tot-2023-test-616",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "The Strange Vengeance of Rosalie",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.024789350000000043
+  },
+  {
+   "id": "trec-tot-2023-test-621",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "14 Going on 30",
+   "found": [
+    "movie/163523 14 Going on 30 (1988)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.023020174999999976
+  },
+  {
+   "id": "trec-tot-2023-test-630",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "The Abrafaxe – Under the Black Flag",
+   "found": [
+    "movie/50179 The Abrafaxe – Under the Black Flag (2001)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02226585000000003
+  },
+  {
+   "id": "trec-tot-2023-test-636",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Bleeders",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022646775000000008
+  },
+  {
+   "id": "trec-tot-2023-test-656",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Mystery Mansion",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02304377499999999
+  },
+  {
+   "id": "trec-tot-2023-test-661",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Hidden City",
+   "found": [
+    "movie/55908 Hidden City (1987)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022444774999999972
+  },
+  {
+   "id": "trec-tot-2023-test-668",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "The Drifter",
+   "found": [
+    "movie/193084 The Drifter (1988)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022510350000000012
+  },
+  {
+   "id": "trec-tot-2023-test-673",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Rising Stars",
+   "found": [
+    "movie/55567 Standing Ovation (2010)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02279129999999996
+  },
+  {
+   "id": "trec-tot-2023-test-702",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Little Criminals",
+   "found": [
+    "movie/70374 Little Criminals (1995)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02295765000000005
+  },
+  {
+   "id": "trec-tot-2023-test-745",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Spirit of the Forest",
+   "found": [
+    "movie/47644 Spirit of the Forest (2008)",
+    "movie/116514 The Forest (2011)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022769299999999992
+  },
+  {
+   "id": "trec-tot-2023-test-824",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Skyrunners",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022754799999999964
+  },
+  {
+   "id": "trec-tot-2023-test-833",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Trick or Treat",
+   "found": [
+    "movie/25438 Trick or Treat (1986)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 1.0,
+   "cost_usd": 0.011584299999999992
+  },
+  {
+   "id": "trec-tot-2023-test-869",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Subterano",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022892374999999965
+  },
+  {
+   "id": "trec-tot-2023-test-884",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Phantom Town",
+   "found": [
+    "movie/180886 Phantom Town (1999)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022603350000000022
+  },
+  {
+   "id": "trec-tot-2023-test-930",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "He Knows You're Alone",
+   "found": [
+    "movie/65262 He Knows You're Alone (1980)",
+    "movie/25338 The Silent Partner (1978)",
+    "movie/79649 Eyes of a Stranger (1981)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02267647500000003
+  },
+  {
+   "id": "trec-tot-2023-test-931",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Phantom Town",
+   "found": [
+    "movie/107866 Goobers! (1997)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022931499999999994
+  },
+  {
+   "id": "trec-tot-2023-test-964",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "Poor Cow",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02274337500000001
+  },
+  {
+   "id": "trec-tot-2023-test-980",
+   "source": "dataset:trec-tot-2023-test",
+   "answer_title": "The Secret of My Success",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02504474999999995
+  },
+  {
+   "id": "trec-tot-2024-test-2017",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Adventures of Johnny Tao",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022862225000000014
+  },
+  {
+   "id": "trec-tot-2024-test-2020",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Sarkar",
+   "found": [
+    "movie/504231 Sarkar (2018)",
+    "movie/66526 Mudhalvan (1999)",
+    "movie/202616 Thalaivaa (2013)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 0.0,
+   "cost_usd": 0.0005604999999999638
+  },
+  {
+   "id": "trec-tot-2024-test-2027",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Lassiter",
+   "found": [
+    "movie/121438 The Sex Thief (1973)",
+    "movie/69065 Deadfall (1968)",
+    "movie/153183 Jack of Diamonds (1967)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02329020000000004
+  },
+  {
+   "id": "trec-tot-2024-test-2032",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Family of Strangers",
+   "found": [
+    "movie/165657 Family of Strangers (1993)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022693850000000015
+  },
+  {
+   "id": "trec-tot-2024-test-2081",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Tales from the Darkside",
+   "found": [],
+   "unresolved": [
+    "Tales from the Darkside: \"The Grither\" (TV episode)"
+   ],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02324732500000004
+  },
+  {
+   "id": "trec-tot-2024-test-2086",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "The Last Hunt",
+   "found": [
+    "movie/127564 The Last Hunt (1956)",
+    "movie/46845 Man in the Wilderness (1971)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02343142500000006
+  },
+  {
+   "id": "trec-tot-2024-test-2090",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "The Light at the Edge of the World",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022775224999999955
+  },
+  {
+   "id": "trec-tot-2024-test-2094",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Five Came Back",
+   "found": [
+    "movie/46525 Back from Eternity (1956)",
+    "movie/65858 Five Came Back (1939)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.023161449999999917
+  },
+  {
+   "id": "trec-tot-2024-test-2116",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "The Kiss",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.024819900000000006
+  },
+  {
+   "id": "trec-tot-2024-test-2120",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Malo Korrigan",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.023187075000000057
+  },
+  {
+   "id": "trec-tot-2024-test-2121",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Arrowhead",
+   "found": [
+    "movie/28646 Spoiler (1998)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022847349999999933
+  },
+  {
+   "id": "trec-tot-2024-test-2135",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Treasure of the Four Crowns",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.024527975000000035
+  },
+  {
+   "id": "trec-tot-2024-test-2138",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Wicked City",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.025054049999999828
+  },
+  {
+   "id": "trec-tot-2024-test-2155",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Moonlight",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022583149999999996
+  },
+  {
+   "id": "trec-tot-2024-test-2192",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Duress",
+   "found": [
+    "movie/3432 Mr. Brooks (2007)",
+    "movie/42196 The Bad Seed (1956)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02306187500000001
+  },
+  {
+   "id": "trec-tot-2024-test-2209",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Viswasam",
+   "found": [
+    "movie/503356 Viswasam (2019)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 1.0,
+   "cost_usd": 0.011784599999999923
+  },
+  {
+   "id": "trec-tot-2024-test-2236",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Topper Returns",
+   "found": [
+    "movie/44875 Topper Returns (1941)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02291252499999996
+  },
+  {
+   "id": "trec-tot-2024-test-2243",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "It's Alive",
+   "found": [
+    "movie/97298 It's Alive (1969)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022557474999999938
+  },
+  {
+   "id": "trec-tot-2024-test-2256",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Heart and Souls",
+   "found": [
+    "movie/12187 Heart and Souls (1993)",
+    "movie/332393 Ghostly Bus (1995)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022787724999999925
+  },
+  {
+   "id": "trec-tot-2024-test-2314",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Nowhere Man",
+   "found": [
+    "movie/219937 Vanishing Act (1986)",
+    "movie/87793 A Trap for Lonely Man (1990)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022980325000000024
+  },
+  {
+   "id": "trec-tot-2024-test-2327",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Treasure of the Four Crowns",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022659474999999984
+  },
+  {
+   "id": "trec-tot-2024-test-2333",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "F.T.W.",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022946200000000028
+  },
+  {
+   "id": "trec-tot-2024-test-2348",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Fading of the Cries",
+   "found": [
+    "movie/287527 Witches Blood (2014)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.023022525000000016
+  },
+  {
+   "id": "trec-tot-2024-test-2358",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Terror Firmer",
+   "found": [
+    "movie/53244 Sex Is Comedy (2002)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02296242500000001
+  },
+  {
+   "id": "trec-tot-2024-test-2360",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Solarbabies",
+   "found": [
+    "movie/36677 Solarbabies (1986)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022387324999999958
+  },
+  {
+   "id": "trec-tot-2024-test-2368",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Dark Country",
+   "found": [
+    "movie/23382 Dark Country (2009)",
+    "movie/1014629 The Fearway (2023)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02305730000000006
+  },
+  {
+   "id": "trec-tot-2024-test-2371",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Warriors of Virtue",
+   "found": [
+    "movie/49478 Warriors of Virtue (1997)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02265089999999992
+  },
+  {
+   "id": "trec-tot-2024-test-2373",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "The Nutty Professor",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02291629999999989
+  },
+  {
+   "id": "trec-tot-2024-test-2375",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Star Pilot",
+   "found": [
+    "movie/80339 Star Pilot (1966)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02278800000000003
+  },
+  {
+   "id": "trec-tot-2024-test-2385",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Jake Speed",
+   "found": [
+    "movie/71141 Jake Speed (1986)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022779874999999894
+  },
+  {
+   "id": "trec-tot-2024-test-2419",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Popcorn",
+   "found": [
+    "movie/39875 Popcorn (1991)",
+    "movie/14029 Demons (1985)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022826699999999978
+  },
+  {
+   "id": "trec-tot-2024-test-2424",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Ice",
+   "found": [
+    "movie/425 Ice Age (2002)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022562874999999982
+  },
+  {
+   "id": "trec-tot-2024-test-2433",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Limbo",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022662699999999925
+  },
+  {
+   "id": "trec-tot-2024-test-2444",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Demon in the Bottle",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.024666599999999983
+  },
+  {
+   "id": "trec-tot-2024-test-2446",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Monster High",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.024917100000000136
+  },
+  {
+   "id": "trec-tot-2024-test-2448",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Ganapath",
+   "found": [],
+   "unresolved": [
+    "Ganapath: A Hero Is Born"
+   ],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02257514999999999
+  },
+  {
+   "id": "trec-tot-2024-test-2456",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "The Monster Club",
+   "found": [
+    "movie/39578 The Monster Club (1981)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.023280525000000107
+  },
+  {
+   "id": "trec-tot-2024-test-2466",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Terror at Red Wolf Inn",
+   "found": [
+    "movie/108743 Terror at Red Wolf Inn (1972)",
+    "movie/58411 Cannibal Girls (1973)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02253567500000009
+  },
+  {
+   "id": "trec-tot-2024-test-2507",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Underground",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02325664999999999
+  },
+  {
+   "id": "trec-tot-2024-test-2513",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Cameron's Closet",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022784649999999962
+  },
+  {
+   "id": "trec-tot-2024-test-2516",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Sole Survivor",
+   "found": [
+    "movie/294092 Sole Survivor (2000)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.0226035
+  },
+  {
+   "id": "trec-tot-2024-test-2523",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Whiffs",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022911150000000102
+  },
+  {
+   "id": "trec-tot-2024-test-2532",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Lucky Star",
+   "found": [
+    "movie/105981 Lucky Star (1929)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02264062499999997
+  },
+  {
+   "id": "trec-tot-2024-test-2543",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Tell Me Yes...",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.02287632499999992
+  },
+  {
+   "id": "trec-tot-2024-test-2544",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "The Substitute 3: Winner Takes All",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022802575000000047
+  },
+  {
+   "id": "trec-tot-2024-test-2572",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Panic Button",
+   "found": [],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 0.0,
+   "rescue@3": 0.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.022391175000000096
+  },
+  {
+   "id": "trec-tot-2024-test-2583",
+   "source": "dataset:trec-tot-2024-test",
+   "answer_title": "Afwaah",
+   "found": [
+    "movie/939423 Afwaah (2023)"
+   ],
+   "unresolved": [],
+   "error": null,
+   "rescue@1": 1.0,
+   "rescue@3": 1.0,
+   "web_searches": 2.0,
+   "cost_usd": 0.023030475000000106
+  }
+ ],
+ "metrics": [
+  "rescue@1",
+  "rescue@3",
+  "web_searches",
+  "cost_usd"
+ ],
+ "groups": [
+  "source"
+ ],
+ "failed": [
+  "trec-tot-2023-test-108",
+  "trec-tot-2023-test-150",
+  "trec-tot-2023-test-162",
+  "trec-tot-2023-test-173",
+  "trec-tot-2023-test-201",
+  "trec-tot-2023-test-250",
+  "trec-tot-2023-test-285",
+  "trec-tot-2023-test-302",
+  "trec-tot-2023-test-334",
+  "trec-tot-2023-test-356",
+  "trec-tot-2023-test-460",
+  "trec-tot-2023-test-466",
+  "trec-tot-2023-test-467",
+  "trec-tot-2023-test-477",
+  "trec-tot-2023-test-494",
+  "trec-tot-2023-test-519",
+  "trec-tot-2023-test-611",
+  "trec-tot-2023-test-616",
+  "trec-tot-2023-test-636",
+  "trec-tot-2023-test-656",
+  "trec-tot-2023-test-673",
+  "trec-tot-2023-test-824",
+  "trec-tot-2023-test-869",
+  "trec-tot-2023-test-931",
+  "trec-tot-2023-test-964",
+  "trec-tot-2023-test-980",
+  "trec-tot-2024-test-2017",
+  "trec-tot-2024-test-2027",
+  "trec-tot-2024-test-2081",
+  "trec-tot-2024-test-2090",
+  "trec-tot-2024-test-2116",
+  "trec-tot-2024-test-2120",
+  "trec-tot-2024-test-2121",
+  "trec-tot-2024-test-2135",
+  "trec-tot-2024-test-2138",
+  "trec-tot-2024-test-2155",
+  "trec-tot-2024-test-2192",
+  "trec-tot-2024-test-2314",
+  "trec-tot-2024-test-2327",
+  "trec-tot-2024-test-2333",
+  "trec-tot-2024-test-2348",
+  "trec-tot-2024-test-2358",
+  "trec-tot-2024-test-2373",
+  "trec-tot-2024-test-2424",
+  "trec-tot-2024-test-2433",
+  "trec-tot-2024-test-2444",
+  "trec-tot-2024-test-2446",
+  "trec-tot-2024-test-2448",
+  "trec-tot-2024-test-2507",
+  "trec-tot-2024-test-2513",
+  "trec-tot-2024-test-2523",
+  "trec-tot-2024-test-2543",
+  "trec-tot-2024-test-2544",
+  "trec-tot-2024-test-2572"
+ ],
+ "llm": {
+  "api_calls": 99,
+  "cached_calls": 4,
+  "web_searches": 171,
+  "cost_usd": 1.9730094749999998
+ },
+ "split": "dev",
+ "summary": {
+  "n": 93,
+  "overall": {
+   "rescue@1": {
+    "mean": 0.3978,
+    "ci95": [
+     0.3011,
+     0.4946
+    ],
+    "n": 93
+   },
+   "rescue@3": {
+    "mean": 0.4194,
+    "ci95": [
+     0.3226,
+     0.5161
+    ],
+    "n": 93
+   },
+   "web_searches": {
+    "mean": 1.9247,
+    "ci95": [
+     1.8495,
+     1.9892
+    ],
+    "n": 93
+   },
+   "cost_usd": {
+    "mean": 0.0212,
+    "ci95": [
+     0.0199,
+     0.0223
+    ],
+    "n": 93
+   }
+  },
+  "by_group": {
+   "source=dataset:trec-tot-2023-test": {
+    "n": 46,
+    "rescue@1": 0.413,
+    "rescue@3": 0.4348,
+    "web_searches": 1.913,
+    "cost_usd": 0.0201
+   },
+   "source=dataset:trec-tot-2024-test": {
+    "n": 47,
+    "rescue@1": 0.383,
+    "rescue@3": 0.4043,
+    "web_searches": 1.9362,
+    "cost_usd": 0.0224
+   }
+  },
+  "extra": {
+   "total_cost_usd": 1.973,
+   "cost_per_rescue_usd": 0.0506
+  }
+ }
+}

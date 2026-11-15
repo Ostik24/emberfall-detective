@@ -1,0 +1,73 @@
+{
+ "config": {
+  "name": "stdio",
+  "transport": "stdio"
+ },
+ "cases": [
+  {
+   "id": "search_catalog",
+   "schema_identical": 1.0,
+   "call_ok": 1.0,
+   "result_head": "{\"candidates\": [{\"id\": \"movie/216282\", \"title\": \"Into the Storm\", \"year\": 2014, \"genres\": [\"Action\", \"Thriller\"], \"snippet\": \"Into the Storm. Action, Thriller. tornado, oklahoma, storm chaser, high school graduation, disaster, found footage, disaster movie. Into the Storm is a 2014 American found fo"
+  },
+  {
+   "id": "find_title",
+   "schema_identical": 1.0,
+   "call_ok": 1.0,
+   "result_head": "{\"query\": \"Twistr\", \"matches\": [{\"item_type\": \"movie\", \"item_id\": 664, \"title\": \"Twister\", \"year\": 1996, \"score\": 92.3, \"source\": \"catalog\", \"in_catalog\": true}, {\"item_type\": \"movie\", \"item_id\": 718821, \"title\": \"Twisters\", \"year\": 2024, \"score\": 85.7, \"source\": \"catalog\", \"in_catalog\": true}, {\"it"
+  },
+  {
+   "id": "similar_to",
+   "schema_identical": 1.0,
+   "call_ok": 1.0,
+   "result_head": "{\"found\": true, \"anchor\": \"Twister\", \"similar\": [{\"id\": \"movie/718821\", \"title\": \"Twisters\", \"year\": 2024, \"genres\": [\"Action\", \"Thriller\"], \"snippet\": \"Twisters. Action, Thriller. dying and death, rodeo, climate, tornado, twister, natural disaster, oklahoma, affectation, storm chaser, sequel, disas"
+  },
+  {
+   "id": "get_title_details",
+   "schema_identical": 1.0,
+   "call_ok": 1.0,
+   "result_head": "{\"item_type\": \"movie\", \"item_id\": 664, \"found\": true, \"in_catalog\": true, \"title\": \"Twister\", \"original_title\": \"Twister\", \"year\": 1996, \"runtime_minutes\": 113, \"genres\": [\"Action\", \"Adventure\", \"Drama\"], \"directors\": [\"Jan de Bont\"], \"cast\": [\"Helen Hunt\", \"Bill Paxton\", \"Jami Gertz\", \"Cary Elwes\","
+  },
+  {
+   "id": "watchlist",
+   "schema_identical": 1.0,
+   "call_ok": 1.0,
+   "result_head": "{\"status\": \"listed\", \"items\": [], \"message\": \"\"}"
+  },
+  {
+   "id": "external_lookup",
+   "schema_identical": 1.0,
+   "call_ok": 1.0,
+   "result_head": "{\"candidates\": [{\"id\": \"movie/664\", \"title\": \"Twister\", \"year\": 1996, \"overview\": \"An unprecedented series of violent tornadoes is sweeping across Oklahoma. Tornado chasers, headed by Dr. Jo Harding, attempt to release a groundbreaking device that will allow them to track them and create a more adva"
+  }
+ ],
+ "metrics": [
+  "schema_identical",
+  "call_ok"
+ ],
+ "groups": [],
+ "failed": [],
+ "split": "test",
+ "summary": {
+  "n": 6,
+  "overall": {
+   "schema_identical": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 6
+   },
+   "call_ok": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 6
+   }
+  },
+  "by_group": {}
+ }
+}

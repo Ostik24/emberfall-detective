@@ -1,0 +1,2653 @@
+{
+ "config": {
+  "name": "default",
+  "accept": 90.0,
+  "scorer": "ratio",
+  "parent": "wratio"
+ },
+ "cases": [
+  {
+   "id": "movie-10193-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Toy Story 3",
+   "answer_title": "Toy Story 3",
+   "got": "Toy Story 3 (2010, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-10193-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Toy Stoyr 3",
+   "answer_title": "Toy Story 3",
+   "got": "Toy Story 3 (2010, catalog, 90.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-10193-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Історія іграшок 3: Велика втеча",
+   "answer_title": "Toy Story 3",
+   "got": "Toy Story 3 (2010, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-10530-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Pocahontas",
+   "answer_title": "Pocahontas",
+   "got": "Pocahontas (1995, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-10530-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Pocahonas",
+   "answer_title": "Pocahontas",
+   "got": "Pocahontas (1995, catalog, 94.7)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-10530-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Покахонтас",
+   "answer_title": "Pocahontas",
+   "got": "Pocahontas (1995, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-10763-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Dr. T & the Women",
+   "answer_title": "Dr. T & the Women",
+   "got": "Dr. T & the Women (2000, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-10763-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Dr. T & the Wommen",
+   "answer_title": "Dr. T & the Women",
+   "got": "Dr. T & the Women (2000, catalog, 97.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-10763-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Доктор Ті і його жінки",
+   "answer_title": "Dr. T & the Women",
+   "got": "Dr. T & the Women (2000, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-10986-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Taming of the Scoundrel",
+   "answer_title": "The Taming of the Scoundrel",
+   "got": "The Taming of the Scoundrel (1980, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-10986-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Tamnig of the Socundrel",
+   "answer_title": "The Taming of the Scoundrel",
+   "got": "The Taming of the Scoundrel (1980, catalog, 92.6)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-10986-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Приборкання норовливого",
+   "answer_title": "The Taming of the Scoundrel",
+   "got": "The Taming of the Scoundrel (1980, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11113-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "My Fair Lady",
+   "answer_title": "My Fair Lady",
+   "got": "My Fair Lady (1964, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11113-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Моя чарівна леді",
+   "answer_title": "My Fair Lady",
+   "got": "My Fair Lady (1964, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1136867-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Materialists",
+   "answer_title": "Materialists",
+   "got": "Materialists (2025, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1136867-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Mateialists",
+   "answer_title": "Materialists",
+   "got": "Materialists (2025, catalog, 95.7)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1136867-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Матеріалісти",
+   "answer_title": "Materialists",
+   "got": "Materialists (2025, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11398-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Art of War",
+   "answer_title": "The Art of War",
+   "got": "The Art of War (2000, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11398-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Мистецтво війни",
+   "answer_title": "The Art of War",
+   "got": "The Art of War (2000, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11463-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Battle of Britain",
+   "answer_title": "Battle of Britain",
+   "got": "Battle of Britain (1969, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11463-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Batte of Brtain",
+   "answer_title": "Battle of Britain",
+   "got": "Battle of Britain (1969, catalog, 93.8)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11548-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "*batteries not included",
+   "answer_title": "*batteries not included",
+   "got": "*batteries not included (1987, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11548-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "*batteres not incluedd",
+   "answer_title": "*batteries not included",
+   "got": "*batteries not included (1987, catalog, 93.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11548-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Батарейки не додаються",
+   "answer_title": "*batteries not included",
+   "got": "*batteries not included (1987, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11579-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Don Camillo's Last Round",
+   "answer_title": "Don Camillo's Last Round",
+   "got": "Don Camillo's Last Round (1955, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11579-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Don Camill'os Last Rond",
+   "answer_title": "Don Camillo's Last Round",
+   "got": "Don Camillo's Last Round (1955, catalog, 93.6)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11602-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Through a Glass Darkly",
+   "answer_title": "Through a Glass Darkly",
+   "got": "Through a Glass Darkly (1961, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11602-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Trhough a Glasss Darkly",
+   "answer_title": "Through a Glass Darkly",
+   "got": "Through a Glass Darkly (1961, catalog, 93.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11602-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Крiзь тьмяне скло",
+   "answer_title": "Through a Glass Darkly",
+   "got": "Through a Glass Darkly (1961, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11606-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Last Life in the Universe",
+   "answer_title": "Last Life in the Universe",
+   "got": "Last Life in the Universe (2003, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11606-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Last Life in the Unierse",
+   "answer_title": "Last Life in the Universe",
+   "got": "Last Life in the Universe (2003, catalog, 98.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11606-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Останнє життя у Всесвіті",
+   "answer_title": "Last Life in the Universe",
+   "got": "Last Life in the Universe (2003, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11620-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Quo Vadis",
+   "answer_title": "Quo Vadis",
+   "got": "Quo Vadis (1951, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-11620-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Quo Vaadis",
+   "answer_title": "Quo Vadis",
+   "got": "Quo Vadis (1951, catalog, 94.7)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-12481-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Big Boss",
+   "answer_title": "The Big Boss",
+   "got": "The Big Boss (1971, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-12481-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Великий бос",
+   "answer_title": "The Big Boss",
+   "got": "The Big Boss (1971, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-12521-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Shocker",
+   "answer_title": "Shocker",
+   "got": "Shocker (1989, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-12521-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Shockker",
+   "answer_title": "Shocker",
+   "got": "Shocker (1989, catalog, 93.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1280738-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Furious",
+   "answer_title": "The Furious",
+   "got": "The Furious (2026, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1280738-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Fuirous",
+   "answer_title": "The Furious",
+   "got": "The Furious (2026, catalog, 90.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1280738-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Він шалений",
+   "answer_title": "The Furious",
+   "got": "The Furious (2026, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-13016-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Zeitgeist: The Movie",
+   "answer_title": "Zeitgeist: The Movie",
+   "got": "Zeitgeist: The Movie (2007, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-13016-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Zeitgest: The Mvie",
+   "answer_title": "Zeitgeist: The Movie",
+   "got": "Zeitgeist: The Movie (2007, catalog, 94.4)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-13016-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Дух часу",
+   "answer_title": "Zeitgeist: The Movie",
+   "got": "Zeitgeist: The Movie (2007, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-13671-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Music Man",
+   "answer_title": "The Music Man",
+   "got": "The Music Man (1962, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-13671-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Muusic Man",
+   "answer_title": "The Music Man",
+   "got": "The Music Man (1962, catalog, 96.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-15242-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Snoopy, Come Home",
+   "answer_title": "Snoopy, Come Home",
+   "got": "Snoopy, Come Home (1972, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-15242-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Snopy, Come Home",
+   "answer_title": "Snoopy, Come Home",
+   "got": "Snoopy, Come Home (1972, catalog, 96.8)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-158-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Knockin' on Heaven's Door",
+   "answer_title": "Knockin' on Heaven's Door",
+   "got": "Knockin' on Heaven's Door (1997, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-158-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Knocki' on Heavenn's Door",
+   "answer_title": "Knockin' on Heaven's Door",
+   "got": "Knockin' on Heaven's Door (1997, catalog, 95.8)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-158-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Достукатися до небес",
+   "answer_title": "Knockin' on Heaven's Door",
+   "got": "Knockin' on Heaven's Door (1997, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1627824-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Rocky's Cat-astrophe",
+   "answer_title": "Rocky's Cat-astrophe",
+   "got": "Rocky's Cat-astrophe (2026, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1627824-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Rocyk's Cat-aastrophe",
+   "answer_title": "Rocky's Cat-astrophe",
+   "got": "Rocky's Cat-astrophe (2026, catalog, 92.7)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1627824-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Щенячий патруль: Кото-строфа Роккі",
+   "answer_title": "Rocky's Cat-astrophe",
+   "got": "Rocky's Cat-astrophe (2026, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-16538-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "I Love You, Man",
+   "answer_title": "I Love You, Man",
+   "got": "I Love You, Man (2009, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-16538-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Люблю тебе, чуваче",
+   "answer_title": "I Love You, Man",
+   "got": "I Love You, Man (2009, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1667-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "March of the Penguins",
+   "answer_title": "March of the Penguins",
+   "got": "March of the Penguins (2005, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1667-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Mach of the Pengguins",
+   "answer_title": "March of the Penguins",
+   "got": "March of the Penguins (2005, catalog, 95.2)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-1667-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Марш імператора",
+   "answer_title": "March of the Penguins",
+   "got": "March of the Penguins (2005, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-179538-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Witching & Bitching",
+   "answer_title": "Witching & Bitching",
+   "got": "Witching & Bitching (2013, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-179538-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Wittching & Bitchig",
+   "answer_title": "Witching & Bitching",
+   "got": "Witching & Bitching (2013, catalog, 95.2)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-179538-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Відьми з Сугаррамурді",
+   "answer_title": "Witching & Bitching",
+   "got": "Witching & Bitching (2013, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-185008-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Yeh Jawaani Hai Deewani",
+   "answer_title": "Yeh Jawaani Hai Deewani",
+   "got": "Yeh Jawaani Hai Deewani (2013, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-185008-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Yeh Jawanai Hai Deewai",
+   "answer_title": "Yeh Jawaani Hai Deewani",
+   "got": "Yeh Jawaani Hai Deewani (2013, catalog, 93.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-2098-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Viva Las Vegas",
+   "answer_title": "Viva Las Vegas",
+   "got": "Viva Las Vegas (1964, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-2098-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Viva Las Veegas",
+   "answer_title": "Viva Las Vegas",
+   "got": "Viva Las Vegas (1964, catalog, 96.6)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-2118-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "L.A. Confidential",
+   "answer_title": "L.A. Confidential",
+   "got": "L.A. Confidential (1997, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-2118-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "L.A. Cnfidential",
+   "answer_title": "L.A. Confidential",
+   "got": "L.A. Confidential (1997, catalog, 96.8)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-2118-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Таємниці Лос-Анджелеса",
+   "answer_title": "L.A. Confidential",
+   "got": "L.A. Confidential (1997, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-21712-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Mind Game",
+   "answer_title": "Mind Game",
+   "got": "Mind Game (2004, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-226486-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Tammy",
+   "answer_title": "Tammy",
+   "got": "Tammy (2014, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-226486-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Tamym",
+   "answer_title": "Tammy",
+   "got": "Tammy (2014, catalog, 80.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-226486-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Теммі",
+   "answer_title": "Tammy",
+   "got": "George & Tammy (2022, tmdb, 100.0)",
+   "success@1": 0.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-22958-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Shape of Things",
+   "answer_title": "The Shape of Things",
+   "got": "The Shape of Things (2003, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-22958-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Sahpe of Thigs",
+   "answer_title": "The Shape of Things",
+   "got": "The Shape of Things (2003, catalog, 91.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-22958-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Суть речей",
+   "answer_title": "The Shape of Things",
+   "got": "The Shape of Things (2003, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-2657-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Pleasantville",
+   "answer_title": "Pleasantville",
+   "got": "Pleasantville (1998, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-2657-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Плезантвіль",
+   "answer_title": "Pleasantville",
+   "got": "Pleasantville (1998, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-27316-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Into the Mirror",
+   "answer_title": "Into the Mirror",
+   "got": "Into the Mirror (2003, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-27316-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Into the Miirror",
+   "answer_title": "Into the Mirror",
+   "got": "Into the Mirror (2003, catalog, 96.8)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-28673-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Nightmare Castle",
+   "answer_title": "Nightmare Castle",
+   "got": "Nightmare Castle (1965, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-28673-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Nightare Caste",
+   "answer_title": "Nightmare Castle",
+   "got": "Nightmare Castle (1965, catalog, 93.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-291092-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Red Riding: The Year of Our Lord 1983",
+   "answer_title": "Red Riding: The Year of Our Lord 1983",
+   "got": "Red Riding: The Year of Our Lord 1983 (2009, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-291092-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Red Ridding: The Year of Our Lord 1983",
+   "answer_title": "Red Riding: The Year of Our Lord 1983",
+   "got": "Red Riding: The Year of Our Lord 1983 (2009, catalog, 98.6)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-293768-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Kidnap",
+   "answer_title": "Kidnap",
+   "got": "Kidnap (2017, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-293768-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Kidnaap",
+   "answer_title": "Kidnap",
+   "got": "Kidnap (2017, catalog, 92.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-293768-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Викрадення",
+   "answer_title": "Kidnap",
+   "got": "Hijack 1971 (2024, tmdb, 100.0)",
+   "success@1": 0.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-300155-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "A Royal Night Out",
+   "answer_title": "A Royal Night Out",
+   "got": "A Royal Night Out (2015, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-300155-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "A Ryal Nigght Out",
+   "answer_title": "A Royal Night Out",
+   "got": "A Royal Night Out (2015, catalog, 94.1)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-300155-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Лондонські канікули",
+   "answer_title": "A Royal Night Out",
+   "got": "A Royal Night Out (2015, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-30131-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "El Siete Machos",
+   "answer_title": "El Siete Machos",
+   "got": "El Siete Machos (1951, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-30131-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "El Sieet Macchos",
+   "answer_title": "El Siete Machos",
+   "got": "El Siete Machos (1951, catalog, 90.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-30204-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Move Over, Darling",
+   "answer_title": "Move Over, Darling",
+   "got": "Move Over, Darling (1963, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-30204-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Move Over, Darlnig",
+   "answer_title": "Move Over, Darling",
+   "got": "Move Over, Darling (1963, catalog, 94.1)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-329263-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Suck Me Shakespeer 2",
+   "answer_title": "Suck Me Shakespeer 2",
+   "got": "Suck Me Shakespeer 2 (2015, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-329263-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Suck Me Shaekspeer 2",
+   "answer_title": "Suck Me Shakespeer 2",
+   "got": "Suck Me Shakespeer 2 (2015, catalog, 95.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-329263-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Відпадний препод 2",
+   "answer_title": "Suck Me Shakespeer 2",
+   "got": "Suck Me Shakespeer 2 (2015, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-335051-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "God Willing",
+   "answer_title": "God Willing",
+   "got": "God Willing (2015, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-335051-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "God Wlling",
+   "answer_title": "God Willing",
+   "got": "God Willing (2015, catalog, 95.2)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-335051-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Якщо Господь забажає",
+   "answer_title": "God Willing",
+   "got": "God Willing (2015, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-33518-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Alligator",
+   "answer_title": "Alligator",
+   "got": "Alligator (1980, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-33518-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Alliigator",
+   "answer_title": "Alligator",
+   "got": "Alligator (1980, catalog, 94.7)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-33518-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Алігатор",
+   "answer_title": "Alligator",
+   "got": "Alligator (1980, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-337404-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Cruella",
+   "answer_title": "Cruella",
+   "got": "Cruella (2021, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-337404-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Crella",
+   "answer_title": "Cruella",
+   "got": "Cruella (2021, catalog, 92.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-337404-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Круелла",
+   "answer_title": "Cruella",
+   "got": "Cruella (2021, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-34528-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Human Condition II: Road to Eternity",
+   "answer_title": "The Human Condition II: Road to Eternity",
+   "got": "The Human Condition II: Road to Eternity (1959, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-34528-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Huan Condition II: Road to Eternnity",
+   "answer_title": "The Human Condition II: Road to Eternity",
+   "got": "The Human Condition II: Road to Eternity (1959, catalog, 97.4)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-35002-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "When Dinosaurs Ruled the Earth",
+   "answer_title": "When Dinosaurs Ruled the Earth",
+   "got": "When Dinosaurs Ruled the Earth (1970, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-35002-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "When Dinosaurs Ruleed the Eatrh",
+   "answer_title": "When Dinosaurs Ruled the Earth",
+   "got": "When Dinosaurs Ruled the Earth (1970, catalog, 95.1)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-35030-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Young One",
+   "answer_title": "The Young One",
+   "got": "The Young One (1960, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-35030-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Youg One",
+   "answer_title": "The Young One",
+   "got": "The Young One (1960, catalog, 96.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-36226-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Chinese Roulette",
+   "answer_title": "Chinese Roulette",
+   "got": "Chinese Roulette (1977, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-36226-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Chnese Rouletet",
+   "answer_title": "Chinese Roulette",
+   "got": "Chinese Roulette (1977, catalog, 90.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-36226-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Китайська рулетка",
+   "answer_title": "Chinese Roulette",
+   "got": "Chinese Roulette (1977, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-36459-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Man in the Shadow",
+   "answer_title": "Man in the Shadow",
+   "got": "Man in the Shadow (1957, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-36459-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Man in the Sadow",
+   "answer_title": "Man in the Shadow",
+   "got": "Man in the Shadow (1957, catalog, 97.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-3782-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Ikiru",
+   "answer_title": "Ikiru",
+   "got": "Ikiru (1952, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-3782-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Iiru",
+   "answer_title": "Ikiru",
+   "got": "Ikiru (1952, catalog, 88.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-3782-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Жити",
+   "answer_title": "Ikiru",
+   "got": "Life Will Go On! (1995, tmdb, 100.0)",
+   "success@1": 0.0,
+   "success@5": 0.0
+  },
+  {
+   "id": "movie-38291-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Educating Rita",
+   "answer_title": "Educating Rita",
+   "got": "Educating Rita (1983, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-38291-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Educatig Rita",
+   "answer_title": "Educating Rita",
+   "got": "Educating Rita (1983, catalog, 96.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-38432-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Tarnished Angels",
+   "answer_title": "The Tarnished Angels",
+   "got": "The Tarnished Angels (1957, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-38432-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Tarnisheed Anngels",
+   "answer_title": "The Tarnished Angels",
+   "got": "The Tarnished Angels (1957, catalog, 95.2)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-38432-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Заплямовані янголи",
+   "answer_title": "The Tarnished Angels",
+   "got": "The Tarnished Angels (1957, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-42664-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The War Lord",
+   "answer_title": "The War Lord",
+   "got": "The War Lord (1965, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-42664-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Полководець",
+   "answer_title": "The War Lord",
+   "got": "The War Lord (1965, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-431075-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Polaroid",
+   "answer_title": "Polaroid",
+   "got": "Polaroid (2019, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-431075-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Poaroid",
+   "answer_title": "Polaroid",
+   "got": "Polaroid (2019, catalog, 93.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-431075-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Полароід",
+   "answer_title": "Polaroid",
+   "got": "Polaroid (2019, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-434616-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Patients",
+   "answer_title": "Patients",
+   "got": "Patients (2017, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-434616-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Patienst",
+   "answer_title": "Patients",
+   "got": "Patients (2017, catalog, 87.5)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-437109-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Villainess",
+   "answer_title": "The Villainess",
+   "got": "The Villainess (2017, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-437109-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Villainses",
+   "answer_title": "The Villainess",
+   "got": "The Villainess (2017, catalog, 92.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-437109-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Злочинниця",
+   "answer_title": "The Villainess",
+   "got": "The Villainess (2017, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-44251-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Dragon Ball Z: Broly - Second Coming",
+   "answer_title": "Dragon Ball Z: Broly - Second Coming",
+   "got": "Dragon Ball Z: Broly - Second Coming (1994, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-44251-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Drragon Ball Z: Boly - Second Coming",
+   "answer_title": "Dragon Ball Z: Broly - Second Coming",
+   "got": "Dragon Ball Z: Broly - Second Coming (1994, catalog, 97.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-489412-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "It's Such a Beautiful Day",
+   "answer_title": "It's Such a Beautiful Day",
+   "got": "It's Such a Beautiful Day (2012, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-489412-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "It's Such a Beautiflu Day",
+   "answer_title": "It's Such a Beautiful Day",
+   "got": "It's Such a Beautiful Day (2012, catalog, 96.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-500860-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Mustang",
+   "answer_title": "The Mustang",
+   "got": "The Mustang (2019, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-500860-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Mstang",
+   "answer_title": "The Mustang",
+   "got": "The Mustang (2019, catalog, 95.2)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-500860-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Мустанг",
+   "answer_title": "The Mustang",
+   "got": "Mustang Pacer (1976, tmdb, 100.0)",
+   "success@1": 0.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-502033-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Sound of Metal",
+   "answer_title": "Sound of Metal",
+   "got": "Sound of Metal (2020, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-502033-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Soound of Metla",
+   "answer_title": "Sound of Metal",
+   "got": "Sound of Metal (2020, catalog, 89.7)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-502033-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Звук металу",
+   "answer_title": "Sound of Metal",
+   "got": "Sound of Metal (2020, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-50474-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Four Horsemen of the Apocalypse",
+   "answer_title": "The Four Horsemen of the Apocalypse",
+   "got": "The Four Horsemen of the Apocalypse (1962, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-50474-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Four Horsemeen of the Apocallypse",
+   "answer_title": "The Four Horsemen of the Apocalypse",
+   "got": "The Four Horsemen of the Apocalypse (1962, catalog, 97.2)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-540-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "D.E.B.S.",
+   "answer_title": "D.E.B.S.",
+   "got": "D.E.B.S. (2005, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-540-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Шпигунки",
+   "answer_title": "D.E.B.S.",
+   "got": "D.E.B.S. (2005, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-544-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "There's Something About Mary",
+   "answer_title": "There's Something About Mary",
+   "got": "There's Something About Mary (1998, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-544-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Three's Somethnig About Mary",
+   "answer_title": "There's Something About Mary",
+   "got": "There's Something About Mary (1998, catalog, 92.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-544-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Всі шаленіють від Мері",
+   "answer_title": "There's Something About Mary",
+   "got": "There's Something About Mary (1998, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-573171-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Little Eggs: A Frozen Rescue",
+   "answer_title": "Little Eggs: A Frozen Rescue",
+   "got": "Little Eggs: A Frozen Rescue (2022, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-573171-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Lttle Eggs: A Froezn Rescue",
+   "answer_title": "Little Eggs: A Frozen Rescue",
+   "got": "Little Eggs: A Frozen Rescue (2022, catalog, 94.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-576712-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Everybody’s Everything",
+   "answer_title": "Everybody’s Everything",
+   "got": "Everybody’s Everything (2019, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-576712-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Everyboody’s Everythng",
+   "answer_title": "Everybody’s Everything",
+   "got": "Everybody’s Everything (2019, catalog, 95.5)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-576712-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Усе для всіх: Lil Peep",
+   "answer_title": "Everybody’s Everything",
+   "got": "Everybody’s Everything (2019, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-69610-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "King of the Doormen",
+   "answer_title": "King of the Doormen",
+   "got": "King of the Doormen (1977, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-69610-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "King of the Dormen",
+   "answer_title": "King of the Doormen",
+   "got": "King of the Doormen (1977, catalog, 97.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-7857-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Amarcord",
+   "answer_title": "Amarcord",
+   "got": "Amarcord (1973, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-7857-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Amarcrod",
+   "answer_title": "Amarcord",
+   "got": "Amarcord (1973, catalog, 87.5)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-7857-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Амаркорд",
+   "answer_title": "Amarcord",
+   "got": "Amarcord (1973, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-79363-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Dementia",
+   "answer_title": "Dementia",
+   "got": "Dementia (1955, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-79363-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Dementai",
+   "answer_title": "Dementia",
+   "got": "Dementia (1955, catalog, 87.5)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-823754-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Bo Burnham: Inside",
+   "answer_title": "Bo Burnham: Inside",
+   "got": "Bo Burnham: Inside (2021, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-823754-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Bo Burnahm: Isnide",
+   "answer_title": "Bo Burnham: Inside",
+   "got": "Bo Burnham: Inside (2021, catalog, 88.2)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-823754-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Бо Бернем: Усередині",
+   "answer_title": "Bo Burnham: Inside",
+   "got": "Bo Burnham: Inside (2021, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-8316-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Countess",
+   "answer_title": "The Countess",
+   "got": "The Countess (2009, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-8316-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Countss",
+   "answer_title": "The Countess",
+   "got": "The Countess (2009, catalog, 95.7)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-8425-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Watchmaker of St. Paul",
+   "answer_title": "The Watchmaker of St. Paul",
+   "got": "The Watchmaker of St. Paul (1974, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-8425-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Watcmhaker of St. Paul",
+   "answer_title": "The Watchmaker of St. Paul",
+   "got": "The Watchmaker of St. Paul (1974, catalog, 96.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-85901-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Chasing Two Hares",
+   "answer_title": "Chasing Two Hares",
+   "got": "Chasing Two Hares (1961, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-85901-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Chaing Two Harse",
+   "answer_title": "Chasing Two Hares",
+   "got": "Chasing Two Hares (1961, catalog, 90.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-85901-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "За двома зайцями",
+   "answer_title": "Chasing Two Hares",
+   "got": "Chasing Two Hares (1961, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-86735-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Magical Maestro",
+   "answer_title": "Magical Maestro",
+   "got": "Magical Maestro (1952, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-86735-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Maagical Maesto",
+   "answer_title": "Magical Maestro",
+   "got": "Magical Maestro (1952, catalog, 93.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-879444-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Accident Man: Hitman's Holiday",
+   "answer_title": "Accident Man: Hitman's Holiday",
+   "got": "Accident Man: Hitman's Holiday (2022, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-879444-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Accident Man: Hiitman's Holidaay",
+   "answer_title": "Accident Man: Hitman's Holiday",
+   "got": "Accident Man: Hitman's Holiday (2022, catalog, 96.7)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-879444-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Пан Випадок: Відпустка убивці",
+   "answer_title": "Accident Man: Hitman's Holiday",
+   "got": "Accident Man: Hitman's Holiday (2022, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-88395-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Violent Summer",
+   "answer_title": "Violent Summer",
+   "got": "Violent Summer (1959, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-88395-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Violnet Smmer",
+   "answer_title": "Violent Summer",
+   "got": "Violent Summer (1959, catalog, 88.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-9011-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Prophecy 3: The Ascent",
+   "answer_title": "The Prophecy 3: The Ascent",
+   "got": "The Prophecy 3: The Ascent (2000, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-9011-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Prophcy 3: The Ascennt",
+   "answer_title": "The Prophecy 3: The Ascent",
+   "got": "The Prophecy 3: The Ascent (2000, catalog, 96.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-9073-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Free Willy 2: The Adventure Home",
+   "answer_title": "Free Willy 2: The Adventure Home",
+   "got": "Free Willy 2: The Adventure Home (1995, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-9073-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Free Willly 2: The Advetnure Home",
+   "answer_title": "Free Willy 2: The Adventure Home",
+   "got": "Free Willy 2: The Adventure Home (1995, catalog, 95.2)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-9073-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Звільніть Віллі 2. Нова пригода",
+   "answer_title": "Free Willy 2: The Adventure Home",
+   "got": "Free Willy 2: The Adventure Home (1995, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-934-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Rififi",
+   "answer_title": "Rififi",
+   "got": "Rififi (1955, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-934-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Rfiifi",
+   "answer_title": "Rififi",
+   "got": "Rififi (1955, catalog, 83.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-934-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Чоловічі розбірки",
+   "answer_title": "Rififi",
+   "got": "Rififi (1955, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-950-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Ice Age: The Meltdown",
+   "answer_title": "Ice Age: The Meltdown",
+   "got": "Ice Age: The Meltdown (2006, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-950-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Ice Age: The Melttdown",
+   "answer_title": "Ice Age: The Meltdown",
+   "got": "Ice Age: The Meltdown (2006, catalog, 97.6)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "movie-950-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Льодовиковий період 2: Глобальне потепління",
+   "answer_title": "Ice Age: The Meltdown",
+   "got": "Ice Age: The Meltdown (2006, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-114621-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Mighty Ducks: Game Changers",
+   "answer_title": "The Mighty Ducks: Game Changers",
+   "got": "The Mighty Ducks: Game Changers (2021, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-114621-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Mghty Ducsk: Game Changers",
+   "answer_title": "The Mighty Ducks: Game Changers",
+   "got": "The Mighty Ducks: Game Changers (2021, catalog, 94.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-12512-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "M Squad",
+   "answer_title": "M Squad",
+   "got": "M Squad (1957, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-12512-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "M Squd",
+   "answer_title": "M Squad",
+   "got": "M Squad (1957, catalog, 92.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-1260-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Duckman",
+   "answer_title": "Duckman",
+   "got": "Duckman (1994, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-1260-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Dckman",
+   "answer_title": "Duckman",
+   "got": "Duckman (1994, catalog, 92.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-126280-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Sex/Life",
+   "answer_title": "Sex/Life",
+   "got": "Sex/Life (2021, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-126280-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "SexLife",
+   "answer_title": "Sex/Life",
+   "got": "Sex/Life (2021, catalog, 93.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-126280-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Секс/Життя",
+   "answer_title": "Sex/Life",
+   "got": "Sex/Life (2021, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-128062-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Sorrow and the Pity",
+   "answer_title": "The Sorrow and the Pity",
+   "got": "The Sorrow and the Pity (1969, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-16135-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Wild Angel",
+   "answer_title": "Wild Angel",
+   "got": "Wild Angel (1998, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-16135-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Wild Angle",
+   "answer_title": "Wild Angel",
+   "got": "Wild Angel (1998, catalog, 90.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-16135-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Дикий ангел",
+   "answer_title": "Wild Angel",
+   "got": "Anjo Selvagem (2001, tmdb, 100.0)",
+   "success@1": 0.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-195339-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Pantheon",
+   "answer_title": "Pantheon",
+   "got": "Pantheon (2022, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-195339-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Panntheon",
+   "answer_title": "Pantheon",
+   "got": "Pantheon (2022, catalog, 94.1)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-195339-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Пантеон",
+   "answer_title": "Pantheon",
+   "got": "Pantheon (1988, tmdb, 100.0)",
+   "success@1": 0.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-209332-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Boy Swallows Universe",
+   "answer_title": "Boy Swallows Universe",
+   "got": "Boy Swallows Universe (2024, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-209332-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Boy Swlalows Univverse",
+   "answer_title": "Boy Swallows Universe",
+   "got": "Boy Swallows Universe (2024, catalog, 93.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-209332-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Хлоп'я поглинає всесвіт",
+   "answer_title": "Boy Swallows Universe",
+   "got": "Boy Swallows Universe (2024, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-21174-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Sindbad the Sailor",
+   "answer_title": "Sindbad the Sailor",
+   "got": "Sindbad the Sailor (1975, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-21174-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Sndbad the Saior",
+   "answer_title": "Sindbad the Sailor",
+   "got": "Sindbad the Sailor (1975, catalog, 94.1)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-229891-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Can This Love Be Translated?",
+   "answer_title": "Can This Love Be Translated?",
+   "got": "Can This Love Be Translated? (2026, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-229891-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Can This Love Be Tranlsated?",
+   "answer_title": "Can This Love Be Translated?",
+   "got": "Can This Love Be Translated? (2026, catalog, 96.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-229891-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Чи можна перекласти любов?",
+   "answer_title": "Can This Love Be Translated?",
+   "got": "Can This Love Be Translated? (2026, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-2303-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Hawaii Five-O",
+   "answer_title": "Hawaii Five-O",
+   "got": "Hawaii Five-O (1969, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-2303-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Hawaiii FiveO-",
+   "answer_title": "Hawaii Five-O",
+   "got": "Hawaii Five-O (1969, catalog, 92.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-239385-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Manipulated",
+   "answer_title": "The Manipulated",
+   "got": "The Manipulated (2025, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-239385-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Manipullated",
+   "answer_title": "The Manipulated",
+   "got": "The Manipulated (2025, catalog, 96.8)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-239385-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Зліплене місто",
+   "answer_title": "The Manipulated",
+   "got": "The Manipulated (2025, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-241811-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Puniru Is a Kawaii Slime",
+   "answer_title": "Puniru Is a Kawaii Slime",
+   "got": "Puniru Is a Kawaii Slime (2024, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-241811-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Pniru Is a Kawaii Slmie",
+   "answer_title": "Puniru Is a Kawaii Slime",
+   "got": "Puniru Is a Kawaii Slime (2024, catalog, 93.6)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-241811-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Пуніру — мила слаймка",
+   "answer_title": "Puniru Is a Kawaii Slime",
+   "got": "Puniru Is a Kawaii Slime (2024, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-285166-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Jack-of-All-Trades, Party of None",
+   "answer_title": "Jack-of-All-Trades, Party of None",
+   "got": "Jack-of-All-Trades, Party of None (2026, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-285166-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Jak-of-All-Trades, Praty of None",
+   "answer_title": "Jack-of-All-Trades, Party of None",
+   "got": "Jack-of-All-Trades, Party of None (2026, catalog, 95.2)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-285166-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Майстер на всі руки, вигнаний з групи героїв",
+   "answer_title": "Jack-of-All-Trades, Party of None",
+   "got": "Jack-of-All-Trades, Party of None (2026, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-30667-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The George Burns and Gracie Allen Show",
+   "answer_title": "The George Burns and Gracie Allen Show",
+   "got": "The George Burns and Gracie Allen Show (1950, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-30667-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The George Burs and Graie Allen Show",
+   "answer_title": "The George Burns and Gracie Allen Show",
+   "got": "The George Burns and Gracie Allen Show (1950, catalog, 97.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-34667-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Maria Holic",
+   "answer_title": "Maria Holic",
+   "got": "Maria Holic (2009, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-34667-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Mara Hlic",
+   "answer_title": "Maria Holic",
+   "got": "Maria Holic (2009, catalog, 90.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-3478-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Ewoks",
+   "answer_title": "Ewoks",
+   "got": "Ewoks (1985, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-3478-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Ewwoks",
+   "answer_title": "Ewoks",
+   "got": "Ewoks (1985, catalog, 90.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-4451-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Filthy Rich & Catflap",
+   "answer_title": "Filthy Rich & Catflap",
+   "got": "Filthy Rich & Catflap (1987, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-4451-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Filtyh Rich & Catfllap",
+   "answer_title": "Filthy Rich & Catflap",
+   "got": "Filthy Rich & Catflap (1987, catalog, 93.6)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-48104-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "ITV Play of the Week",
+   "answer_title": "ITV Play of the Week",
+   "got": "ITV Play of the Week (1955, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-5346-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Here Come the Double Deckers",
+   "answer_title": "Here Come the Double Deckers",
+   "got": "Here Come the Double Deckers (1970, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-5346-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Here Come the Doouble Decers",
+   "answer_title": "Here Come the Double Deckers",
+   "got": "Here Come the Double Deckers (1970, catalog, 96.4)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-5745-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Rob & Big",
+   "answer_title": "Rob & Big",
+   "got": "Rob & Big (2006, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-6059-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Mighty Hercules",
+   "answer_title": "The Mighty Hercules",
+   "got": "The Mighty Hercules (1963, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-6059-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Mghty Hercuules",
+   "answer_title": "The Mighty Hercules",
+   "got": "The Mighty Hercules (1963, catalog, 94.7)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-66357-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Secret City",
+   "answer_title": "Secret City",
+   "got": "Secret City (2016, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-66357-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Sercet City",
+   "answer_title": "Secret City",
+   "got": "Secret City (2016, catalog, 90.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-66357-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Таємне місто",
+   "answer_title": "Secret City",
+   "got": "Secret City (2016, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-74643-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Man of Your Dreams",
+   "answer_title": "The Man of Your Dreams",
+   "got": "The Man of Your Dreams (2011, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-74643-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Man of Your Derams",
+   "answer_title": "The Man of Your Dreams",
+   "got": "The Man of Your Dreams (2011, catalog, 95.5)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-81026-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Rise of the Teenage Mutant Ninja Turtles",
+   "answer_title": "Rise of the Teenage Mutant Ninja Turtles",
+   "got": "Rise of the Teenage Mutant Ninja Turtles (2018, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-81026-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Rise of the Teenage Mtant Nnja Turtles",
+   "answer_title": "Rise of the Teenage Mutant Ninja Turtles",
+   "got": "Rise of the Teenage Mutant Ninja Turtles (2018, catalog, 97.4)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-81026-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Еволюція Черепашок-ніндзя",
+   "answer_title": "Rise of the Teenage Mutant Ninja Turtles",
+   "got": "Rise of the Teenage Mutant Ninja Turtles (2018, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-81655-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Papa to Kiss in the Dark",
+   "answer_title": "Papa to Kiss in the Dark",
+   "got": "Papa to Kiss in the Dark (2005, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-88584-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "The Pentaverate",
+   "answer_title": "The Pentaverate",
+   "got": "The Pentaverate (2022, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-88584-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "The Pentaveraet",
+   "answer_title": "The Pentaverate",
+   "got": "The Pentaverate (2022, catalog, 93.3)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-88584-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Пентаверат",
+   "answer_title": "The Pentaverate",
+   "got": "The Pentaverate (2022, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-90870-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Wu-Tang: An American Saga",
+   "answer_title": "Wu-Tang: An American Saga",
+   "got": "Wu-Tang: An American Saga (2019, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-90870-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Wu-aTng: An Americcan Saga",
+   "answer_title": "Wu-Tang: An American Saga",
+   "got": "Wu-Tang: An American Saga (2019, catalog, 93.9)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-90870-uk",
+   "variant": "uk",
+   "lang": "uk",
+   "query": "Ву-Танг: Американська сага",
+   "answer_title": "Wu-Tang: An American Saga",
+   "got": "Wu-Tang: An American Saga (2019, tmdb, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-95033-clean",
+   "variant": "clean",
+   "lang": "en",
+   "query": "Augsburger Puppenkiste - Kommt ein Löwe geflogen",
+   "answer_title": "Augsburger Puppenkiste - Kommt ein Löwe geflogen",
+   "got": "Augsburger Puppenkiste - Kommt ein Löwe geflogen (1966, catalog, 100.0)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  },
+  {
+   "id": "tv-95033-typo",
+   "variant": "typo",
+   "lang": "en",
+   "query": "Augsburger Puppenkiste - Komt ein Löwe geflogn",
+   "answer_title": "Augsburger Puppenkiste - Kommt ein Löwe geflogen",
+   "got": "Augsburger Puppenkiste - Kommt ein Löwe geflogen (1966, catalog, 97.8)",
+   "success@1": 1.0,
+   "success@5": 1.0
+  }
+ ],
+ "metrics": [
+  "success@1",
+  "success@5"
+ ],
+ "groups": [
+  "variant",
+  "lang"
+ ],
+ "failed": [
+  "movie-226486-uk",
+  "movie-293768-uk",
+  "movie-3782-uk",
+  "movie-500860-uk",
+  "tv-16135-uk",
+  "tv-195339-uk"
+ ],
+ "split": "dev",
+ "summary": {
+  "n": 258,
+  "overall": {
+   "success@1": {
+    "mean": 0.9767,
+    "ci95": [
+     0.9574,
+     0.9922
+    ]
+   },
+   "success@5": {
+    "mean": 0.9961,
+    "ci95": [
+     0.9884,
+     1.0
+    ]
+   }
+  },
+  "by_group": {
+   "variant=clean": {
+    "n": 106,
+    "success@1": 1.0,
+    "success@5": 1.0
+   },
+   "variant=typo": {
+    "n": 94,
+    "success@1": 1.0,
+    "success@5": 1.0
+   },
+   "variant=uk": {
+    "n": 58,
+    "success@1": 0.8966,
+    "success@5": 0.9828
+   },
+   "lang=en": {
+    "n": 200,
+    "success@1": 1.0,
+    "success@5": 1.0
+   },
+   "lang=uk": {
+    "n": 58,
+    "success@1": 0.8966,
+    "success@5": 0.9828
+   }
+  }
+ }
+}

@@ -1,0 +1,2675 @@
+{
+ "config": {
+  "name": "default",
+  "prompt": "clarify-v2",
+  "simulator": "simulator-v1",
+  "search": {
+   "query_mode": "whole",
+   "depth": 100,
+   "rerank_depth": 20,
+   "rerank_chars": 1000
+  }
+ },
+ "cases": [
+  {
+   "id": "trec-tot-2023-test-1031",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these is closest to what you remember about the film's time period or setting?",
+     "a": "not sure",
+     "left": 6
+    },
+    {
+     "q": "In the scene you remember, is the story told from the child's point of view in a way that the boy's family is central, or is the child more of a side observer?",
+     "a": "The child's family is central and the boy is the focus",
+     "left": 4
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-1067",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these is closest to how the film's story unfolds, based on what you remember about its characters and ending?",
+     "a": "A mother and daughter or a family are the main characters, dealing with something in their home",
+     "left": 3
+    },
+    {
+     "q": "Which of these is closest to how the film's story unfolds, based on what you remember about its characters and ending?",
+     "a": "not sure",
+     "left": 3
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-236",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Where does the main action take place, as you remember it?",
+     "a": "A puzzle or escape-room style setting, like a series of rooms or a game",
+     "left": 2
+    },
+    {
+     "q": "Do you remember whether the group is trying to escape from the mirrored room by solving puzzles, or is there a different kind of story for the people trapped there?",
+     "a": "They are solving puzzles or clues to get out",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-253",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Where does the film's story mainly take place?",
+     "a": "not sure",
+     "left": 6
+    },
+    {
+     "q": "Which of these is closest to the film you remember: was the story set mainly in a remote or isolated location, or in a city or town setting?",
+     "a": "Ordinary house or town setting",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-266",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Does the film take place mainly in a sort of camp, hospital, or vampire-hunting setting, or somewhere else?",
+     "a": "Regular everyday town or city life",
+     "left": 4
+    },
+    {
+     "q": "Is the film's main character a vampire-hunting or monster-fighting type, or is the story more about a woman dealing with something happening to her own body?",
+     "a": "It's a mix or something else, like a porn-related story",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-297",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best describes the tone or look of the film?",
+     "a": "Wild, goofy comedy",
+     "left": 3
+    },
+    {
+     "q": "Which of these best matches what you remember about the kid they pick up and the trip? Or, what is the main setting of the film's story?",
+     "a": "Mostly in Las Vegas or a casino city",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-331",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "In the movie you remember, what is the connected machine mainly used for, or what is the setting's main tone?",
+     "a": "A dark, gritty city setting with a crime or police storyline",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-339",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these is closest to how the story is set up or how the killer is revealed?",
+     "a": "The college friends are at a private island estate for a holiday weekend, with a prank or game-like feel",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-342",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these is closest to what you remember about the film's look or setting?",
+     "a": "A gothic castle or village in the past, with a priest or monk figure",
+     "left": 3
+    },
+    {
+     "q": "In the film, what happens right after the body falls out of the bell? Which of these is closest to what you remember?",
+     "a": "not sure",
+     "left": 3
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-369",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these is closest to what you remember of the setting or time period of the film?",
+     "a": "A more recent conflict, 1990s or later",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-430",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Did the film come out as a theatrical release rather than straight to video or as a TV series?",
+     "a": "Yes, it was a theatrical movie",
+     "left": 4
+    },
+    {
+     "q": "Is the film's main story set in a school or among kids in a classroom or school setting?",
+     "a": "No, it's set elsewhere (home, town, forest, space, etc.)",
+     "left": 3
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-432",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Where does the story mainly take place?",
+     "a": "Mostly in Europe (e.g., Paris, Berlin, Barcelona)",
+     "left": 2
+    },
+    {
+     "q": "Roughly when did you see it, or what era does it feel like it's from?",
+     "a": "1980s or later",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-516",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the musical or stage element you remember, or the kind of story it's set in?",
+     "a": "A straight drama or comedy with no real singing",
+     "left": 3
+    },
+    {
+     "q": "Which of these best matches what you remember about the story's setting or the father's situation?",
+     "a": "not sure",
+     "left": 3
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-522",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Do you remember whether the film is in black and white or in color?",
+     "a": "Color",
+     "left": 4
+    },
+    {
+     "q": "Do you remember where the story is set, or what kind of place the woman ends up in?",
+     "a": "A beach town or seaside area in Greece or elsewhere on the coast",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-526",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Does the film's villain appear as a face or voice on a computer or video screen, rather than being physically present in the room?",
+     "a": "Yes, the villain is seen or heard only through a screen or device",
+     "left": 3
+    },
+    {
+     "q": "Does the film take place mostly on a computer or phone screen, with the story shown through video calls, chats, and webcam windows?",
+     "a": "Yes, the whole story plays out on a computer or phone screen",
+     "left": 2
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-565",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Where does the film take place, or what era is it set in?",
+     "a": "Oklahoma or the South",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-580",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Where does the zombie attack take place?",
+     "a": "A high school or school grounds",
+     "left": 3
+    },
+    {
+     "q": "Is the monster or zombie attack set during a school day or a big school event, such as a prom?",
+     "a": "A regular school day or sports practice",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-632",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Was the film in a language other than English, or was it made in an English-speaking country?",
+     "a": "Non-English language",
+     "left": 3
+    },
+    {
+     "q": "Did the girl's story take place during a war or under an authoritarian regime?",
+     "a": "Yes, there is a war or occupation backdrop",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-662",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Was the film released in the 1980s, as you recall?",
+     "a": "Yes, it was from the 1980s",
+     "left": 2
+    },
+    {
+     "q": "In the scene you remember, what kind of place is the girl waiting in before the guy walks in?",
+     "a": "not sure",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-672",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these is closest to what you remember about the setting or story?",
+     "a": "The hostage-taker is a robber who wants a big payout, and the story is mostly about a standoff inside a bank",
+     "left": 4
+    },
+    {
+     "q": "Do you remember how the gunman's bank standoff ends, or who the hostage negotiator is?",
+     "a": "Not sure / I don't remember that",
+     "left": 4
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-691",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the film's overall tone and genre as you remember it?",
+     "a": "Mostly a multi-character drama about everyday lives, with the disaster as a mystery to solve",
+     "left": 2
+    },
+    {
+     "q": "Which of these best describes the setting or main situation of the film as you remember it?",
+     "a": "Not sure / something else entirely",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-709",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Did the film feature a lot of puppets, creatures, or a musical element, or was it mostly live-action with human actors?",
+     "a": "Lots of puppets, creatures, or songs",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-729",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the setting or era you remember for the movie?",
+     "a": "Set in a modern-day US or European town, around the 2000s or later",
+     "left": 5
+    },
+    {
+     "q": "Which of these is closest to the look or feel of the movie you remember?",
+     "a": "Teen-focused horror, mostly indoors at a school or house with a mystery feel",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-736",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "What is the setting of the film you remember, as best you can recall?",
+     "a": "Deep space aboard a spaceship or station",
+     "left": 4
+    },
+    {
+     "q": "Do you remember the crew being killed off by a monster or creature they can see, rather than a supernatural force, a human villain, or something else?",
+     "a": "Yes, a visible creature or monster",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-750",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "What was the main animation style or format of the show you remember?",
+     "a": "A TV series with short episodes",
+     "left": 5
+    },
+    {
+     "q": "Where does the story mostly take place in the show you remember?",
+     "a": "A deep forest where the gnomes live among the trees and plants",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-852",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the kind of story you remember, beyond the cheque and the computer part?",
+     "a": "A kid's adventure or comedy with a family tone",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-859",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Where does the film take place: is the story set in a city or town, or mostly inside a prison or institution?",
+     "a": "A city or town street setting (ordinary neighborhood)",
+     "left": 3
+    },
+    {
+     "q": "Does the film take place mostly in a small town or village, or mostly in a big city?",
+     "a": "Big city",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-867",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches how the film is set or how the ghost kids look?",
+     "a": "The story is set in a rural or wooded area, or a family moves to the countryside",
+     "left": 4
+    },
+    {
+     "q": "Which of these best describes how the film is set or what the ghost kids are doing when you remember them?",
+     "a": "I can't recall any of those details",
+     "left": 4
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-911",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "In the diner scene, what is the job prospect's role: is he a spy/agent-type or a hitman/assassin, and what is the setting of the rest of the film?",
+     "a": "not sure",
+     "left": 6
+    },
+    {
+     "q": "Which of these best matches the film you remember, based on what the film is mainly about?",
+     "a": "A crime or police story with an undercover operation, or a pressure-driven workplace drama",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-945",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Does the film feature a bank robbery or a heist as a central part of the plot?",
+     "a": "No, not really",
+     "left": 3
+    },
+    {
+     "q": "Does the film take place mostly in a church, monastery, or other religious setting?",
+     "a": "No, it's mostly a regular home or city setting",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-973",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Do you remember roughly when the movie came out or what it looks like overall?",
+     "a": "2000s (mid-2000s, gritty crime look)",
+     "left": 2
+    },
+    {
+     "q": "Do you remember whether the story is mostly about a con game or a gambling/casino angle, or whether it's a more violent chase with lots of hitmen and an FBI-style crew closing in?",
+     "a": "I don't remember the overall plot beyond that one scene",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-979",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Does the story involve the boy being a teenager, with the girl across the street being his schoolmate or close to his age?",
+     "a": "Yes, they are teenagers at school",
+     "left": 4
+    },
+    {
+     "q": "Does the girl across the street have a list-like plan of dares or challenges that she gives the boy, and is the story mostly told from the boy's point of view?",
+     "a": "No, it's not a list-and-challenges story",
+     "left": 3
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-984",
+   "source": "dataset:trec-tot-2023-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which best describes the setting or era you remember for this movie?",
+     "a": "A US city or prison setting with a real-life criminal case",
+     "left": 2
+    },
+    {
+     "q": "Which best describes how the main character's story is told or how the film looks?",
+     "a": "A bizarre, surreal or art-film style with odd, dreamlike scenes",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2009",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the film is a cinema release or a TV movie / miniseries made for television?",
+     "a": "Cinema film",
+     "left": 5
+    },
+    {
+     "q": "Do you remember whether the film is based on a real person's life story?",
+     "a": "Yes, it's a true story about a real person",
+     "left": 4
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2023",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Was this movie a remake or a modern film made to pay tribute to a classic, or was it a 1960s-era original?",
+     "a": "Made in the 1960s",
+     "left": 2
+    },
+    {
+     "q": "Do you remember whether the birds were ever shown or explained by any cause, like a scientific or supernatural reason, or was it left completely unexplained by the end?",
+     "a": "Left completely unexplained",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2031",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Roughly when does the film seem to be set, or what kind of world does it show?",
+     "a": "Present day or recent past, realistic setting",
+     "left": 2
+    },
+    {
+     "q": "Does the film center on a human-driven story of an expedition with a crew and a journalist, rather than a creature that hunts people or boats?",
+     "a": "Yes, the crew's expedition and its quirky people are the focus",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2033",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the setting you remember for the two rival groups?",
+     "a": "A big American city such as New York, or a historical/reform-school setting",
+     "left": 2
+    },
+    {
+     "q": "Does the story you remember take place in a city, or in a rural or small-town setting?",
+     "a": "A big city",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2037",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Is the dog in this movie a real animal with the story told from the dog's point of view, rather than an animated or cartoon film?",
+     "a": "Yes, it's live-action",
+     "left": 4
+    },
+    {
+     "q": "Does the story include the dog being taken by a cruel prospector who is later stopped by the old outdoorsman, with the dog living wild in the wilderness? Or is the main focus something else, such as a rescue mission or a real historical event?",
+     "a": "The dog is a pet taken to the Yukon and passed between owners, with the story following his journey",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2047",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Do you remember whether the movie is a live-action film or an animated one?",
+     "a": "Live-action",
+     "left": 5
+    },
+    {
+     "q": "Do you remember whether the movie is set in a historical or period setting, like an older era with castles and royalty, rather than a modern-day one?",
+     "a": "Yes, it feels like an older, period setting",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2062",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the setting or era you remember?",
+     "a": "not sure",
+     "left": 6
+    },
+    {
+     "q": "Which of these best describes the story's focus or tone that you remember?",
+     "a": "Not sure / something else",
+     "left": 6
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2068",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the monster or creature you remember?",
+     "a": "A man-made human-like creature stitched together from body parts",
+     "left": 2
+    },
+    {
+     "q": "Which of these best describes how the film was made or looks?",
+     "a": "Shot in color, made in the 1960s or early 1970s, with a Hammer-style gothic look",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2076",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes how the story is told or what the main character's mission is?",
+     "a": "He is stationed at a frontier fort during the Civil War era or just after",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2077",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Where does the story mainly take place?",
+     "a": "A gothic or European historical setting",
+     "left": 2
+    },
+    {
+     "q": "Does the film look like a low-budget, handheld or found-footage style production, or a polished professional one?",
+     "a": "Polished, professional production",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 1.0,
+   "s1_q2": 0.0,
+   "answer_kept": 0.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2089",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the setting or main premise you recall beyond the flight itself?",
+     "a": "The story is about a crash investigation and its aftermath for those involved, or a dark thriller with a central woman character",
+     "left": 3
+    },
+    {
+     "q": "Which of these best matches how the story is told or what the pilot's situation is at the end?",
+     "a": "The pilot is shown living as a survivor with a dramatized crash and a true-events basis, ending with him facing consequences in court or prison",
+     "left": 2
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2099",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the kind of story you remember about the missing-child plot's wider picture?",
+     "a": "The story is based on a real historical case",
+     "left": 3
+    },
+    {
+     "q": "Which of these best describes the wider story of the missing-child case you remember?",
+     "a": "The case is based on a real historical crime, with a serial killer of children exposed",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2106",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Where does the story mainly take place?",
+     "a": "United States",
+     "left": 4
+    },
+    {
+     "q": "Was the woman's original conviction for a crime that was actually a killing (she was found guilty of murder or manslaughter), rather than something like armed robbery or a drug charge?",
+     "a": "Yes, it was a killing (murder or manslaughter)",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2107",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best matches the ending or the tone you remember? In particular, do you recall whether the film was mainly a slow, philosophical, contemplative story or more of an action-driven one?",
+     "a": "Slow, contemplative, awe-filled, with long quiet scenes",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2112",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the magical realm and the star-woman's world in the film you remember?",
+     "a": "Lots of pirates and sky ships in the story",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2114",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Where did the man in the chair and the mafia-looking men seem to be? Which setting do you remember?",
+     "a": "A city street, hotel, or everyday urban setting",
+     "left": 2
+    },
+    {
+     "q": "The mafia-looking men use their powers to stop the man and his lost love. What do you remember about the people in the scene, or the setting?",
+     "a": "Ordinary modern-day city, with a conspiracy group of people with powers who are on the trail of the man, with people who are linked to one another across the world",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2119",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Where does the story take place?",
+     "a": "San Francisco or the US West Coast",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2136",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Was the movie you're thinking of a sex comedy full of raunchy teen-style humor, or a more polished romantic comedy?",
+     "a": "Polished, mainstream romantic comedy",
+     "left": 4
+    },
+    {
+     "q": "Did the two guys in the movie crash the events under a made-up identity, with a fake backstory about who they were?",
+     "a": "Yes, they invented fake identities to get in",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2152",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Does the movie involve a podcast or a recorded interview being central to the journalist's investigation?",
+     "a": "Yes, podcasting or recording is central",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2153",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the Christmas-season setting or the cousin's arrival? Or, more usefully: is the film's main character's job or a key cast member someone you'd recognize as a famous comedy star from older films?",
+     "a": "Yes, the lead is a well-known comedy star from older films",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2165",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the era or setting of the film you remember?",
+     "a": "Mid-20th century (1950s-ish), with vintage cars and cobblestones",
+     "left": 2
+    },
+    {
+     "q": "Does the film you remember have a happy, upbeat tone with a lot of comedy, or is it more of a serious, moody drama?",
+     "a": "Light, warm and comedic",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2166",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the film was live-action or animated?",
+     "a": "Live-action",
+     "left": 5
+    },
+    {
+     "q": "Do you remember whether the film's main focus was on a group of kids or a young heroine's journey, rather than a grown-up quest?",
+     "a": "Mainly grown-up characters and adult romance",
+     "left": 3
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2172",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best matches the film's setting or era as you remember it?",
+     "a": "Modern day, a streaming-era film from around 2021",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2194",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Was the movie based on a true story, or did the family take in the kids through foster care or adoption?",
+     "a": "Yes, based on a true story or it's about foster care/adoption",
+     "left": 2
+    },
+    {
+     "q": "Did the story unfold as one continuous storyline across the whole thing, rather than jumping between different time periods?",
+     "a": "Yes, one straight storyline",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2195",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Do you remember whether the story is mainly told from a child's point of view, or is it mostly about the adults around the injury?",
+     "a": "Mostly the adults and their conflict",
+     "left": 4
+    },
+    {
+     "q": "Do you remember whether the film is set in a small town or rural area, or in a city?",
+     "a": "Small town or countryside",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2201",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Was the story told mainly through live-action actors on screen, rather than animation or a TV series with many episodes?",
+     "a": "Live-action feature film",
+     "left": 4
+    },
+    {
+     "q": "Did the story involve a group of people with healing powers who work as a team against a larger threat, rather than a single main character? Or was it mostly about one person's journey?",
+     "a": "A team of healers / group of super-soldiers",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2213",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the story is told as a dramatized film with actors playing the people, or is it made from real archival footage with no actors?",
+     "a": "Dramatized, with actors playing the characters",
+     "left": 5
+    },
+    {
+     "q": "Do you remember whether the film's main story is about a real person's life, or a fictional character in an invented situation?",
+     "a": "Real person's life, based on actual events",
+     "left": 3
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2217",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the ship's journey in the film is to Jupiter, or does it take place elsewhere, such as a ship on a mission to a different planet or a trip with the spacecraft ending up somewhere else?",
+     "a": "Yes, the ship is heading to Jupiter",
+     "left": 2
+    },
+    {
+     "q": "Do you remember how the film ends, specifically whether the story ends with a sudden jump to a different time or place, or with a crew member who is shown trying to communicate or make contact with something?",
+     "a": "Yes, it jumps to an old room and a figure transforms into a glowing child-like being",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2224",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the film was based on a real event or a true story?",
+     "a": "Yes, it was based on a true story",
+     "left": 4
+    },
+    {
+     "q": "Do you remember whether the vacation family's disaster in the film happens in a place with a hospital crowded with displaced people, or does the story stay mostly out at sea or in the water?",
+     "a": "Mostly on land, at resort and hospital settings",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2226",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the setting or time of the film?",
+     "a": "Contemporary, with a satirical or edgy tone",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2230",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Does the film take place mainly in the present-day US and is it a low-budget or made-for-TV style movie? Or is the setting different—specifically, do you recall whether the film is set in a summer camp or a suburban neighborhood?",
+     "a": "Isolated house in a forest or woods",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2237",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Does the film take place mainly in a magical or fantasy world (such as an ancient realm, temple or other otherworldly place), rather than in the modern real world?",
+     "a": "No, it's mostly set in the modern real world or a realistic setting",
+     "left": 4
+    },
+    {
+     "q": "Does the film have a fantasy or supernatural element beyond the martial arts, such as magic, mythical creatures, or spirits?",
+     "a": "Yes, there is clear magic or supernatural stuff",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2255",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Did the story involve a supernatural twist that the whole time the family were actually ghosts, and the living family was haunted by them?",
+     "a": "Yes, the family in the house turned out to be ghosts",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2260",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Where does most of the story take place?",
+     "a": "Suburban or small-town streets, a gas station, a diner",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2264",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best matches how the film's ending felt or what it showed?",
+     "a": "A character takes her own life or a death is central to the final scenes",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2271",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the movie is a dramatic story about real historical events, or is it a comedy or satire?",
+     "a": "Serious drama based on real events",
+     "left": 3
+    },
+    {
+     "q": "Do you remember whether the main character is the one who is actually the king or royal, rather than someone like a journalist or politician reporting on or running the country?",
+     "a": "Yes, he is a member of the royal family himself",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2276",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the look of the film you remember?",
+     "a": "Dark, gothic or horror-tinged look",
+     "left": 2
+    },
+    {
+     "q": "Which of these is closest to the story you remember?",
+     "a": "Neither; it's a period circus story from the 1920s-60s",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2281",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the terrorist leader's hideout or the film's main location is in a city setting, like a bustling market or urban streets, versus a more remote or desert landscape?",
+     "a": "Remote desert or rural landscapes",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2292",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Roughly when did you first see this? Or what kind of look did it have?",
+     "a": "Late 1980s to early 1990s, hand-drawn look",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2298",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Was the film mainly a monster or creature thriller, or more of a drama or romance about people on a tropical island?",
+     "a": "not sure",
+     "left": 6
+    },
+    {
+     "q": "Was the film made for television or released in cinemas, or can you not tell?",
+     "a": "not sure",
+     "left": 6
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2299",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best matches the setting or look of the film you remember?",
+     "a": "A big city like Oslo or a Norwegian-style setting with a detective investigating serial killings",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2301",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the film had a clear sense of who the main character was, or was it an ensemble with no single lead?",
+     "a": "One clear lead character the story follows",
+     "left": 4
+    },
+    {
+     "q": "Do you remember whether the film was set on a planet with multiple suns and daylight, or was the setting mostly inside a ship or a base?",
+     "a": "Mostly on a planet's surface",
+     "left": 2
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2312",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the film is a comedy-leaning story or mostly a serious, dramatic one?",
+     "a": "Mostly serious and dramatic",
+     "left": 3
+    },
+    {
+     "q": "Do you remember whether the film is set mainly in a rural or countryside location, or mostly in a city?",
+     "a": "Mostly in a big city",
+     "left": 2
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": 0.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2318",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these is closest to the setting or look of the film you remember?",
+     "a": "A small snowy town during the holidays",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2323",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Where does the scene take place or what is the setting of the film?",
+     "a": "A rural or farm setting in the United States or Europe",
+     "left": 2
+    },
+    {
+     "q": "Roughly when did you watch it, or what kind of film does it feel like overall?",
+     "a": "I really can't say",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2337",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Roughly when do you think you saw it, or what era does it seem to be set in?",
+     "a": "Not sure",
+     "left": 2
+    },
+    {
+     "q": "Do you remember how the film ends, or what the two stranded kids' situation is by the end?",
+     "a": "Something dark happens, like a violent or deadly confrontation with nature or people",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 0.0,
+   "answer_kept": 0.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2349",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which best describes how the movie's story is structured or who the killer turns out to be?",
+     "a": "The main suspect is a strange loner I'd recall as a serial killer hunted in a city",
+     "left": 3
+    },
+    {
+     "q": "Which of these best matches how the story ends or what the main detective's situation is at the end?",
+     "a": "The story is set in the early 1990s and revolves around a string of murders with a partner dynamic",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2351",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Was the movie made with live actors on screen (as opposed to animation)?",
+     "a": "Yes, live-action with real actors",
+     "left": 2
+    },
+    {
+     "q": "Does the film's story take place in a futuristic or post-apocalyptic world, rather than a jungle or a martial arts setting?",
+     "a": "No, it's a jungle, military, or martial arts setting",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2353",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which best describes the hotel-based story you remember?",
+     "a": "A hotel where strangers gather, with hidden agendas and a cult standoff",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2356",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Where does the climax take place, and what kind of place is it?",
+     "a": "An old house in the US, tied to the earlier events",
+     "left": 2
+    },
+    {
+     "q": "Where does the story mainly take place, apart from the old house climax?",
+     "a": "Mostly in the United States or a city setting",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 0.0,
+   "answer_kept": 0.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2363",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the setting or style of the film you remember?",
+     "a": "A group trapped in an abandoned building or military-style base, with murders happening inside it",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2364",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Do you remember the setting or era of the film? For example, was it a period piece in an old-fashioned European-style kingdom, or a modern-day story set in a contemporary high school or city?",
+     "a": "Old-fashioned / period setting",
+     "left": 3
+    },
+    {
+     "q": "Do you remember whether the film was animated or live-action?",
+     "a": "Live-action with real actors",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2367",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best describes the film's overall look and structure?",
+     "a": "Plain live concert footage of a band playing, often shot as a documentary",
+     "left": 2
+    },
+    {
+     "q": "Which of these best describes what the film is mostly made of?",
+     "a": "not sure",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2369",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember the story being told as a real-world-style drama, with the biker gang's story following real people over many years, rather than a single road trip or a short experimental piece?",
+     "a": "Yes, a long dramatic story about a gang's rise over years",
+     "left": 3
+    },
+    {
+     "q": "Do you remember the film being in black and white?",
+     "a": "No, it was in color",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2372",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Where does the story mainly take place, as far as you can recall?",
+     "a": "Pennsylvania or the Northeast US, or a rich estate there",
+     "left": 2
+    },
+    {
+     "q": "Does the film involve a real-life event or is it presented as based on a true story?",
+     "a": "Yes, it's based on a true story",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2378",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Was the movie a live-action film with real actors, rather than animated?",
+     "a": "Yes, live-action",
+     "left": 4
+    },
+    {
+     "q": "Was the film based on a comic book, cartoon, or toy line?",
+     "a": "Yes, it was based on a comic, cartoon, or toy",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2381",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best matches how the film was made or what it centers on?",
+     "a": "Made by a close friend of the victim, using home videos and personal footage",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2387",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the setting or look of the film you remember beyond the mountain scene?",
+     "a": "Mostly in black and white, with a 1950s-60s feel",
+     "left": 2
+    },
+    {
+     "q": "Which best describes the main villain or monster you remember, beyond the mountain scene?",
+     "a": "Dracula is the central figure, a vampire who stalks people in a castle or town",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": 0.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2391",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Where does the story mainly unfold after he makes his comeback, and what kind of setting is it?",
+     "a": "A busy restaurant kitchen in London, with the whole film mostly inside it",
+     "left": 2
+    },
+    {
+     "q": "Was the film shot as one continuous take, with no visible cuts?",
+     "a": "No, it had normal editing and cuts",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2415",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Does the film take place mostly at night, or in daylight?",
+     "a": "Mostly at night",
+     "left": 5
+    },
+    {
+     "q": "Does the film involve the main character being a phone operator or dispatcher who talks to a kidnapped woman through a call, and does the woman's situation involve being forced into a choice or a deadly ultimatum?",
+     "a": "Yes, the caller is a woman in danger and the operator is the focus",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2418",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the band's journey or setting in the story?",
+     "a": "The band is a real-life style rock group followed by a documentary crew on a US tour",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2423",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the film is a musical-style movie where the driver's music choices drive the action, or was it more of a standard crime story?",
+     "a": "Yes, music is central to the film's style and the driving",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2430",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether this was the first film in its series, or one of the later follow-ups?",
+     "a": "Yes, it was the first one, the original",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2434",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Where does most of the story take place, and what is the setting like?",
+     "a": "Somewhere else, or I don't remember",
+     "left": 6
+    },
+    {
+     "q": "Where does most of the story take place, and what is the setting like?",
+     "a": "A city street or bar setting in the US (New York, Los Angeles, Brooklyn)",
+     "left": 3
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2440",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes how the film was presented on screen?",
+     "a": "A conventional film with regular cinematic shots",
+     "left": 5
+    },
+    {
+     "q": "Roughly when did you watch it, or what era does the film feel like it comes from?",
+     "a": "Before 2010",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2447",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the setting or look of the movie you remember?",
+     "a": "A rural or wilderness setting with a camping trip or woods",
+     "left": 3
+    },
+    {
+     "q": "Do you remember whether the movie was shot in a documentary-style, handheld way, as if the footage was found by the characters?",
+     "a": "No, it was filmed conventionally like a regular movie",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2477",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best matches the setting or the war at the center of the story?",
+     "a": "Trojan War, Greek city of Troy, Homeric myth",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2480",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the film's overall setup or era?",
+     "a": "A 1980s-era comedy or its direct follow-up (a spoof of a flight disaster)",
+     "left": 2
+    },
+    {
+     "q": "In the film, where does most of the action take place?",
+     "a": "Mostly on an airliner in flight and on the ground near it",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2486",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best matches the story you remember? Specifically, what is the film's setting or era?",
+     "a": "Modern day, with the story centered on a real company's founding or a documentary-style look at social media",
+     "left": 3
+    },
+    {
+     "q": "Which of these is closest to what you remember about the film's main story or style?",
+     "a": "A dramatized account of a real tech company's founding, told mostly through lawsuits and courtroom-style testimony",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2489",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Roughly when does the movie seem to be set or made?",
+     "a": "2010s or later",
+     "left": 2
+    },
+    {
+     "q": "Where does most of the story take place, as you recall it?",
+     "a": "A party or gathering with many guests in one building",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2490",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the setting of the story's climax or the kind of story you remember?",
+     "a": "A film from the 1950s/60s with a famous author who helps solve the case (a Miss Marple-style story)",
+     "left": 2
+    },
+    {
+     "q": "Which of these is closest to how the story is set up, or to what you remember about the film?",
+     "a": "A theatre company or stage production is central to the story",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2495",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Where does the story mainly take place?",
+     "a": "A town, workplace or city setting with a crime investigation",
+     "left": 3
+    },
+    {
+     "q": "Does the story center on a woman who is a crime victim's investigator, or is the main character someone who is not a police officer or detective, and what is the main character's job?",
+     "a": "The main character is a mother or a businesswoman in an office or corporate setting",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2501",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember the film being told largely through the killer's own narration or voiceover?",
+     "a": "Yes, the killer's inner thoughts are narrated constantly",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2505",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the kind of film you remember: is it a live-action movie about toys that come alive, a movie where the story is set in the real world with a monster-toy theme, or a documentary-style show?",
+     "a": "Live-action film with a toy-based storyline where the toys are the focus",
+     "left": 2
+    },
+    {
+     "q": "Which best describes the film you remember: is it a family movie with a comedic, silly tone, or a serious action-packed blockbuster?",
+     "a": "Silly, comedic family movie",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2510",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Does the movie involve the girl's family being based in a place with a big sense of community, or is the story set around her family's home life and mom-daughter fights? Specifically, which setting best fits what you remember?",
+     "a": "California, with a mom-daughter clash over her college plans",
+     "left": 2
+    },
+    {
+     "q": "In the movie, does the girl secretly apply to colleges and get in, and then read letters her dad saved from her mom?",
+     "a": "Yes, the story centers on her college plans and family drama",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2521",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the film was made in the 1970s or 1980s, or in a more recent era?",
+     "a": "1970s or earlier",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2524",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember the film being set in the 1930s or 1940s, or was it more modern, like the 1970s or later?",
+     "a": "1930s or 1940s period setting",
+     "left": 6
+    },
+    {
+     "q": "Do you remember the detective being hired to find a missing lover, with the story turning on a supposed death and a sighting in a border town?",
+     "a": "No, the missing-person plot was different",
+     "left": 4
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": 0.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2536",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the setting of the film's climax or the main villain's base?",
+     "a": "not sure",
+     "left": 6
+    },
+    {
+     "q": "Which of these best describes the villain's plan or the object at the center of the plot?",
+     "a": "A stolen or hidden nuclear weapon the villains want to use for chaos",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2542",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Which of these best matches the setting or style of the film you remember?",
+     "a": "A scripted film with a killer's trap or game for captured victims",
+     "left": 4
+    },
+    {
+     "q": "In the scene you remember, what kind of place is the restroom part of, or what's the overall feel of the movie?",
+     "a": "A story about a killer who sets up elaborate traps or games for victims",
+     "left": 2
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2545",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best matches how the story is set up or what the main characters are doing?",
+     "a": "The story is set on an alien planet with a young man and a girl escaping a dystopian town",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2552",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember the movie being in color or in black and white?",
+     "a": "Color",
+     "left": 5
+    },
+    {
+     "q": "Do you remember the story being set in a particular city or country, such as the United States or somewhere in Europe?",
+     "a": "Set in the United States",
+     "left": 2
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2556",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Do you remember whether the film was set in a time period or place that felt like a rural or wooded area, or more like a town or city?",
+     "a": "A carnival, amusement park, or town setting",
+     "left": 4
+    },
+    {
+     "q": "Do you remember whether the film was made in the 1970s or 1980s, or was it a more recent film from the 2000s or later?",
+     "a": "not sure",
+     "left": 4
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2559",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the film was made before 1990 or after?",
+     "a": "1990 or later",
+     "left": 4
+    },
+    {
+     "q": "Do you remember whether the robbers' plot involves a hostage situation at a bank, or is the heist mostly about stealing data or money from a distance?",
+     "a": "Yes, it's a physical bank with hostages inside",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2568",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best matches the film's look and tone, as you remember it?",
+     "a": "Live-action with real actors in costume, a sewer and city setting",
+     "left": 2
+    },
+    {
+     "q": "Which of these best describes how the story's villains and their plan are presented, as you remember it?",
+     "a": "A ruthless crime syndicate with a mutagen/virus plan that is mostly mentioned in passing",
+     "left": 2
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2577",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Does the movie you're thinking of focus on a princess being pulled into the real world, or on the story of how a villain came to be?",
+     "a": "The princess ends up in the real world (e.g., New York)",
+     "left": 2
+    },
+    {
+     "q": "Does the movie you're thinking of open with the princess's story in the animated kingdom, or does it skip straight to the real world?",
+     "a": "Yes, it starts in the animated kingdom, and she is the main focus from the beginning",
+     "left": 2
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2593",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the female officer and the bank robber's relationship is shown with them meeting in a jail/prison setting, or is the film's main action mostly on the outside with the officer chasing him?",
+     "a": "Yes, they meet or interact during his prison time",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2594",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Do you remember whether the movie was a theatrical film, or a TV series with multiple episodes?",
+     "a": "A single movie",
+     "left": 5
+    },
+    {
+     "q": "Do you remember whether the film was set mostly in Paris or Milan, or somewhere else?",
+     "a": "Mostly Paris or Milan (fashion world)",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2595",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Which of these best describes the setting and look of the film you remember?",
+     "a": "A live-action film set in a real North American city",
+     "left": 4
+    },
+    {
+     "q": "Which of these best describes the story's central relationship and how the band fits in?",
+     "a": "The main guy is a bass player whose band is the focus, with fights breaking out on stage",
+     "left": 1
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2598",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "False",
+   "dialog": [
+    {
+     "q": "Where does the story take place?",
+     "a": "A farm or rural countryside setting",
+     "left": 3
+    },
+    {
+     "q": "Roughly when did you see this film?",
+     "a": "Before 2010",
+     "left": 1
+    }
+   ],
+   "s1_q0": 0.0,
+   "s1_q1": 0.0,
+   "s1_q2": 0.0,
+   "answer_kept": null,
+   "redundant": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2599",
+   "source": "dataset:trec-tot-2024-test",
+   "in_top6": "True",
+   "dialog": [
+    {
+     "q": "Roughly when did you see this film?",
+     "a": "not sure",
+     "left": 6
+    },
+    {
+     "q": "Do you remember whether the film was set in the near future or the present day, or whether it was a period piece?",
+     "a": "Present day or very near future",
+     "left": 3
+    }
+   ],
+   "s1_q0": 1.0,
+   "s1_q1": 1.0,
+   "s1_q2": 1.0,
+   "answer_kept": 1.0,
+   "redundant": 0.0
+  }
+ ],
+ "metrics": [
+  "s1_q0",
+  "s1_q1",
+  "s1_q2",
+  "answer_kept",
+  "redundant"
+ ],
+ "groups": [
+  "source",
+  "in_top6"
+ ],
+ "failed": [
+  "trec-tot-2024-test-2077",
+  "trec-tot-2024-test-2312",
+  "trec-tot-2024-test-2337",
+  "trec-tot-2024-test-2356",
+  "trec-tot-2024-test-2387",
+  "trec-tot-2024-test-2524"
+ ],
+ "llm": {
+  "api_calls": 426,
+  "cached_calls": 123,
+  "web_searches": 0,
+  "cost_usd": 0.10396979000000002
+ },
+ "split": "test",
+ "summary": {
+  "n": 123,
+  "overall": {
+   "s1_q0": {
+    "mean": 0.5366,
+    "ci95": [
+     0.4472,
+     0.626
+    ],
+    "n": 123
+   },
+   "s1_q1": {
+    "mean": 0.5285,
+    "ci95": [
+     0.439,
+     0.6179
+    ],
+    "n": 123
+   },
+   "s1_q2": {
+    "mean": 0.5041,
+    "ci95": [
+     0.4146,
+     0.5935
+    ],
+    "n": 123
+   },
+   "answer_kept": {
+    "mean": 0.9143,
+    "ci95": [
+     0.8429,
+     0.9714
+    ],
+    "n": 70
+   },
+   "redundant": {
+    "mean": 0.439,
+    "ci95": [
+     0.3496,
+     0.5285
+    ],
+    "n": 123
+   }
+  },
+  "by_group": {
+   "source=dataset:trec-tot-2023-test": {
+    "n": 33,
+    "s1_q0": 0.2121,
+    "s1_q1": 0.2121,
+    "s1_q2": 0.2121,
+    "answer_kept": 1.0,
+    "redundant": 0.303
+   },
+   "source=dataset:trec-tot-2024-test": {
+    "n": 90,
+    "s1_q0": 0.6556,
+    "s1_q1": 0.6444,
+    "s1_q2": 0.6111,
+    "answer_kept": 0.9032,
+    "redundant": 0.4889
+   },
+   "in_top6=False": {
+    "n": 53,
+    "s1_q0": 0.0,
+    "s1_q1": 0.0,
+    "s1_q2": 0.0,
+    "answer_kept": null,
+    "redundant": 0.3585
+   },
+   "in_top6=True": {
+    "n": 70,
+    "s1_q0": 0.9429,
+    "s1_q1": 0.9286,
+    "s1_q2": 0.8857,
+    "answer_kept": 0.9143,
+    "redundant": 0.5
+   }
+  },
+  "extra": {
+   "gain_with_ci": {
+    "s1_q1-s1_q0": [
+     -0.0081,
+     -0.0325,
+     0.0163
+    ],
+    "s1_q2-s1_q0": [
+     -0.0325,
+     -0.065,
+     -0.0081
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,2351 @@
+{
+ "config": {
+  "name": "tool_clues",
+  "retriever": "tool",
+  "model": "e3",
+  "doc": "doc_wiki",
+  "extended": true,
+  "parent": "tool_whole",
+  "rerank_depth": 20,
+  "rerank_chars": 1000,
+  "query_mode": "clues",
+  "depth": 100,
+  "rerank_prompt": "rerank-v1"
+ },
+ "cases": [
+  {
+   "id": "trec-tot-2023-test-1006",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/42740",
+   "answer_title": "The Collector",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/1216191",
+    "movie/250546",
+    "movie/1404791"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-105",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/20048",
+   "answer_title": "Confessions of a Shopaholic",
+   "answer_catalog": "emberfall",
+   "rank": 4,
+   "top3": [
+    "movie/2610",
+    "movie/9778",
+    "movie/1136867"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.25,
+   "ndcg@10": 0.43067655807339306,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-118",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/10843",
+   "answer_title": "After Hours",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/10843",
+    "movie/262",
+    "movie/9894"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-126",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/8922",
+   "answer_title": "Jeepers Creepers",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/31646",
+    "movie/11351",
+    "movie/7182"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-200",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/1635",
+   "answer_title": "The Island",
+   "answer_catalog": "emberfall",
+   "rank": 51,
+   "top3": [
+    "movie/85877",
+    "movie/514207",
+    "movie/597890"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-211",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/1248",
+   "answer_title": "Hannibal Rising",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/116979",
+    "movie/67740",
+    "movie/25155"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-243",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/49530",
+   "answer_title": "In Time",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/49530",
+    "movie/31011",
+    "movie/238615"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-263",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/20932",
+   "answer_title": "Father Frost",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/266220",
+    "tv/29452",
+    "movie/365045"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-287",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/10179",
+   "answer_title": "The Ice Pirates",
+   "answer_catalog": "extension",
+   "rank": 2,
+   "top3": [
+    "movie/14460",
+    "movie/10179",
+    "movie/192577"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.5,
+   "ndcg@10": 0.6309297535714575,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-328",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/46738",
+   "answer_title": "Incendies",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/48393",
+    "movie/9539",
+    "movie/166666"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-457",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/31522",
+   "answer_title": "A Woman Is a Woman",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/2363",
+    "movie/62570",
+    "movie/48831"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-464",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/2565",
+   "answer_title": "Joe Versus the Volcano",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/10019",
+    "movie/24452",
+    "movie/10776"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-505",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/8961",
+   "answer_title": "Bad Boys II",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/1146344",
+    "movie/7501",
+    "movie/13201"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-533",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/10547",
+   "answer_title": "The Arrival",
+   "answer_catalog": "extension",
+   "rank": 5,
+   "top3": [
+    "movie/14458",
+    "movie/951491",
+    "movie/57876"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.2,
+   "ndcg@10": 0.38685280723454163,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-537",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/6312",
+   "answer_title": "Brotherhood of the Wolf",
+   "answer_catalog": "emberfall",
+   "rank": 56,
+   "top3": [
+    "movie/29562",
+    "movie/197796",
+    "movie/3053"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-545",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/18442",
+   "answer_title": "Decoys",
+   "answer_catalog": "emberfall",
+   "rank": 21,
+   "top3": [
+    "movie/24212",
+    "movie/9348",
+    "movie/9423"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-557",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/276",
+   "answer_title": "The Edukators",
+   "answer_catalog": "emberfall",
+   "rank": 30,
+   "top3": [
+    "movie/1629",
+    "movie/445",
+    "movie/110"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-558",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/859",
+   "answer_title": "Dangerous Liaisons",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/859",
+    "movie/26108",
+    "movie/10831"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-587",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/38050",
+   "answer_title": "The Adjustment Bureau",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/9011",
+    "movie/770156",
+    "movie/428449"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-618",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/17903",
+   "answer_title": "A Frozen Flower",
+   "answer_catalog": "emberfall",
+   "rank": 3,
+   "top3": [
+    "movie/45035",
+    "movie/10997",
+    "movie/17903"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.3333333333333333,
+   "ndcg@10": 0.5,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-654",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/34544",
+   "answer_title": "The A-Team",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/640",
+    "tv/3764",
+    "tv/21510"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-740",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "tv/7354",
+   "answer_title": "Harper's Island",
+   "answer_catalog": "emberfall",
+   "rank": 83,
+   "top3": [
+    "movie/13510",
+    "movie/833339",
+    "movie/776797"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-755",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/69668",
+   "answer_title": "Dream House",
+   "answer_catalog": "emberfall",
+   "rank": 52,
+   "top3": [
+    "movie/568091",
+    "movie/70578",
+    "movie/345923"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-822",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/14837",
+   "answer_title": "Forty Guns",
+   "answer_catalog": "extension",
+   "rank": 4,
+   "top3": [
+    "movie/38800",
+    "movie/21717",
+    "movie/31283"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.25,
+   "ndcg@10": 0.43067655807339306,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-873",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/2026",
+   "answer_title": "Hostage",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/15495",
+    "movie/18405",
+    "movie/101669"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-877",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "tv/19002",
+   "answer_title": "Sybil",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/371560",
+    "movie/42196",
+    "movie/24740"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-900",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/19137",
+   "answer_title": "After the Fox",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/19137",
+    "movie/12548",
+    "movie/45099"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2023-test-965",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/15785",
+   "answer_title": "Cherry 2000",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/22076",
+    "movie/43353",
+    "movie/10724"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-970",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/74505",
+   "answer_title": "Lovely Molly",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/340103",
+    "movie/752505",
+    "movie/1288072"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2023-test-987",
+   "source": "dataset:trec-tot-2023-test",
+   "answer": "movie/1548",
+   "answer_title": "Ghost World",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/4953",
+    "movie/2292",
+    "movie/22100"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2003",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/10545",
+   "answer_title": "The Hunchback of Notre Dame",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/2011",
+    "movie/128",
+    "movie/4935"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2021",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/1632",
+   "answer_title": "Mississippi Burning",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/1632",
+    "movie/35009",
+    "movie/10299"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2028",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/9355",
+   "answer_title": "Mad Max Beyond Thunderdome",
+   "answer_catalog": "extension",
+   "rank": 3,
+   "top3": [
+    "movie/76341",
+    "movie/8810",
+    "movie/9355"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.3333333333333333,
+   "ndcg@10": 0.5,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2030",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/809140",
+   "answer_title": "Father Stu",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/809140",
+    "movie/878361",
+    "movie/760329"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2040",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/2062",
+   "answer_title": "Ratatouille",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/2062",
+    "movie/85872",
+    "movie/10198"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2049",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/50037",
+   "answer_title": "Beyond the Black Rainbow",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/1408208",
+    "movie/569547",
+    "movie/469019"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2050",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/7278",
+   "answer_title": "Meet the Spartans",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/98",
+    "movie/558449",
+    "movie/43332"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2058",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/11395",
+   "answer_title": "The Santa Clause",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/11395",
+    "movie/9021",
+    "movie/13767"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2061",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/274855",
+   "answer_title": "Geostorm",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/274855",
+    "movie/435",
+    "movie/406759"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2066",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/338967",
+   "answer_title": "Zombieland: Double Tap",
+   "answer_catalog": "emberfall",
+   "rank": 2,
+   "top3": [
+    "movie/19908",
+    "movie/338967",
+    "movie/10925"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.5,
+   "ndcg@10": 0.6309297535714575,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2067",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/42464",
+   "answer_title": "O Lucky Man!",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/70345",
+    "movie/26932",
+    "movie/33468"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2075",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/14223",
+   "answer_title": "Wind Chill",
+   "answer_catalog": "emberfall",
+   "rank": 28,
+   "top3": [
+    "movie/396940",
+    "movie/13510",
+    "movie/310133"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2078",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/709",
+   "answer_title": "Licence to Kill",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/709",
+    "movie/708",
+    "movie/699"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2087",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/12103",
+   "answer_title": "Don't Say a Word",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/73588",
+    "movie/1454741",
+    "movie/332704"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2093",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/133805",
+   "answer_title": "Carrie",
+   "answer_catalog": "emberfall",
+   "rank": 2,
+   "top3": [
+    "movie/7340",
+    "movie/133805",
+    "movie/7342"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.5,
+   "ndcg@10": 0.6309297535714575,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2105",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/246655",
+   "answer_title": "X-Men: Apocalypse",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/246655",
+    "movie/36658",
+    "movie/617126"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2108",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/8966",
+   "answer_title": "Twilight",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/82505",
+    "movie/9792",
+    "movie/24655"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2133",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/607",
+   "answer_title": "Men in Black",
+   "answer_catalog": "extension",
+   "rank": 2,
+   "top3": [
+    "movie/41154",
+    "movie/607",
+    "movie/608"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.5,
+   "ndcg@10": 0.6309297535714575,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2142",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/281338",
+   "answer_title": "War for the Planet of the Apes",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/281338",
+    "movie/119450",
+    "movie/61791"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2146",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/597208",
+   "answer_title": "Nightmare Alley",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/597208",
+    "movie/1124",
+    "movie/1878"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2157",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/81774",
+   "answer_title": "Exploits of a Young Don Juan",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/1631",
+    "movie/2282",
+    "movie/1278"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2171",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/6522",
+   "answer_title": "Life",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/6522",
+    "movie/21629",
+    "movie/31608"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2176",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/262",
+   "answer_title": "The King of Comedy",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/262",
+    "tv/1915",
+    "movie/9895"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2181",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/11849",
+   "answer_title": "Dungeons & Dragons",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/70160",
+    "movie/157350",
+    "movie/262500"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2183",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/12994",
+   "answer_title": "The Nines",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/86828",
+    "movie/310",
+    "movie/1902"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2190",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/41035",
+   "answer_title": "Torture Garden",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/29030",
+    "movie/29235",
+    "movie/29514"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2193",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/755566",
+   "answer_title": "Day Shift",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/755566",
+    "movie/1248226",
+    "movie/531499"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2203",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/38167",
+   "answer_title": "Eat Pray Love",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/38167",
+    "tv/7979",
+    "tv/46027"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2216",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/11694",
+   "answer_title": "Cat Ballou",
+   "answer_catalog": "extension",
+   "rank": 26,
+   "top3": [
+    "movie/39833",
+    "movie/11577",
+    "movie/14729"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2225",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/11313",
+   "answer_title": "Hearts in Atlantis",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/253235",
+    "movie/39413",
+    "movie/4291"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2227",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/514999",
+   "answer_title": "Murder Mystery",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/514999",
+    "movie/638974",
+    "movie/35056"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2234",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/601",
+   "answer_title": "E.T. the Extra-Terrestrial",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/601",
+    "movie/238603",
+    "movie/9872"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2246",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/2067",
+   "answer_title": "Mission to Mars",
+   "answer_catalog": "emberfall",
+   "rank": 40,
+   "top3": [
+    "movie/62",
+    "movie/4437",
+    "movie/945961"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2248",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/8078",
+   "answer_title": "Alien Resurrection",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/8078",
+    "movie/679",
+    "movie/8077"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2249",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/88751",
+   "answer_title": "Journey to the Center of the Earth",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/88751",
+    "movie/11571",
+    "movie/72545"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2252",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/11528",
+   "answer_title": "The Sandlot",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/11528",
+    "movie/18500",
+    "movie/23479"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2268",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/62215",
+   "answer_title": "Melancholia",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/62215",
+    "movie/55420",
+    "movie/300668"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2270",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/628914",
+   "answer_title": "Queenpins",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/628914",
+    "movie/449562",
+    "tv/71715"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2272",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/578701",
+   "answer_title": "Those Who Wish Me Dead",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/578701",
+    "movie/1387382",
+    "movie/603119"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2285",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/736526",
+   "answer_title": "Troll",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/736526",
+    "movie/1180831",
+    "movie/46146"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2300",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/214756",
+   "answer_title": "Ted 2",
+   "answer_catalog": "emberfall",
+   "rank": 36,
+   "top3": [
+    "movie/38317",
+    "movie/14306",
+    "movie/146239"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2304",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/117",
+   "answer_title": "The Untouchables",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/117",
+    "tv/2774",
+    "movie/259695"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2311",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/9100",
+   "answer_title": "The Craft",
+   "answer_catalog": "extension",
+   "rank": 2,
+   "top3": [
+    "movie/37938",
+    "movie/9100",
+    "movie/16395"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.5,
+   "ndcg@10": 0.6309297535714575,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2313",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/25137",
+   "answer_title": "Beyond a Reasonable Doubt",
+   "answer_catalog": "emberfall",
+   "rank": 3,
+   "top3": [
+    "movie/10155",
+    "movie/49527",
+    "movie/25137"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.3333333333333333,
+   "ndcg@10": 0.5,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2331",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/9769",
+   "answer_title": "Lolita",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/9769",
+    "movie/33408",
+    "movie/25155"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2336",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "tv/4531",
+   "answer_title": "Night Visions",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "tv/2263",
+    "movie/1216191",
+    "tv/62710"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2365",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/10160",
+   "answer_title": "A Nightmare on Elm Street: The Dream Child",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/11481",
+    "movie/16154",
+    "movie/24740"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2374",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/620",
+   "answer_title": "Ghostbusters",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/620",
+    "movie/8852",
+    "movie/14510"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2389",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/114",
+   "answer_title": "Pretty Woman",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/114",
+    "movie/2642",
+    "movie/3525"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2397",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/14313",
+   "answer_title": "Feast of Love",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/673309",
+    "movie/632322",
+    "movie/585244"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2402",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/522681",
+   "answer_title": "Escape Room",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/522681",
+    "movie/449664",
+    "movie/585216"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2404",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/9740",
+   "answer_title": "Hannibal",
+   "answer_catalog": "emberfall",
+   "rank": 2,
+   "top3": [
+    "movie/11604",
+    "movie/9740",
+    "movie/1672"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.5,
+   "ndcg@10": 0.6309297535714575,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2409",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/11113",
+   "answer_title": "My Fair Lady",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/11113",
+    "tv/49767",
+    "movie/24134"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2425",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/550231",
+   "answer_title": "The Secret: Dare to Dream",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/550231",
+    "movie/14326",
+    "movie/452832"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2438",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/1213",
+   "answer_title": "The Talented Mr. Ripley",
+   "answer_catalog": "extension",
+   "rank": 2,
+   "top3": [
+    "movie/10363",
+    "movie/1213",
+    "movie/37710"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.5,
+   "ndcg@10": 0.6309297535714575,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2452",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/9504",
+   "answer_title": "Glengarry Glen Ross",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/9504",
+    "movie/14181",
+    "movie/4566"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2453",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/302699",
+   "answer_title": "Central Intelligence",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/302699",
+    "movie/345922",
+    "movie/10923"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2461",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/352173",
+   "answer_title": "Drishyam",
+   "answer_catalog": "emberfall",
+   "rank": 50,
+   "top3": [
+    "movie/42172",
+    "movie/146233",
+    "movie/489999"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2468",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/36657",
+   "answer_title": "X-Men",
+   "answer_catalog": "emberfall",
+   "rank": 72,
+   "top3": [
+    "tv/1639",
+    "movie/13455",
+    "movie/445651"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2475",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/1494",
+   "answer_title": "Curse of the Golden Flower",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/11953",
+    "movie/346",
+    "movie/64686"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2476",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/445651",
+   "answer_title": "The Darkest Minds",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/445651",
+    "tv/2407",
+    "tv/4289"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2483",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/307081",
+   "answer_title": "Southpaw",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/307081",
+    "movie/312221",
+    "movie/45317"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2493",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/408439",
+   "answer_title": "Hounds of Love",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/42172",
+    "movie/9344",
+    "movie/13078"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2496",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/10843",
+   "answer_title": "After Hours",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/10843",
+    "movie/9013",
+    "movie/10729"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2503",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "tv/1447",
+   "answer_title": "Psych",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/1450527",
+    "movie/3603",
+    "movie/513083"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2512",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/814338",
+   "answer_title": "Lady Chatterley's Lover",
+   "answer_catalog": "emberfall",
+   "rank": 32,
+   "top3": [
+    "movie/41464",
+    "tv/39644",
+    "movie/4148"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2522",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/226",
+   "answer_title": "Boys Don't Cry",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/226",
+    "movie/21309",
+    "movie/9516"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2529",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/8681",
+   "answer_title": "Taken",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/8681",
+    "movie/82675",
+    "movie/62835"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2535",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/5548",
+   "answer_title": "RoboCop",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/19108",
+    "movie/1368",
+    "movie/15983"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2539",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/8698",
+   "answer_title": "The League of Extraordinary Gentlemen",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "tv/42860",
+    "tv/235389",
+    "tv/63926"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2547",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/4108",
+   "answer_title": "The Transporter",
+   "answer_catalog": "emberfall",
+   "rank": 2,
+   "top3": [
+    "movie/13387",
+    "movie/4108",
+    "movie/1167271"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.5,
+   "ndcg@10": 0.6309297535714575,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2549",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/14506",
+   "answer_title": "The Adventures of Baron Munchausen",
+   "answer_catalog": "extension",
+   "rank": 4,
+   "top3": [
+    "movie/10679",
+    "movie/302349",
+    "movie/9805"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 1.0,
+   "mrr@10": 0.25,
+   "ndcg@10": 0.43067655807339306,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2551",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/72976",
+   "answer_title": "Lincoln",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/72976",
+    "movie/1717",
+    "movie/967"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2554",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/6435",
+   "answer_title": "Practical Magic",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/6435",
+    "tv/1981",
+    "tv/79611"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2558",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/11690",
+   "answer_title": "Bloodsport",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/11690",
+    "movie/9461",
+    "movie/12721"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2562",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/4538",
+   "answer_title": "The Darjeeling Limited",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/4538",
+    "movie/11190",
+    "movie/59468"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2566",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/70160",
+   "answer_title": "The Hunger Games",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/70160",
+    "movie/101299",
+    "movie/131631"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2576",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/877703",
+   "answer_title": "Teen Wolf: The Movie",
+   "answer_catalog": "emberfall",
+   "rank": 17,
+   "top3": [
+    "movie/329440",
+    "movie/10885",
+    "movie/11838"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2579",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/428078",
+   "answer_title": "Mortal Engines",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/428078",
+    "movie/786892",
+    "movie/507244"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2581",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/13256",
+   "answer_title": "Mutant Chronicles",
+   "answer_catalog": "emberfall",
+   "rank": null,
+   "top3": [
+    "movie/190847",
+    "movie/338676",
+    "movie/287424"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  },
+  {
+   "id": "trec-tot-2024-test-2585",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/7984",
+   "answer_title": "In the Name of the Father",
+   "answer_catalog": "extension",
+   "rank": 1,
+   "top3": [
+    "movie/7984",
+    "movie/16759",
+    "movie/10360"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2586",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/116745",
+   "answer_title": "The Secret Life of Walter Mitty",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/116745",
+    "movie/12722",
+    "tv/127700"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2592",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/395834",
+   "answer_title": "Wind River",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/395834",
+    "movie/466420",
+    "movie/759902"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2596",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/1887",
+   "answer_title": "Marie Antoinette",
+   "answer_catalog": "emberfall",
+   "rank": 1,
+   "top3": [
+    "movie/1887",
+    "movie/921452",
+    "movie/99579"
+   ],
+   "rerank_errors": 0,
+   "success@1": 1.0,
+   "success@10": 1.0,
+   "mrr@10": 1.0,
+   "ndcg@10": 1.0,
+   "recall@100": 1.0
+  },
+  {
+   "id": "trec-tot-2024-test-2600",
+   "source": "dataset:trec-tot-2024-test",
+   "answer": "movie/11954",
+   "answer_title": "Lifeforce",
+   "answer_catalog": "extension",
+   "rank": null,
+   "top3": [
+    "movie/15018",
+    "movie/22171",
+    "movie/71138"
+   ],
+   "rerank_errors": 0,
+   "success@1": 0.0,
+   "success@10": 0.0,
+   "mrr@10": 0.0,
+   "ndcg@10": 0.0,
+   "recall@100": 0.0
+  }
+ ],
+ "metrics": [
+  "success@1",
+  "success@10",
+  "mrr@10",
+  "ndcg@10",
+  "recall@100"
+ ],
+ "groups": [
+  "source",
+  "answer_catalog"
+ ],
+ "failed": [
+  "trec-tot-2023-test-1006",
+  "trec-tot-2023-test-126",
+  "trec-tot-2023-test-200",
+  "trec-tot-2023-test-211",
+  "trec-tot-2023-test-263",
+  "trec-tot-2023-test-328",
+  "trec-tot-2023-test-457",
+  "trec-tot-2023-test-464",
+  "trec-tot-2023-test-505",
+  "trec-tot-2023-test-537",
+  "trec-tot-2023-test-545",
+  "trec-tot-2023-test-557",
+  "trec-tot-2023-test-587",
+  "trec-tot-2023-test-654",
+  "trec-tot-2023-test-740",
+  "trec-tot-2023-test-755",
+  "trec-tot-2023-test-873",
+  "trec-tot-2023-test-877",
+  "trec-tot-2023-test-965",
+  "trec-tot-2023-test-970",
+  "trec-tot-2023-test-987",
+  "trec-tot-2024-test-2003",
+  "trec-tot-2024-test-2049",
+  "trec-tot-2024-test-2050",
+  "trec-tot-2024-test-2067",
+  "trec-tot-2024-test-2075",
+  "trec-tot-2024-test-2087",
+  "trec-tot-2024-test-2108",
+  "trec-tot-2024-test-2157",
+  "trec-tot-2024-test-2181",
+  "trec-tot-2024-test-2183",
+  "trec-tot-2024-test-2190",
+  "trec-tot-2024-test-2216",
+  "trec-tot-2024-test-2225",
+  "trec-tot-2024-test-2246",
+  "trec-tot-2024-test-2300",
+  "trec-tot-2024-test-2336",
+  "trec-tot-2024-test-2365",
+  "trec-tot-2024-test-2397",
+  "trec-tot-2024-test-2461",
+  "trec-tot-2024-test-2468",
+  "trec-tot-2024-test-2475",
+  "trec-tot-2024-test-2493",
+  "trec-tot-2024-test-2503",
+  "trec-tot-2024-test-2512",
+  "trec-tot-2024-test-2535",
+  "trec-tot-2024-test-2539",
+  "trec-tot-2024-test-2576",
+  "trec-tot-2024-test-2581",
+  "trec-tot-2024-test-2600"
+ ],
+ "llm": {
+  "api_calls": 226,
+  "cached_calls": 4,
+  "web_searches": 0,
+  "cost_usd": 0.12864343499999994
+ },
+ "split": "dev",
+ "summary": {
+  "n": 115,
+  "overall": {
+   "success@1": {
+    "mean": 0.4348,
+    "ci95": [
+     0.3478,
+     0.522
+    ],
+    "n": 115
+   },
+   "success@10": {
+    "mean": 0.5652,
+    "ci95": [
+     0.4783,
+     0.6522
+    ],
+    "n": 115
+   },
+   "mrr@10": {
+    "mean": 0.4865,
+    "ci95": [
+     0.4007,
+     0.5732
+    ],
+    "n": 115
+   },
+   "ndcg@10": {
+    "mean": 0.5063,
+    "ci95": [
+     0.4211,
+     0.5926
+    ],
+    "n": 115
+   },
+   "recall@100": {
+    "mean": 0.687,
+    "ci95": [
+     0.6,
+     0.7739
+    ],
+    "n": 115
+   }
+  },
+  "by_group": {
+   "source=dataset:trec-tot-2023-test": {
+    "n": 30,
+    "success@1": 0.1333,
+    "success@10": 0.3,
+    "mrr@10": 0.1844,
+    "ndcg@10": 0.2126,
+    "recall@100": 0.5
+   },
+   "source=dataset:trec-tot-2024-test": {
+    "n": 85,
+    "success@1": 0.5412,
+    "success@10": 0.6588,
+    "mrr@10": 0.5931,
+    "ndcg@10": 0.61,
+    "recall@100": 0.7529
+   },
+   "answer_catalog=emberfall": {
+    "n": 71,
+    "success@1": 0.3944,
+    "success@10": 0.493,
+    "mrr@10": 0.4354,
+    "ndcg@10": 0.4501,
+    "recall@100": 0.6761
+   },
+   "answer_catalog=extension": {
+    "n": 44,
+    "success@1": 0.5,
+    "success@10": 0.6818,
+    "mrr@10": 0.5689,
+    "ndcg@10": 0.5971,
+    "recall@100": 0.7045
+   }
+  }
+ }
+}

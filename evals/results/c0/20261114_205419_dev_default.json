@@ -1,0 +1,4399 @@
+{
+ "config": {
+  "name": "default"
+ },
+ "cases": [
+  {
+   "id": "known_item:trec-tot-2023-test-1006",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Girl in a red dress enters a bizarre shop, where she gets chloroformed by the weird owner . This was a short movie I saw",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-1049",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "australian school children . I saw this movie in the early 90's on tv. I think the setting was in Australia. The movie s",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-105",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Romantic Comedy with a scene about cost vs worth . I am trying to remember the title of a film about a woman who meets a",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-108",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Barbarian fantasy movie where a queen is escaped and saved by barbarians . I saw this movie in the 90s, it might be crea",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-118",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "late 80's or 90's black comedy, guy locked out of his appartment . It's a comedy of situations with a lot of hints of bl",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-126",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "monster movie before the 2000s (i think) . so the movie I saw had monsters. It had color, and was I'm English, I distinc",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-150",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "lady cop gets legs cut off . i remember watching what i believe to be was a movie with short horror stories or a series.",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-162",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "a group of teens(kids maybe) did some kind of experiment and brought these tv characters to life… . a group of teens(kid",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-173",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Old Anime Movie, Father Does Tests and Turns Daughter Into A Monster? . I watched it back in the 90s on Starz or HBO or ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-200",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Hope you guys can identifiy that movie . I know for sure that movie was filmed before 2013, because i have watched it ea",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-201",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Movie with evil white ball devours this guy's arm, out comes two women wearing cobwebs as robes . So this movie has been",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-211",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Movie with psychopath living with his aunt . Hi everyone ? I remember watching a movie somewhere in the 2010s. The gener",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-223",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Gruesome horror movie with isopods and penis monster . Can anyone remember this strange film where a man wants to sleep ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-224",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Film about witchcraft but it's not \"The Craft\" . I'm as certain as I can be this is not The Craft. It's about some (teen",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-243",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Time movie . I remember watching the trailer maybe a year ago I think the films maybe 4 years old. Everyone has like thi",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-250",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Alfred Hitchcock like movie early 1960's . Thriller I rented 8 years ago. Set on coast of Monaco or Italy. Alfred-hitch ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-261",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "possibly 70's movie scene: kid trapped under water or tree? . I was a young kid so this had to be late 80's or early 90'",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-263",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "SnowWhite/RoseRed-esque, circa 1960's . SnowWhite/RoseRed-esque, circa 1960's a cabin in the snow, two girls, possibly s",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-285",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "early 80s thriller . Basics: American movie, in English, color, was on HBO in the early-mid 80s It was a thriller / susp",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-287",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "space pirate . Ok I remember seeing a movies back in 80s wasn't a major motion picture it was color in English about a g",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-298",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Dark British Comedy About Murderous Librarian . So, twenty years ago I came across a film in our local video rental plac",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-302",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "TV Movie Ghost Story . I turned on the TV one night and found this gem. I don't think I saw the beginning, but basically",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-327",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Late night cable movie seen in the mid 2000s . I can't remember much about this movie. It starts with a pregnant prostit",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-328",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Film about young man who is forced to rape a woman who ends up being his mother . Last year in film school, I watched pa",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-334",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Weird neighbor kid takes pictures/drugs next door neighbor lady . I saw a movie within the last two years that I can not",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-356",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Old sci fi horror . Hi Im looking for this old I think from '90 sci fi horror movie and cant find it anywhere. From what",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-361",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Bizarre Asian American scifi indie film 90s, saw on PBS. . It was the mid 90s, shown on a PBS channel. It was a highly d",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-390",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Mind reading woman and cop . What is the name of recent film or TV series pilot with woman who can read minds and by the",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-452",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Comedy documentary about friends who make up movie one scene at a time . I've now spent 2 days trying to find a movie I ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-457",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Fighting in French . I watched this movie in my film class a couple years ago. The movie was in black and white and I be",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-460",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Skateboard Horror movie in the 90's . There was a movie about skateboarders, I remember a dark alley next to a building,",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-464",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Opening scene where a flower is crushed? . So I think this was an opening scene, but a flower (I think a dandelion) is c",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-466",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "60's flick, evil scientist freezes murdered female models in capsule for future… . Ok, so I think this was a mid to late",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-467",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Asian Assassins spoof . I can't remember whether or not the movie was subtitled but it was one of those stereotypical As",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-477",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Guy falls/gets pushed from window. Saved by flagpole between his legs. . One more for today because ya'll are amazing an",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-494",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Man with mental powers. . I saw a movie a long time ago, around 1978, and it was about a man (magician or illusionist) t",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-501",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "70s atomic apocalypse . Could have been a made-for-TV movie about a family's struggle to survive after an atomic explosi",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-505",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "(Warning: Violent gore content ! ) Scene from a movie I can't remember . Two guys meet with some maffia or a gang in a h",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-519",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "redbox mystery driving me insane . Ok, so my hubby, brother-in-law, and I rented a movie from redbox in the mid 2000's (",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-533",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Aliens in Mexico . So I tried searching for this movie in google with the information that I remember and it actually br",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-537",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "What is this movie???? . I don't remember much about this movie, I watched it a long time ago on the TV. It was in Engli",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-545",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Alien Invasion + English + Adult . I watched this movie and remember parts of this - It is probably after 2000. Alien In",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-557",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Foreign Movie about Young vs. Old Revolutionaries . I can't for the life of me remember this film. I remember seeing it ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-558",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "18th century period piece . At some point the the 90's I saw a film on tv (probably HBO) that was set in the 1700's. I d",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-587",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Guardian Angel accidentally lets two people fall in love . Ok so I don't have that many details because I wasn't the one",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-610",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Cop's son needs blood transfusion from an inmate . A cop's son is very sick and needs a certain type of blood transfusio",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-611",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "A horror film about a House that kills and regenerates NOT THE ANIMATED MOVIE MONSTER HOUSE . During Halloween I seen a ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-616",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "girl holds man hostage . Movie from the 60s or 70s. A girl holds a travelling salesman by breaking his leg and ties him ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-618",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Chinese Historical Gay Film . It's a rather strange movie description so bear with me here! I definitely can't remember ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-621",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Boy uses machine becomes adult falls in love becomes boy again - not BIG . The movie has 2 best friends who go to school",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-630",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Pirate cartoon . Way back when i saw a cartoon movie of three boys who somehow manage to travel back in time to the era ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-636",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Weird Horror Movie saw on TV in the mid 90s - 2000 . I saw this movie (can't remember if it was a TV show or movie) on T",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-654",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Comedy Con Artist/Criminal Movie (or TV show) scene . I'm picturing a scene and it's driving me insane that I can't figu",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-656",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Early 80's Saturday morning movie . I believe this came on as a Saturday morning movie, like the ABC Weekend Specials in",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-661",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "British film (1970s?), where clues are found in old newsreel footage . In this film someone searches for something via s",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-668",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Anyone remember this stalker thriller? . This was a stalker thriller from the 80's or possibly early 90's. WPIX in NY us",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-673",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember this from the movie and want to know the name of the movie. . What I remember about the movie is there a grou",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-702",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Boy burn down the house with his drug using mother still in it . Hi, I spend almost 10 years of finding the movie title,",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-740",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Horror/Thriller Movie That Aired in 2009 . I watched this movie in June of 2009 on TV. It might have been a movie or a T",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-745",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Help Emergency! . It was this movie I rented from Blockbuster long ago. It was about these blue ferret things who tried ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-755",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Drama movie, blonde girl, her husband got hit in the head . I saw once a movie, about 1 year ago maybe, I think it isn't",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-822",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Cowgirl Operating on Cowboy . Here is a film or TV still that I am trying to identify that was unlabeled in a book. A bl",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-824",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Boy that gets power to slow down time and suddenly starts growing faster. . I remember it was like in the 2000's and it ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-833",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "record played backwards to release a ghost.Please help. . I hope you can help. I remember seeing this film in late 80's ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-869",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Amovie where everything is controlled by a guy in a pod. . So its from the 90s or early 2000s. its like a cross between ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-873",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "What is this hostage movie title??? . I don't remember the title of this movie but I know I have seen it when I was abou",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-877",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "unknown . I recall a scene or two from a black and white movie in which an insane mother tortures her young daughter by ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-884",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "90s horror movie????? . I think I saw this movie in the late 90s maybe early 2000s. Maybe made in the 90s or even 80s? I",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-900",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "You are running… from yourselves! . I saw this movie on TV in the last 60s or early 70s, it was in color I think. A man ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-930",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Most likely a 70s suspenseful thriller . Remember watching parts of this when i was 8 or 9. I remember it was an older m",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-931",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Full Moon Video Kids Movie \"Don't Make Promises\"… . Alright, so I last saw this movie as a kid around 1998, and I'm almo",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-964",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "woman giving birth . I saw a movie some years ago, the film itself was older, probably early 70's. It was in color, and ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-965",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Man loses his artificial girlfriend and and goes on a dengeros trip to find a replacment . the movie looks like made in ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-970",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Horror Movie . About 2 months ago I saw a horror movie about a woman being stalked by a deer like demon. I saw a lot of ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-980",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Giant Spiders in 1960's comedy movie . This has driven me nuts for the last 25 years. Seen a couple of times on British ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2023-test-987",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Guy looking for the film 8 1/2 @ a movie rental place . I can't remember to save my life!! I remember the walls of the p",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2003",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this animated movie ages ago, and it's been bugging me because I can't recall the name. It was one o",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2017",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Martial arts movie set in a desert and involves a possession, made in English . First off the movie is made in English a",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2020",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched a while back, and it's been bugging me because I can't remember the name. It was this i",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2021",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this intense movie ages ago, and it's been bugging me because I can't recall the name. It was set in",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2027",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Cat Burglar movie . I first saw this in the 90s so specific details beyond this scene are beyond me. I'm pretty sure the",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2028",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie ages ago, maybe during a summer break when I was staying at my cousin's place. It's one o",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2030",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember catching this movie a while back, maybe during one of those lazy Sunday afternoons when you're flipping throu",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2032",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Girl that was raped . Hello Everyone !!! I watched this movie a long time ago, I think it was this high school or colleg",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2040",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this animated movie I watched ages ago, and it's been bugging me because I can't remember the name. The plot",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2049",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Bizarre Movie trailer . I remember seeing a move trailer several years ago, but I can't remember exactly when it was pla",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2050",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Gladiators? . An ancient Roman/Greek movie where a dude with abs kicks a bunch of others into a giant hole in the ground",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2058",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It was this quirk",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2061",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched a while back, and it's been bugging me because I can't remember the name. I think it wa",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2066",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this wild movie a while back, and it's been bugging me because I can't recall the name. It was this ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2067",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "movie title . Hello i am looking for the name of an old movie ( '70s ) where a hospital performs human experiments with ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2075",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "movie about two school couple get out of school and boy is driving until they have car accident . and they lost in woods",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2078",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. I think it was fr",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2081",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Story of a creature . I have a feeling that it's part of one of those movies that's several stories on one film, but I h",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2086",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "western . this is a western from the 60/70's in english and a mainstream film with regular american actors. A character ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2087",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Grave/safe key combination weird girl . It's about a weird or crazy girl which is pursued because she knows a certain co",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2090",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Late 60's, early 70's pirate movie. . The only scene I remember of this movie is about a man being hoisted to the top of",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2093",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It's about this r",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2094",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "black and white movie with folks shipwrecked on island. surrounded by cannibal s . I first saw this film on the tv's lat",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2105",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago that's been bugging me because I can't remember the name. It was one of those ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2108",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It was about this",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2116",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Horror Movie help . A movie seen in the early 90's on tv. Pretty sure it was from the early 90's, if anything, the late ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2120",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Sci fi cartoon series about space trucker? . Okay not a movie a TV series, animated with a central protagonist who was a",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2121",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Guy trying to escape a prison/penal colony? . A guy is in an outdoors penal colony or prison of sorts, with a chain atta",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2133",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this sci-fi comedy ages ago, maybe during a family movie night or something. It had this quirky duo ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2135",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Heist of magical stone? using climbing gear . I caught the ending of this movie several times on cable in the 80s. It wa",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2138",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "japanese scifi 90s? . My movie is I believe a 90's movie but maybe late 80s or early 00s. I would have seen it in the la",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2142",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It was one of tho",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2146",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, I watched this movie ages ago, and it's been bugging me because I can't remember the name. It had this really dark, ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2155",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "weird movie about smugglers looking for teenage boy . So we saw this movie a few years ago. It was pretty weird , but la",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2157",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie ages ago, maybe during a lazy summer afternoon when I was supposed to be doing something ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2171",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, I've been racking my brain trying to remember this movie I watched ages ago. I think it was set way back, like in th",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2176",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. I saw it during a",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2181",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie that's been bugging me for a while, and I can't seem to remember its name. I watched it ages ago,",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2183",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Man turns out to be a god creating multiple versions of himself as a human . I saw this on tv somewhere between 2006 and",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2190",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "horror movie with cat, 1 scene . I was very young, approximately 1969. At the drive-in with my parents, it was a double ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2192",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Modern Film About Killer Teaching A Man How To Protect A Killer . The film is about a man who finds out about a serial k",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2193",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie ages ago, maybe during a lazy weekend with some friends. It had this blue-collar dad who ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2203",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie ages ago, and it's been bugging me because I can't recall the name. It was about this wom",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2209",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and I can't seem to remember its name for the life of me. I think it was an a",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2216",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Old Western featuring two singing guys . when I was a kid I remember seeing an old western film. It was probably from th",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2225",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Movie about a boy and and old man who tells him stories about leprechauns . There is a movie that I saw approximately in",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2227",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie a while back, and it's been bugging me because I can't recall the name. It was one of tho",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2234",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "A film I must have seen about thirty years ago now? I know I was little at any rate. All I remember with any clarity is ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2236",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "1950s dark comedy: inheritance, crime, mistaken identity, detective . I am looking for a 1940s-1950s black and white mov",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2243",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Quartz Cave creature . I don't know the name of this movie, but it begins with a man and his wife driving in a car on a ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2246",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Sci Fi movie where they encounter the alien at the end . The astronauts are on another planet, where there are these ali",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2248",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this sci-fi movie ages ago, and it's been bugging me because I can't recall the title. It was set in",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2249",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It was one of tho",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2252",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It was about this",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2256",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Ghosts Posessing To Move On . I am dying to find this movie, I think it was from the 90's. It was about a bunch of passe",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2268",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. I think it was ab",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2270",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched a while back, and it's been bugging me because I can't remember the name. It was this q",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2272",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie a while back, and it's been bugging me because I can't recall the name. It was an intense",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2285",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched a while back, and it's been bugging me because I can't remember the name. It was this e",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2300",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It's about this ta",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2304",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this old movie that's been bugging me lately, and I can't seem to remember its name. I watched it ages ago, ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2311",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Worms in bathroom sink . I saw this movie as a child, which was in the late 90's/early 2000's but it could have been old",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2313",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Man is wrongly framed for a murder, but it turns out he really was the one who did it . Hi! ? The movie I'm thinking of ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2314",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Man is unsure of his identity . I saw this movie on TV in the late nineties, and it couldn't have been more than about 1",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2327",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Weird Church, Girl with Boils, Acrobats Rescue . I saw this movie on HBO during the 80s. There was a girl with lots of b",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2331",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. I think it was a ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2333",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Brother forces sister to be the get away driver for bank robbery . This movie haunts me. In the movie, there is a brothe",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2336",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Very strange tv show or movie . I believe this is was the early 2000s and in color. Not sure if it was part of a tv show",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2348",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Need some serious help . This movie is supposed to be a horror movie made in between 2013- 14 maybe that I saw on netfli",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2358",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Really weird movie about a movie . Okay, please bear with me as this might be a bit weird. But I do need confirmation th",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2360",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Movie about some kind of sphere . When I was a kid in the 80s i remember watching this movie on HBO, it was about a bunc",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2365",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Woman climbs out of bed to take a shower, shower fills up over her head, and she starts hitting the glass door . I saw t",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2368",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "neo noir movie with hit and run and a loop plot . Hey there, I am looking for a movie of a given description: Movie plot",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2371",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Ninja Kangaroos . There is a movie I watched when I was between the ages of 10-13, that was about a kid that helped thes",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2373",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "meet the robinsons-esque straight-to video movie about making an alter-ego . it was a movie i saw and got from Blockbust",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2374",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember this movie I watched ages ago, and it's been bugging me because I can't recall the name. It was about these q",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2375",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Bad Italian SciFi/Spy Spoof . Hello everyone. I usually visit this site to help find a film but today I need some help m",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2385",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Comedy / action movie . A girl is kidnapped. Her somewhat senile grandfather writes to various adventurers from books li",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2389",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie ages ago, and it's been bugging me because I can't recall the name. It was about this wea",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2397",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "guy dies playing flag football at the end . I watched this movie on Netflix in 2014 and all I remember is: in the beginn",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2402",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched a while back, and it's been bugging me because I can't remember the name. It's about th",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2404",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember catching this movie ages ago, maybe during a late-night movie marathon with some friends. It was one of those",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2409",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this old movie ages ago, and it's been bugging me because I can't recall the name. It was one of tho",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2419",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "80's horror set in a retro movie theater . Here's the things that I remember: as kids me and my cousin found a random ho",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2424",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "lots of snow . I saw parts of this movie a few years ago & searched everywhere but can't find the name of it. It was mad",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2425",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, I watched this movie ages ago, and it's been bugging me because I can't remember the name. It's one of those heartfe",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2433",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Movie with a song . Hi. About 10 years ago I watched this american(?) movie about a single mother restlessly moving from",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2438",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It was set in thi",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2444",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Messed up kids movie that I can't remember! . I remember a kids adventure/horror movie from the late 90's-early 2000's. ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2446",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Nerd's body is invaded by wires that cause his head to pop off, and vampire kills students, crosses out yearbook pics . ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2448",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember catching this movie ages ago, maybe in a late-night binge session with some friends. It had this really gritt",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2452",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. I think it was se",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2453",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. I saw it with a b",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2456",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Couple wanders into weird village, finally escape . hi can someone help this movie is from the 60s or 70s I think. There",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2461",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this intense thriller a few years back, and it's been bugging me that I can't recall the name. The s",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2466",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "70's Cannibal Horror Flick . I remember a horror movie from the early 70s (I think). I saw it on TV but it was definitel",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2468",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It's set in a wor",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2475",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Help . So kind of Samurai movie something to do with chrysanthemum? Maybe the only scene I really remember was a whole a",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2476",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie that's been bugging me for a while. I watched it ages ago, maybe during a rainy weekend when I wa",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2483",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched quite a while back, and it's been bugging me because I can't remember the name. It was ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2493",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "a movie about kidnapping . Hello, I watched a movie very recently and I'm looking for a song from it but I don't remembe",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2496",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "One man's overnight adventures . Saw this on TV (colour), probably in the 80s or early 90s, but not certain. It follows ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2503",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "A comedy with a cult in it. . I find this immensely frustrating because I can only give very vague descriptions. It was ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2507",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "British(?) World War Two film, about 1970/71, with brutal flashbacks . The film I recall I saw late-night on TV in the e",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2512",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie a while back, and it's been bugging me because I can't recall the name. It's set in this ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2513",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "A movie with a kid being teleported to the moon that I think might have been a horror . I saw it when I was around 6 yea",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2516",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "90s TV movie where kids with powers are taken by the government . I saw this movie back in the 90s on tv. The movie invo",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2522",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this intense movie ages ago, and it's been bugging me because I can't recall the name. It was about ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2523",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I hope someone has some idea of this movie to help me . Ok, I would have first seen this movie back quite some time ago ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2529",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this intense action movie a while back, and it's been bugging me because I can't recall the name. It",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2532",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Silent Film- Paralyzed Man -Turner Classic Movie . I saw it a quite a few years ago on Turner Classic Movies on Silent S",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2535",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "1980s action movie . I just re,ember this one specific scene in a 1980's action movie that starred a actor who does acti",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2539",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "help pls . I remember a movie in which there was a person who became a giant by drinking alcohol or something else, and ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2543",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "French Movie from the late 80s/early 90s . I saw this movie around 1998, but it could be anywhere from 1988-1998. It's i",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2544",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Fight Scene in Movie or TV Series, possibly from late 80s/early 90s . I remember a scene I caught on tv once (not sure i",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2547",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this action-packed movie ages ago, and it's been bugging me because I can't recall the name. It was ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2549",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Comedy German Hero Fever Dream with Kid & Friends . Okay so this movie was about a crazy (likefun crazy, not psycho) Ger",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2551",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, I remember watching this movie ages ago, and it's been bugging me because I can't recall the name. It was set during",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2554",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Witch twins? . the movie is about two sisters who are witches. The movie starts off showing them younger with there mom ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2558",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this old martial arts movie ages ago, and it's been bugging me because I can't recall the name. It w",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2562",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It's about these ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2566",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie ages ago, and it's been bugging me that I can't recall the name. It was set in this reall",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2572",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Pixel snake on a kidnapped plane . In this movie, a group of people are kidnapped in a plane. There is a snake on the on",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2576",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It was one of thos",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2579",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, I watched this movie ages ago, and it's been bugging me that I can't remember the name. It was set in this wild, pos",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2581",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Possible Post apocalyptic/zombie movie . OK Guys. Here goes nothing. I remember this movie that I saw the tail end of on",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2583",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "So, there's this movie I watched ages ago, and it's been bugging me because I can't remember the name. It was this inten",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2585",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this intense movie ages ago, and it's been bugging me that I can't recall the name. It was about thi",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2586",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie ages ago, maybe during a lazy Sunday afternoon at a friend's place. It was about this rea",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2592",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie a while back, and it's been bugging me because I can't recall the name. It was set in thi",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2596",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I remember watching this movie ages ago, and it's been bugging me because I can't recall the name. It was this historica",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item:trec-tot-2024-test-2600",
+   "set": "known_item",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Okay, this is a vague one . So I know this is going to be a difficult one. Thank you in advance for reading this. I saw ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-105",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Романтична комедія зі сценою про ціну проти цінності. Я намагаюся згадати назву фільму про жінку, яка зустрічає симпатич",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-211",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Фільм про психопата, який живе зі своєю тіткою. Всім привіт? Пам'ятаю, що дивився фільм десь у 2010-х. Загальна атмосфер",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-328",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Фільм про молодого хлопця, якого змушують зґвалтувати жінку, яка виявляється його матір'ю. Минулого року у кіношколі я д",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-457",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Сварка французькою. Я дивився цей фільм на уроках кіно пару років тому. Фільм був чорно-білий, і, здається, він із 60-х,",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-545",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Вторгнення прибульців + англійською + для дорослих. Дивився цей фільм і пам'ятаю якісь шматки - скоріш за все, він після",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-558",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Костюмована драма про 18 століття. Колись у 90-х я бачив(-ла) по телику фільм (мабуть, на HBO), дія якого відбувалася в ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-587",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Ангел-охоронець випадково дозволяє двом людям закохатися. Окей, у мене не так багато деталей, бо фільм дивився не я, а х",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-618",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Китайський історичний гей-фільм. Опис досить дивний, тож потерпіть! Я точно не пам'ятаю ні назви, ні імен персонажів чи ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-740",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Фільм жахів/трилер, який показували у 2009 Я дивився цей фільм у червні 2009 по телевізору. Можливо, це був фільм, а мож",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-755",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Драматичний фільм, блондинка, її чоловік вдарився головою. Колись бачив фільм, приблизно рік тому, мабуть, думаю, він не",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-822",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Ковгерл оперує ковбоя. Ось кадр з фільму чи серіалу, який я намагаюся впізнати, у книжці він був без підпису. Білява ков",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-877",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "невідомо . Пам'ятаю одну-дві сцени з чорно-білого фільму, де божевільна мати катує свою маленьку доньку: дає їй проносне",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-900",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Ви біжите… від самих себе! . Бачив цей фільм по телевізору наприкінці 60-х або на початку 70-х, здається, він був кольор",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2023-test-970",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Фільм жахів. Десь 2 місяці тому я дивився фільм жахів про жінку, яку переслідує демон, схожий на оленя. Того вечора я пе",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2003",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Років сто тому дивився один мультфільм, і мене це вже дістало, бо ніяк не можу згадати назву. Він був такий, де змішані ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2030",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Пам'ятаю, що дивився цей фільм якось давно, може, в одну з тих лінивих неділь, коли просто перемикаєш канали і щось рапт",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2040",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, є один мультфільм, який я дивився дуже давно, і мене це неймовірно дістає, бо я не можу згадати назву. Сюжет крути",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2049",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Дивний трейлер фільму. Пам'ятаю, що років кілька тому бачив трейлер, але не пам'ятаю, коли саме його показували. В трейл",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2058",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, є один фільм, який я дивився дуже давно, і він не дає мені спокою, бо я не можу згадати назву. Це була така диваку",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2061",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, є один фільм, який я дивився давненько, і він мене просто діставав, бо я не можу згадати назву. Здається, це була ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2066",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Колись дивився один божевільний фільм, і мене це зараз просто діймає, бо не можу згадати назву. Це була така кумедна, ал",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2108",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, є один фільм, який я дивився(-ла) тисячу років тому, і мене це дістає, бо не можу згадати назву. Там про дівчину, ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2133",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Пам'ятаю, дивився один фантастичний комедійний фільм ще дуже давно, може, на сімейному перегляді або щось таке. Там була",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2181",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Привіт! Є один фільм, який мене вже давно мучить, і я ніяк не можу згадати його назву. Я дивилася його дуже давно, здаєт",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2183",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Виявляється, що чоловік - бог, який створює кілька версій самого себе як людини. Я бачив це по телевізору десь між 2006 ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2190",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "фільм жахів з котом, 1 сцена. Я був дуже малий, десь 1969 рік. Ми з батьками були в драйв-ін кінотеатрі, там був подвійн",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2193",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Пам'ятаю, що дивився цей фільм дуже давно, можливо, на якихось лінивих вихідних з друзями. Там був такий простий працююч",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2203",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Років сто тому дивилась/дивився один фільм, і мене це вже дістало, бо не можу згадати назву. Там була жінка, яка ніби ма",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2225",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Фільм про хлопчика і старого, який розповідає йому історії про лепреконів Є фільм, який я бачив приблизно на початку 200",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2227",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Я колись давно дивився один фільм, і мене це зараз просто діє на нерви, бо не можу згадати назву. Це був такий детектив ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2246",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Фільм у жанрі наукової фантастики, де вони зустрічають прибульця наприкінці . Астронавти знаходяться на іншій планеті, д",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2248",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Давно колись дивився один фантастичний фільм, і мене це зводить з розуму, бо не можу згадати назву. Дія відбувалася в ма",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2249",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, є один фільм, який я дивився сто років тому, і він не дає мені спокою, бо я не можу згадати назву. Це була така пр",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2252",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, є один фільм, який я дивився дуже давно, і він мене просто діставав, бо я не можу згадати назву. Він був про компа",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2270",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, є один фільм, який я дивився(-лася) давним-давно, і мене це дістає, бо я не можу згадати назву. Це була така дивак",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2285",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, є один фільм, який я дивився якийсь час тому, і він мене просто діставав, бо я не можу згадати назву. Це була якас",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2300",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Короче, є фільм, який я дивився сто років тому, і мене це вже дістало, бо не можу згадати назву. Там про плюшеву іграшку",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2397",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "чувак помирає наприкінці, граючи у флаг-футбол. Я дивилась цей фільм на Нетфліксі у 2014 і все, що пам'ятаю: на початку ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2402",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, є один фільм, який я дивився якийсь час тому, і він мене дістає, бо я не можу згадати назву. Він про групу незнайо",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2404",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Пам'ятаю, що дивився цей фільм дуже давно, можливо, під час нічного марафону фільмів з друзями. Це був один із тих напру",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2409",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Років сто тому дивився(-лася) один старий фільм, і мене це вже дістало, бо я ніяк не можу згадати назву. Це був такий кл",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2438",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Привіт! Короче, є один фільм, який я дивився сто років тому, і мене реально діставало, що не можу згадати назву. Дія від",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2461",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Кілька років тому я дивився один напружений трилер, і мене дістає те, що я не можу згадати назву. Сюжет крутиться навкол",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2475",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Допоможіть. Типу фільм про самураїв, щось пов'язане з хризантемою? Мабуть, єдина сцена, яку я реально пам'ятаю: ціла арм",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2483",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, є один фільм, який я дивився досить давно, і він мене просто діставав, бо я не можу згадати назву. Він був про бок",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2493",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "фільм про викрадення . Привіт, я зовсім нещодавно подивилася фільм і шукаю пісню з нього, але не пам'ятаю назви. Це був ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2512",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Колись давно дивився(-лась) один фільм, і мене це вже дістало, бо ніяк не можу згадати назву. Дія відбувається в такі ст",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2551",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, я колись давно дивився один фільм, і мене це зараз просто діймає, бо я не можу згадати його назву. Дія відбувалася",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2579",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Отже, я дивився(-лася) один фільм дуже давно, і мене бісить, що не можу згадати назву. Дія відбувалася в такому диком по",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "known_item_uk:uk-trec-tot-2024-test-2596",
+   "set": "known_item_uk",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Колись давно дивився цей фільм, і мене це вже дістало, бо ніяк не можу згадати назву. Це була така історична драма, дія ",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10193-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Toy Story 3",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10193-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Toy Stoyr 3",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10193-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Історія іграшок 3: Велика втеча",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10530-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Pocahontas",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10530-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Pocahonas",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10530-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Покахонтас",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10763-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Dr. T & the Women",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10763-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Dr. T & the Wommen",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10763-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Доктор Ті і його жінки",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10986-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Taming of the Scoundrel",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10986-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Tamnig of the Socundrel",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-10986-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Приборкання норовливого",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11113-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "My Fair Lady",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11113-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Моя чарівна леді",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1136867-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Materialists",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1136867-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Mateialists",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1136867-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Матеріалісти",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11398-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Art of War",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11398-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Мистецтво війни",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11463-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Battle of Britain",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11463-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Batte of Brtain",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11548-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "*batteries not included",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11548-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "*batteres not incluedd",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11548-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Батарейки не додаються",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11579-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Don Camillo's Last Round",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11579-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Don Camill'os Last Rond",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11602-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Through a Glass Darkly",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11602-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Trhough a Glasss Darkly",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11602-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Крiзь тьмяне скло",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11606-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Last Life in the Universe",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11606-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Last Life in the Unierse",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11606-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Останнє життя у Всесвіті",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11620-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Quo Vadis",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-11620-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Quo Vaadis",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-12481-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Big Boss",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-12481-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Великий бос",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-12521-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Shocker",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-12521-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Shockker",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1280738-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Furious",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1280738-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Fuirous",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1280738-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Він шалений",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-13016-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Zeitgeist: The Movie",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-13016-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Zeitgest: The Mvie",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-13016-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Дух часу",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-13671-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Music Man",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-13671-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Muusic Man",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-15242-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Snoopy, Come Home",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-15242-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Snopy, Come Home",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-158-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Knockin' on Heaven's Door",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-158-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Knocki' on Heavenn's Door",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-158-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Достукатися до небес",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1627824-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Rocky's Cat-astrophe",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1627824-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Rocyk's Cat-aastrophe",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1627824-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Щенячий патруль: Кото-строфа Роккі",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-16538-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I Love You, Man",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-16538-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Люблю тебе, чуваче",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1667-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "March of the Penguins",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1667-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Mach of the Pengguins",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-1667-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Марш імператора",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-179538-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Witching & Bitching",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-179538-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Wittching & Bitchig",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-179538-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Відьми з Сугаррамурді",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-185008-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Yeh Jawaani Hai Deewani",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-185008-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Yeh Jawanai Hai Deewai",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-2098-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Viva Las Vegas",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-2098-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Viva Las Veegas",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-2118-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "L.A. Confidential",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-2118-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "L.A. Cnfidential",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-2118-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Таємниці Лос-Анджелеса",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-21712-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Mind Game",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-226486-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Tammy",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-226486-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Tamym",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-226486-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Теммі",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-22958-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Shape of Things",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-22958-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Sahpe of Thigs",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-22958-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Суть речей",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-2657-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Pleasantville",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-2657-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Плезантвіль",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-27316-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Into the Mirror",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-27316-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Into the Miirror",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-28673-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Nightmare Castle",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-28673-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Nightare Caste",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-291092-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Red Riding: The Year of Our Lord 1983",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-291092-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Red Ridding: The Year of Our Lord 1983",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-293768-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Kidnap",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-293768-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Kidnaap",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-293768-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Викрадення",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-300155-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "A Royal Night Out",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-300155-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "A Ryal Nigght Out",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-300155-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Лондонські канікули",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-30131-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "El Siete Machos",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-30131-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "El Sieet Macchos",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-30204-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Move Over, Darling",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-30204-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Move Over, Darlnig",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-329263-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Suck Me Shakespeer 2",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-329263-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Suck Me Shaekspeer 2",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-329263-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Відпадний препод 2",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-335051-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "God Willing",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-335051-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "God Wlling",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-335051-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Якщо Господь забажає",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-33518-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Alligator",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-33518-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Alliigator",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-33518-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Алігатор",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-337404-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Cruella",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-337404-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Crella",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-337404-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Круелла",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-34528-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Human Condition II: Road to Eternity",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-34528-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Huan Condition II: Road to Eternnity",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-35002-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "When Dinosaurs Ruled the Earth",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-35002-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "When Dinosaurs Ruleed the Eatrh",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-35030-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Young One",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-35030-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Youg One",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-36226-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Chinese Roulette",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-36226-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Chnese Rouletet",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-36226-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Китайська рулетка",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-36459-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Man in the Shadow",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-36459-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Man in the Sadow",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-3782-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Ikiru",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-3782-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Iiru",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-3782-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Жити",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-38291-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Educating Rita",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-38291-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Educatig Rita",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-38432-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Tarnished Angels",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-38432-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Tarnisheed Anngels",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-38432-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Заплямовані янголи",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-42664-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The War Lord",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-42664-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Полководець",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-431075-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Polaroid",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-431075-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Poaroid",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-431075-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Полароід",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-434616-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Patients",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-434616-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Patienst",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-437109-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Villainess",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-437109-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Villainses",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-437109-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Злочинниця",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-44251-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Dragon Ball Z: Broly - Second Coming",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-44251-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Drragon Ball Z: Boly - Second Coming",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-489412-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "It's Such a Beautiful Day",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-489412-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "It's Such a Beautiflu Day",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-500860-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Mustang",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-500860-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Mstang",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-500860-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Мустанг",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-502033-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Sound of Metal",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-502033-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Soound of Metla",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-502033-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Звук металу",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-50474-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Four Horsemen of the Apocalypse",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-50474-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Four Horsemeen of the Apocallypse",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-540-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "D.E.B.S.",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-540-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Шпигунки",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-544-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "There's Something About Mary",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-544-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Three's Somethnig About Mary",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-544-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Всі шаленіють від Мері",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-573171-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Little Eggs: A Frozen Rescue",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-573171-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Lttle Eggs: A Froezn Rescue",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-576712-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Everybody's Everything",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-576712-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Everyboody's Everythng",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-576712-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Усе для всіх: Lil Peep",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-69610-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "King of the Doormen",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-69610-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "King of the Dormen",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-7857-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Amarcord",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-7857-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Amarcrod",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-7857-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Амаркорд",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-79363-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Dementia",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-79363-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Dementai",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-823754-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Bo Burnham: Inside",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-823754-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Bo Burnahm: Isnide",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-823754-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Бо Бернем: Усередині",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-8316-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Countess",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-8316-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Countss",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-8425-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Watchmaker of St. Paul",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-8425-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Watcmhaker of St. Paul",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-85901-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Chasing Two Hares",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-85901-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Chaing Two Harse",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-85901-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "За двома зайцями",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-86735-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Magical Maestro",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-86735-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Maagical Maesto",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-879444-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Accident Man: Hitman's Holiday",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-879444-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Accident Man: Hiitman's Holidaay",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-879444-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Пан Випадок: Відпустка убивці",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-88395-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Violent Summer",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-88395-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Violnet Smmer",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-9011-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Prophecy 3: The Ascent",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-9011-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Prophcy 3: The Ascennt",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-9073-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Free Willy 2: The Adventure Home",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-9073-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Free Willly 2: The Advetnure Home",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-9073-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Звільніть Віллі 2. Нова пригода",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-934-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Rififi",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-934-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Rfiifi",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-934-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Чоловічі розбірки",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-950-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Ice Age: The Meltdown",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-950-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Ice Age: The Melttdown",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:movie-950-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Льодовиковий період 2: Глобальне потепління",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-114621-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Mighty Ducks: Game Changers",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-114621-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Mghty Ducsk: Game Changers",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-12512-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "M Squad",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-12512-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "M Squd",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-1260-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Duckman",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-1260-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Dckman",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-126280-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Sex/Life",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-126280-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "SexLife",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-126280-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Секс/Життя",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-128062-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Sorrow and the Pity",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-16135-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Wild Angel",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-16135-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Wild Angle",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-16135-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Дикий ангел",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-195339-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Pantheon",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-195339-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Panntheon",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-195339-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Пантеон",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-209332-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Boy Swallows Universe",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-209332-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Boy Swlalows Univverse",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-209332-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Хлоп'я поглинає всесвіт",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-21174-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Sindbad the Sailor",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-21174-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Sndbad the Saior",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-229891-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Can This Love Be Translated?",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-229891-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Can This Love Be Tranlsated?",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-229891-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Чи можна перекласти любов?",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-2303-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Hawaii Five-O",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-2303-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Hawaiii FiveO-",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-239385-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Manipulated",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-239385-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Manipullated",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-239385-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Зліплене місто",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-241811-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Puniru Is a Kawaii Slime",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-241811-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Pniru Is a Kawaii Slmie",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-241811-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Пуніру - мила слаймка",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-285166-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Jack-of-All-Trades, Party of None",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-285166-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Jak-of-All-Trades, Praty of None",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-285166-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Майстер на всі руки, вигнаний з групи героїв",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-30667-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The George Burns and Gracie Allen Show",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-30667-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The George Burs and Graie Allen Show",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-34667-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Maria Holic",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-34667-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Mara Hlic",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-3478-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Ewoks",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-3478-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Ewwoks",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-4451-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Filthy Rich & Catflap",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-4451-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Filtyh Rich & Catfllap",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-48104-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "ITV Play of the Week",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-5346-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Here Come the Double Deckers",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-5346-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Here Come the Doouble Decers",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-5745-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Rob & Big",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-6059-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Mighty Hercules",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-6059-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Mghty Hercuules",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-66357-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Secret City",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-66357-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Sercet City",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-66357-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Таємне місто",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-74643-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Man of Your Dreams",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-74643-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Man of Your Derams",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-81026-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Rise of the Teenage Mutant Ninja Turtles",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-81026-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Rise of the Teenage Mtant Nnja Turtles",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-81026-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Еволюція Черепашок-ніндзя",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-81655-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Papa to Kiss in the Dark",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-88584-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Pentaverate",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-88584-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "The Pentaveraet",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-88584-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Пентаверат",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-90870-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Wu-Tang: An American Saga",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-90870-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Wu-aTng: An Americcan Saga",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-90870-uk",
+   "set": "title_lookup",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Ву-Танг: Американська сага",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-95033-clean",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Augsburger Puppenkiste - Kommt ein Löwe geflogen",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "title_lookup:tv-95033-typo",
+   "set": "title_lookup",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Augsburger Puppenkiste - Komt ein Löwe geflogn",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-a03",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "there's a show I forgot the name of",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-a06",
+   "set": "agent_decision",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "забув назву одного серіалу",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-c02",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "an 80s movie where teenagers serve detention together on a Saturday",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-c04",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Not animated please: a film about a lion cub whose father is killed by his uncle",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-c05",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "A documentary about a free solo climber on El Capitan",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-c06",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "a series from the 90s about two FBI agents investigating paranormal cases",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-c07",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "an old black and white movie, before 1960, about a man who wakes up as a bug... no wait, a man who shrinks",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-c09",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Show me animated movies about dragons",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-c11",
+   "set": "agent_decision",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Серіал 90-х про двох агентів ФБР, які розслідують паранормальні справи",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-c12",
+   "set": "agent_decision",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "фільм жахів після 2010 року про прокляту відеокасету",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-c13",
+   "set": "agent_decision",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "тільки не мультфільм: про левеня, батька якого вбив дядько",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-c14",
+   "set": "agent_decision",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "документальний фільм про скелелаза без страховки",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-r01",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "hi!",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-r06",
+   "set": "agent_decision",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "дякую!",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-s01",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "A movie where a man keeps waking up on the same day and tries to win a woman over",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-s04",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "a guy with short-term memory loss tattoos clues on his body to find his wife's killer",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-s05",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I think it was Italian? A boy and an old projectionist in a village cinema, very nostalgic",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-s07",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "the one where toys come alive when nobody is watching and a cowboy gets jealous of a space ranger",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-s11",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "I want something about friendship and road trips, feel-good",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-s13",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "It's like Jaws but in the desert with giant worms underground",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-s15",
+   "set": "agent_decision",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Фільм, де хлопець застряг в одному дні і прокидається знову і знову",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-s17",
+   "set": "agent_decision",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "мультик, де іграшки оживають, коли люди не бачать, і ковбой ревнує до космонавта",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-t03",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "Recommend something like Amélie",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-t05",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "add Back to the Future to my watchlist",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-t06",
+   "set": "agent_decision",
+   "lang": "en",
+   "predicted": "en",
+   "text": "something similar to Breaking Bad but funnier",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-t09",
+   "set": "agent_decision",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Додай Назад у майбутнє до мого списку",
+   "lang_correct": 1.0
+  },
+  {
+   "id": "agent_decision:c1-t10",
+   "set": "agent_decision",
+   "lang": "uk",
+   "predicted": "uk",
+   "text": "Скільки триває фільм Хрещений батько?",
+   "lang_correct": 1.0
+  }
+ ],
+ "metrics": [
+  "lang_correct"
+ ],
+ "groups": [
+  "set",
+  "lang"
+ ],
+ "failed": [],
+ "split": "dev",
+ "summary": {
+  "n": 543,
+  "overall": {
+   "lang_correct": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 543
+   }
+  },
+  "by_group": {
+   "set=agent_decision": {
+    "n": 27,
+    "lang_correct": 1.0
+   },
+   "set=known_item": {
+    "n": 208,
+    "lang_correct": 1.0
+   },
+   "set=known_item_uk": {
+    "n": 50,
+    "lang_correct": 1.0
+   },
+   "set=title_lookup": {
+    "n": 258,
+    "lang_correct": 1.0
+   },
+   "lang=en": {
+    "n": 425,
+    "lang_correct": 1.0
+   },
+   "lang=uk": {
+    "n": 118,
+    "lang_correct": 1.0
+   }
+  }
+ }
+}

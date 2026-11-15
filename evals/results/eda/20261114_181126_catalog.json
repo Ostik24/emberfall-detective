@@ -1,0 +1,286 @@
+{
+  "inputs": {
+    "extended": "catalog_extended.parquet",
+    "catalog": "catalog.parquet"
+  },
+  "coverage": {
+    "rows": {
+      "emberfall/movie": 11041,
+      "emberfall/tv": 7184,
+      "extension/movie": 5000,
+      "extension/tv": 1751
+    },
+    "wiki_share": {
+      "emberfall/movie": 0.951,
+      "emberfall/tv": 0.8171,
+      "extension/movie": 0.9936,
+      "extension/tv": 0.9195
+    },
+    "extension_tv_per_year": {
+      "1950": 12,
+      "1951": 14,
+      "1952": 16,
+      "1953": 9,
+      "1954": 14,
+      "1955": 31,
+      "1956": 19,
+      "1957": 34,
+      "1958": 28,
+      "1959": 31,
+      "1960": 24,
+      "1961": 26,
+      "1962": 29,
+      "1963": 24,
+      "1964": 40,
+      "1965": 40,
+      "1966": 40,
+      "1967": 40,
+      "1968": 40,
+      "1969": 40,
+      "1970": 40,
+      "1971": 40,
+      "1972": 40,
+      "1973": 40,
+      "1974": 40,
+      "1975": 40,
+      "1976": 40,
+      "1977": 40,
+      "1978": 40,
+      "1979": 40,
+      "1980": 40,
+      "1981": 40,
+      "1982": 40,
+      "1983": 40,
+      "1984": 40,
+      "1985": 40,
+      "1986": 40,
+      "1987": 40,
+      "1988": 40,
+      "1989": 40,
+      "1990": 40,
+      "1991": 40,
+      "1992": 40,
+      "1993": 40,
+      "1994": 40,
+      "1995": 40,
+      "1996": 40,
+      "1997": 40,
+      "1998": 40,
+      "1999": 40
+    }
+  },
+  "tokens": {
+    "max_seq_length": 256,
+    "doc/emberfall/movie": {
+      "p50": 90.0,
+      "p95": 160.0,
+      "max": 615.0,
+      "share_over_256": 0.0048,
+      "share_over_512": 0.0006
+    },
+    "doc/emberfall/tv": {
+      "p50": 86.0,
+      "p95": 195.0,
+      "max": 589.0,
+      "share_over_256": 0.0128,
+      "share_over_512": 0.0008
+    },
+    "doc_wiki/emberfall/movie": {
+      "p50": 178.0,
+      "p95": 449.0,
+      "max": 660.0,
+      "share_over_256": 0.2595,
+      "share_over_512": 0.0244
+    },
+    "doc_wiki/emberfall/tv": {
+      "p50": 160.0,
+      "p95": 430.84999999999945,
+      "max": 660.0,
+      "share_over_256": 0.2156,
+      "share_over_512": 0.0213
+    },
+    "doc_wiki/extension/movie": {
+      "p50": 207.0,
+      "p95": 478.0,
+      "max": 636.0,
+      "share_over_256": 0.3368,
+      "share_over_512": 0.0362
+    },
+    "doc_wiki/extension/tv": {
+      "p50": 191.0,
+      "p95": 488.5,
+      "max": 624.0,
+      "share_over_256": 0.3284,
+      "share_over_512": 0.0411
+    }
+  },
+  "wiki_title_mismatch": {
+    "linked": 22948,
+    "no_shared_word": 616,
+    "sample": [
+      {
+        "item_type": "movie",
+        "title": "El analfabeto",
+        "release_date": "1961-09-07",
+        "wiki_title": "The Illiterate One"
+      },
+      {
+        "item_type": "movie",
+        "title": "Rampage at Apache Wells",
+        "release_date": "1965-08-25",
+        "wiki_title": "The Oil Prince"
+      },
+      {
+        "item_type": "movie",
+        "title": "Nightcap",
+        "release_date": "2000-10-25",
+        "wiki_title": "Merci pour le Chocolat"
+      },
+      {
+        "item_type": "tv",
+        "title": "The In-Laws",
+        "release_date": "2008-12-28",
+        "wiki_title": "Svaty"
+      },
+      {
+        "item_type": "tv",
+        "title": "Hamburg Dockland",
+        "release_date": "2007-01-04",
+        "wiki_title": "Notruf Hafenkante"
+      },
+      {
+        "item_type": "tv",
+        "title": "This Sea Will Overflow",
+        "release_date": "2025-10-10",
+        "wiki_title": "Taşacak Bu Deniz"
+      },
+      {
+        "item_type": "tv",
+        "title": "Absolute Zero",
+        "release_date": "2010-04-13",
+        "wiki_title": "Zettai Reido"
+      },
+      {
+        "item_type": "tv",
+        "title": "Detective Conan",
+        "release_date": "1996-01-08",
+        "wiki_title": "Case Closed (TV series)"
+      },
+      {
+        "item_type": "movie",
+        "title": "Sun in Buckets",
+        "release_date": "2013-10-31",
+        "wiki_title": "Sole a catinelle"
+      },
+      {
+        "item_type": "movie",
+        "title": "The Severed Heads",
+        "release_date": "1957-03-31",
+        "wiki_title": "Les têtes interverties"
+      },
+      {
+        "item_type": "tv",
+        "title": "Projectorparishilton",
+        "release_date": "2008-05-17",
+        "wiki_title": "Prozhektorperiskhilton"
+      },
+      {
+        "item_type": "movie",
+        "title": "What If",
+        "release_date": "2013-09-07",
+        "wiki_title": "The F Word (2013 film)"
+      },
+      {
+        "item_type": "movie",
+        "title": "Everything Everything Nothing Nothing",
+        "release_date": "2012-11-30",
+        "wiki_title": "Tutto tutto niente niente"
+      },
+      {
+        "item_type": "tv",
+        "title": "Single Dad",
+        "release_date": "1987-02-11",
+        "wiki_title": "Papá soltero"
+      },
+      {
+        "item_type": "movie",
+        "title": "Fan-Fan the Tulip",
+        "release_date": "2003-06-20",
+        "wiki_title": "Fanfan la Tulipe (2003 film)"
+      },
+      {
+        "item_type": "movie",
+        "title": "The Chaos Class Failed the Class",
+        "release_date": "1976-01-01",
+        "wiki_title": "Hababam Sınıfı Sınıfta Kaldı"
+      },
+      {
+        "item_type": "movie",
+        "title": "This Special Friendship",
+        "release_date": "1964-09-04",
+        "wiki_title": "Les amitiés particulières (film)"
+      },
+      {
+        "item_type": "movie",
+        "title": "Horse Fever",
+        "release_date": "1976-10-29",
+        "wiki_title": "Febbre da cavallo"
+      },
+      {
+        "item_type": "tv",
+        "title": "Daydreamers",
+        "release_date": "2007-05-31",
+        "wiki_title": "Kavak Yelleri"
+      },
+      {
+        "item_type": "movie",
+        "title": "Se7en",
+        "release_date": "1995-09-22",
+        "wiki_title": "Seven (1995 film)"
+      },
+      {
+        "item_type": "movie",
+        "title": "Horse Fever: The Mandrake Sting",
+        "release_date": "2002-10-31",
+        "wiki_title": "Febbre da cavallo – La mandrakata"
+      },
+      {
+        "item_type": "tv",
+        "title": "Epitaphs",
+        "release_date": "2004-08-14",
+        "wiki_title": "Epitafios"
+      },
+      {
+        "item_type": "tv",
+        "title": "Government Job",
+        "release_date": "2012-09-24",
+        "wiki_title": "Državni posao"
+      },
+      {
+        "item_type": "tv",
+        "title": "Den of Wolves",
+        "release_date": "1986-10-13",
+        "wiki_title": "Cuna de lobos"
+      },
+      {
+        "item_type": "movie",
+        "title": "Money Money Money",
+        "release_date": "1972-05-04",
+        "wiki_title": "L'aventure, c'est l'aventure"
+      }
+    ]
+  },
+  "w7": {
+    "model": "thenlper/gte-small",
+    "rows_compared": 18208,
+    "cos_to_doc_p1_p50": [
+      0.9972,
+      0.9987
+    ],
+    "cos_to_title_overview_p50_p99": [
+      0.9727,
+      0.9967
+    ],
+    "closer_to_title_overview": 0
+  }
+}

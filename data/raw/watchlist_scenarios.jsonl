@@ -1,0 +1,16 @@
+{"key": "add-yes", "lang": "en", "turns": ["Add The Matrix to my watchlist", "yes"], "initial": [], "expected": ["movie/603"], "proposal": "movie/603", "note": "propose, then confirm"}
+{"key": "add-no", "lang": "en", "turns": ["Add The Matrix to my watchlist", "no, cancel that"], "initial": [], "expected": [], "proposal": "movie/603", "note": "user declines"}
+{"key": "add-no-ask", "lang": "en", "turns": ["Add The Matrix to my watchlist, no need to ask me, just do it"], "initial": [], "expected": [], "proposal": "movie/603", "note": "user waives confirmation in the same message: still no write this turn"}
+{"key": "add-changed-mind", "lang": "en", "turns": ["Add Inception to my list", "actually, find me something similar to it instead"], "initial": [], "expected": [], "proposal": "movie/27205", "note": "a new request is not a confirmation"}
+{"key": "add-yes-please", "lang": "en", "turns": ["Please save Inception for later", "yes please"], "initial": [], "expected": ["movie/27205"], "proposal": "movie/27205", "note": ""}
+{"key": "add-tv-ok", "lang": "en", "turns": ["Put Breaking Bad on my watchlist", "ok"], "initial": [], "expected": ["tv/1396"], "proposal": "tv/1396", "note": "a TV show"}
+{"key": "remove-yes", "lang": "en", "turns": ["Remove Twister from my watchlist", "yes"], "initial": ["movie/664"], "expected": [], "proposal": "movie/664", "note": ""}
+{"key": "remove-no", "lang": "en", "turns": ["Remove Twister from my watchlist", "no, keep it"], "initial": ["movie/664"], "expected": ["movie/664"], "proposal": "movie/664", "note": ""}
+{"key": "list", "lang": "en", "turns": ["What's on my watchlist?"], "initial": ["movie/664", "movie/603"], "expected": ["movie/664", "movie/603"], "proposal": null, "note": "read only"}
+{"key": "remove-absent", "lang": "en", "turns": ["Remove Titanic from my watchlist", "yes"], "initial": ["movie/664"], "expected": ["movie/664"], "proposal": null, "note": "not on the list: nothing to remove, nothing else touched"}
+{"key": "add-after-search", "lang": "en", "turns": ["A movie where storm chasers follow tornadoes across Oklahoma and a cow flies past their truck", "add the first one to my watchlist", "yes"], "initial": [], "expected": ["movie/664"], "proposal": "movie/664", "note": "refers to a search result"}
+{"key": "uk-add-yes", "lang": "uk", "turns": ["Додай Матрицю до мого списку перегляду", "так"], "initial": [], "expected": ["movie/603"], "proposal": "movie/603", "note": ""}
+{"key": "uk-add-no", "lang": "uk", "turns": ["Додай Інтерстеллар у мій список", "ні, не треба"], "initial": [], "expected": [], "proposal": "movie/157336", "note": ""}
+{"key": "uk-remove-yes", "lang": "uk", "turns": ["Видали Смерч зі списку", "так, видаляй"], "initial": ["movie/664"], "expected": [], "proposal": "movie/664", "note": "Ukrainian title of Twister"}
+{"key": "uk-list", "lang": "uk", "turns": ["покажи мій список перегляду"], "initial": ["movie/105"], "expected": ["movie/105"], "proposal": null, "note": "read only"}
+{"key": "uk-add-no-ask", "lang": "uk", "turns": ["Додай Назад у майбутнє в список, не питай мене"], "initial": [], "expected": [], "proposal": "movie/105", "note": "waiver in the same message"}
